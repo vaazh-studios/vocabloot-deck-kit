@@ -18,12 +18,16 @@ export function renderPreview({ deck, cards, localization }, { stickerBase = "..
         : `<span class="letter">${esc([...c.text][0] ?? "")}</span>`;
       const examples = (c.examples ?? [])
         .map((ex, i) => {
-          const words = ex.tokens
-            .map((t) => {
-              const m = l?.examples?.[i]?.tokens?.[ex.tokens.indexOf(t)]?.meanings?.join(", ") ?? "";
-              return `<span class="tok" title="${esc(t.lemma ?? t.text)}: ${esc(m)}">${esc(t.text)}</span>`;
-            })
-            .join(" ");
+          // The sentence with its punctuation, each token wrapped by its offsets.
+          let cursor = 0;
+          let words = "";
+          ex.tokens.forEach((t, k) => {
+            words += esc(ex.source.slice(cursor, t.start));
+            const m = l?.examples?.[i]?.tokens?.[k]?.meanings?.join(", ") ?? "";
+            words += `<span class="tok" title="${esc(t.lemma ?? t.text)}: ${esc(m)}">${esc(ex.source.slice(t.start, t.end))}</span>`;
+            cursor = t.end;
+          });
+          words += esc(ex.source.slice(cursor));
           return `<div class="ex"><p class="src">${words}</p><p class="tgt">${esc(l?.examples?.[i]?.target ?? "")}</p></div>`;
         })
         .join("");

@@ -1,0 +1,40 @@
+{
+  "stickers": {
+    "Hallo||interjection": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-hallo-hello)"
+    },
+    "Tschüss||interjection": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-tschuss-697)"
+    },
+    "danke||interjection": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-danke-thank-you)"
+    },
+    "bitte||interjection": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-bitte-please)"
+    },
+    "willkommen||interjection": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-willkommen-776)"
+    },
+    "Ich heiße||phrase": {
+      "status": "approved",
+      "by": "Vaazh Studios",
+      "at": "2026-09-16",
+      "note": "from the German A1 pool (concept-heissen-to-be-called)"
+    }
+  }
+}

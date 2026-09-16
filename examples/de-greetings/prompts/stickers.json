@@ -1,0 +1,136 @@
+[
+  {
+    "key": "Hallo||interjection",
+    "mode": "sticker",
+    "concept": "a person smiling and waving hello",
+    "status": "have"
+  },
+  {
+    "key": "Guten Morgen||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Guten Tag||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Guten Abend||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Gute Nacht||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Tschüss||interjection",
+    "mode": "sticker",
+    "concept": "a person walking away and waving goodbye",
+    "status": "have"
+  },
+  {
+    "key": "Auf Wiedersehen||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Bis später||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Bis morgen||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Wie geht's?||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Wie geht es Ihnen?||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Mir geht es gut||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "danke||interjection",
+    "mode": "sticker",
+    "concept": "a person handing flowers to say thank you",
+    "status": "have"
+  },
+  {
+    "key": "bitte||interjection",
+    "mode": "sticker",
+    "concept": "a person holding out an open hand, asking politely",
+    "status": "have"
+  },
+  {
+    "key": "Entschuldigung|die|noun",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "willkommen||interjection",
+    "mode": "sticker",
+    "concept": "a person opening a door to welcome someone in",
+    "status": "have"
+  },
+  {
+    "key": "Ich heiße||phrase",
+    "mode": "sticker",
+    "concept": "a person pointing at themselves to say their name",
+    "status": "have"
+  },
+  {
+    "key": "Freut mich||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Alles Gute||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  },
+  {
+    "key": "Schönen Tag noch||phrase",
+    "mode": "text-first",
+    "concept": "",
+    "status": "none",
+    "note": "a greeting formula; no single image clarifies it better than the words"
+  }
+]

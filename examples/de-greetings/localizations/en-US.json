@@ -1,0 +1,1312 @@
+[
+  {
+    "key": "Hallo||interjection",
+    "translation": "hello",
+    "examples": [
+      {
+        "target": "Hello, I am Anna.",
+        "tokens": [
+          {
+            "meanings": [
+              "hello"
+            ]
+          },
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "am"
+            ]
+          },
+          {
+            "meanings": [
+              "Anna"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Hello! Nice to see you.",
+        "tokens": [
+          {
+            "meanings": [
+              "hello"
+            ]
+          },
+          {
+            "meanings": [
+              "nice",
+              "lovely"
+            ]
+          },
+          {
+            "meanings": [
+              "you"
+            ]
+          },
+          {
+            "meanings": [
+              "to"
+            ]
+          },
+          {
+            "meanings": [
+              "to see"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Guten Morgen||phrase",
+    "translation": "good morning",
+    "examples": [
+      {
+        "target": "Good morning! Did you sleep well?",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "morning"
+            ]
+          },
+          {
+            "meanings": [
+              "have",
+              "did"
+            ]
+          },
+          {
+            "meanings": [
+              "you"
+            ]
+          },
+          {
+            "meanings": [
+              "well"
+            ]
+          },
+          {
+            "meanings": [
+              "slept"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Good morning, Mrs Weber.",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "morning"
+            ]
+          },
+          {
+            "meanings": [
+              "Mrs",
+              "woman"
+            ]
+          },
+          {
+            "meanings": [
+              "Weber"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Guten Tag||phrase",
+    "translation": "hello (formal); good day",
+    "examples": [
+      {
+        "target": "Hello, how can I help you?",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "day"
+            ]
+          },
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "can"
+            ]
+          },
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "you (formal)"
+            ]
+          },
+          {
+            "meanings": [
+              "to help"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Good day, Mr Schmidt!",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "day"
+            ]
+          },
+          {
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ]
+          },
+          {
+            "meanings": [
+              "Schmidt"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Guten Abend||phrase",
+    "translation": "good evening",
+    "examples": [
+      {
+        "target": "Good evening! The table is ready.",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "evening"
+            ]
+          },
+          {
+            "meanings": [
+              "the"
+            ]
+          },
+          {
+            "meanings": [
+              "table"
+            ]
+          },
+          {
+            "meanings": [
+              "is"
+            ]
+          },
+          {
+            "meanings": [
+              "ready"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Good evening, ladies and gentlemen.",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "evening"
+            ]
+          },
+          {
+            "meanings": [
+              "my"
+            ]
+          },
+          {
+            "meanings": [
+              "ladies"
+            ]
+          },
+          {
+            "meanings": [
+              "and"
+            ]
+          },
+          {
+            "meanings": [
+              "gentlemen"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Gute Nacht||phrase",
+    "translation": "good night",
+    "examples": [
+      {
+        "target": "Good night and sleep well!",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "night"
+            ]
+          },
+          {
+            "meanings": [
+              "and"
+            ]
+          },
+          {
+            "meanings": [
+              "sleep"
+            ]
+          },
+          {
+            "meanings": [
+              "well"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "I am going to bed. Good night!",
+        "tokens": [
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "go",
+              "am going"
+            ]
+          },
+          {
+            "meanings": [
+              "into the"
+            ]
+          },
+          {
+            "meanings": [
+              "bed"
+            ]
+          },
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "night"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Tschüss||interjection",
+    "translation": "bye",
+    "examples": [
+      {
+        "target": "Bye, see you tomorrow!",
+        "tokens": [
+          {
+            "meanings": [
+              "bye"
+            ]
+          },
+          {
+            "meanings": [
+              "until",
+              "see you"
+            ]
+          },
+          {
+            "meanings": [
+              "tomorrow"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "I have to go. Bye!",
+        "tokens": [
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "must",
+              "have to"
+            ]
+          },
+          {
+            "meanings": [
+              "off",
+              "away"
+            ]
+          },
+          {
+            "meanings": [
+              "bye"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Auf Wiedersehen||phrase",
+    "translation": "goodbye (formal)",
+    "examples": [
+      {
+        "target": "Goodbye and thank you very much!",
+        "tokens": [
+          {
+            "meanings": [
+              "until",
+              "on"
+            ]
+          },
+          {
+            "meanings": [
+              "seeing again",
+              "goodbye"
+            ]
+          },
+          {
+            "meanings": [
+              "and"
+            ]
+          },
+          {
+            "meanings": [
+              "many",
+              "much"
+            ]
+          },
+          {
+            "meanings": [
+              "thanks"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Goodbye, Mrs Müller.",
+        "tokens": [
+          {
+            "meanings": [
+              "until",
+              "on"
+            ]
+          },
+          {
+            "meanings": [
+              "seeing again",
+              "goodbye"
+            ]
+          },
+          {
+            "meanings": [
+              "Mrs",
+              "woman"
+            ]
+          },
+          {
+            "meanings": [
+              "Müller"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Bis später||phrase",
+    "translation": "see you later",
+    "examples": [
+      {
+        "target": "See you later, I am coming at six.",
+        "tokens": [
+          {
+            "meanings": [
+              "until",
+              "see you"
+            ]
+          },
+          {
+            "meanings": [
+              "later"
+            ]
+          },
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "come",
+              "am coming"
+            ]
+          },
+          {
+            "meanings": [
+              "at"
+            ]
+          },
+          {
+            "meanings": [
+              "six"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Okay, see you later!",
+        "tokens": [
+          {
+            "meanings": [
+              "okay"
+            ]
+          },
+          {
+            "meanings": [
+              "until",
+              "see you"
+            ]
+          },
+          {
+            "meanings": [
+              "later"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Bis morgen||phrase",
+    "translation": "see you tomorrow",
+    "examples": [
+      {
+        "target": "See you tomorrow at school!",
+        "tokens": [
+          {
+            "meanings": [
+              "until",
+              "see you"
+            ]
+          },
+          {
+            "meanings": [
+              "tomorrow"
+            ]
+          },
+          {
+            "meanings": [
+              "in",
+              "at"
+            ]
+          },
+          {
+            "meanings": [
+              "the"
+            ]
+          },
+          {
+            "meanings": [
+              "school"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Good night, see you tomorrow!",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "night"
+            ]
+          },
+          {
+            "meanings": [
+              "until",
+              "see you"
+            ]
+          },
+          {
+            "meanings": [
+              "tomorrow"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Wie geht's?||phrase",
+    "translation": "how are you? (informal)",
+    "examples": [
+      {
+        "target": "Hi Tom, how are you?",
+        "tokens": [
+          {
+            "meanings": [
+              "hello",
+              "hi"
+            ]
+          },
+          {
+            "meanings": [
+              "Tom"
+            ]
+          },
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "goes it",
+              "is it going"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "How are you today?",
+        "tokens": [
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "goes it",
+              "is it going"
+            ]
+          },
+          {
+            "meanings": [
+              "to you"
+            ]
+          },
+          {
+            "meanings": [
+              "today"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Wie geht es Ihnen?||phrase",
+    "translation": "how are you? (formal)",
+    "examples": [
+      {
+        "target": "Hello, Mrs Berg. How are you?",
+        "tokens": [
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "day"
+            ]
+          },
+          {
+            "meanings": [
+              "Mrs",
+              "woman"
+            ]
+          },
+          {
+            "meanings": [
+              "Berg"
+            ]
+          },
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "goes"
+            ]
+          },
+          {
+            "meanings": [
+              "it"
+            ]
+          },
+          {
+            "meanings": [
+              "you (formal)"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "How are you today, doctor?",
+        "tokens": [
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "goes"
+            ]
+          },
+          {
+            "meanings": [
+              "it"
+            ]
+          },
+          {
+            "meanings": [
+              "you (formal)"
+            ]
+          },
+          {
+            "meanings": [
+              "today"
+            ]
+          },
+          {
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ]
+          },
+          {
+            "meanings": [
+              "doctor"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Mir geht es gut||phrase",
+    "translation": "I am fine",
+    "examples": [
+      {
+        "target": "Thanks, I am fine.",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "to me"
+            ]
+          },
+          {
+            "meanings": [
+              "goes"
+            ]
+          },
+          {
+            "meanings": [
+              "it"
+            ]
+          },
+          {
+            "meanings": [
+              "well",
+              "good"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "I am fine, and you?",
+        "tokens": [
+          {
+            "meanings": [
+              "to me"
+            ]
+          },
+          {
+            "meanings": [
+              "goes"
+            ]
+          },
+          {
+            "meanings": [
+              "it"
+            ]
+          },
+          {
+            "meanings": [
+              "well",
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "and"
+            ]
+          },
+          {
+            "meanings": [
+              "to you"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "danke||interjection",
+    "translation": "thank you",
+    "examples": [
+      {
+        "target": "Thank you for the flowers!",
+        "tokens": [
+          {
+            "meanings": [
+              "thank you"
+            ]
+          },
+          {
+            "meanings": [
+              "for"
+            ]
+          },
+          {
+            "meanings": [
+              "the"
+            ]
+          },
+          {
+            "meanings": [
+              "flowers"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Thanks, that is very kind.",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "that"
+            ]
+          },
+          {
+            "meanings": [
+              "is"
+            ]
+          },
+          {
+            "meanings": [
+              "very"
+            ]
+          },
+          {
+            "meanings": [
+              "kind",
+              "nice"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "bitte||interjection",
+    "translation": "please; you are welcome",
+    "examples": [
+      {
+        "target": "A water, please.",
+        "tokens": [
+          {
+            "meanings": [
+              "a"
+            ]
+          },
+          {
+            "meanings": [
+              "water"
+            ]
+          },
+          {
+            "meanings": [
+              "please"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Thanks! You are welcome.",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "you are welcome"
+            ]
+          },
+          {
+            "meanings": [
+              "gladly"
+            ]
+          },
+          {
+            "meanings": [
+              "done",
+              "happened"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Entschuldigung|die|noun",
+    "translation": "excuse me; sorry",
+    "examples": [
+      {
+        "target": "Excuse me, where is the train station?",
+        "tokens": [
+          {
+            "meanings": [
+              "excuse me",
+              "sorry"
+            ]
+          },
+          {
+            "meanings": [
+              "where"
+            ]
+          },
+          {
+            "meanings": [
+              "is"
+            ]
+          },
+          {
+            "meanings": [
+              "the"
+            ]
+          },
+          {
+            "meanings": [
+              "train station"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Sorry, that was my mistake.",
+        "tokens": [
+          {
+            "meanings": [
+              "sorry",
+              "excuse me"
+            ]
+          },
+          {
+            "meanings": [
+              "that"
+            ]
+          },
+          {
+            "meanings": [
+              "was"
+            ]
+          },
+          {
+            "meanings": [
+              "my"
+            ]
+          },
+          {
+            "meanings": [
+              "mistake"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "willkommen||interjection",
+    "translation": "welcome",
+    "examples": [
+      {
+        "target": "Welcome to Berlin!",
+        "tokens": [
+          {
+            "meanings": [
+              "welcome"
+            ]
+          },
+          {
+            "meanings": [
+              "in",
+              "to"
+            ]
+          },
+          {
+            "meanings": [
+              "Berlin"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "A warm welcome to our place!",
+        "tokens": [
+          {
+            "meanings": [
+              "warmly",
+              "heartily"
+            ]
+          },
+          {
+            "meanings": [
+              "welcome"
+            ]
+          },
+          {
+            "meanings": [
+              "at",
+              "with"
+            ]
+          },
+          {
+            "meanings": [
+              "us"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Ich heiße||phrase",
+    "translation": "my name is",
+    "examples": [
+      {
+        "target": "Hello, my name is Lena.",
+        "tokens": [
+          {
+            "meanings": [
+              "hello"
+            ]
+          },
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "am called"
+            ]
+          },
+          {
+            "meanings": [
+              "Lena"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "My name is Paul. And you?",
+        "tokens": [
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "am called"
+            ]
+          },
+          {
+            "meanings": [
+              "Paul"
+            ]
+          },
+          {
+            "meanings": [
+              "and"
+            ]
+          },
+          {
+            "meanings": [
+              "you"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Freut mich||phrase",
+    "translation": "nice to meet you",
+    "examples": [
+      {
+        "target": "Nice to meet you.",
+        "tokens": [
+          {
+            "meanings": [
+              "pleases"
+            ]
+          },
+          {
+            "meanings": [
+              "me"
+            ]
+          },
+          {
+            "meanings": [
+              "you (formal)"
+            ]
+          },
+          {
+            "meanings": [
+              "to get to know"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "I am Max. Nice to meet you!",
+        "tokens": [
+          {
+            "meanings": [
+              "I"
+            ]
+          },
+          {
+            "meanings": [
+              "am"
+            ]
+          },
+          {
+            "meanings": [
+              "Max"
+            ]
+          },
+          {
+            "meanings": [
+              "pleases"
+            ]
+          },
+          {
+            "meanings": [
+              "me"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Alles Gute||phrase",
+    "translation": "all the best",
+    "examples": [
+      {
+        "target": "Happy birthday!",
+        "tokens": [
+          {
+            "meanings": [
+              "everything",
+              "all"
+            ]
+          },
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "for the",
+              "to the"
+            ]
+          },
+          {
+            "meanings": [
+              "birthday"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "All the best for the exam!",
+        "tokens": [
+          {
+            "meanings": [
+              "everything",
+              "all"
+            ]
+          },
+          {
+            "meanings": [
+              "good"
+            ]
+          },
+          {
+            "meanings": [
+              "for"
+            ]
+          },
+          {
+            "meanings": [
+              "the"
+            ]
+          },
+          {
+            "meanings": [
+              "exam"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "Schönen Tag noch||phrase",
+    "translation": "have a nice day",
+    "examples": [
+      {
+        "target": "Thanks, have a nice day!",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "nice"
+            ]
+          },
+          {
+            "meanings": [
+              "day"
+            ]
+          },
+          {
+            "meanings": [
+              "still",
+              "yet"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Have a nice day, Mr Fischer!",
+        "tokens": [
+          {
+            "meanings": [
+              "nice"
+            ]
+          },
+          {
+            "meanings": [
+              "day"
+            ]
+          },
+          {
+            "meanings": [
+              "still",
+              "yet"
+            ]
+          },
+          {
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ]
+          },
+          {
+            "meanings": [
+              "Fischer"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

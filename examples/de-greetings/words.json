@@ -1,0 +1,82 @@
+[
+  {
+    "word": "Hallo",
+    "include": true
+  },
+  {
+    "word": "Guten Morgen",
+    "include": true
+  },
+  {
+    "word": "Guten Tag",
+    "include": true
+  },
+  {
+    "word": "Guten Abend",
+    "include": true
+  },
+  {
+    "word": "Gute Nacht",
+    "include": true
+  },
+  {
+    "word": "Tschüss",
+    "include": true
+  },
+  {
+    "word": "Auf Wiedersehen",
+    "include": true
+  },
+  {
+    "word": "Bis später",
+    "include": true
+  },
+  {
+    "word": "Bis morgen",
+    "include": true
+  },
+  {
+    "word": "Wie geht's?",
+    "include": true
+  },
+  {
+    "word": "Wie geht es Ihnen?",
+    "include": true
+  },
+  {
+    "word": "Mir geht es gut",
+    "include": true
+  },
+  {
+    "word": "danke",
+    "include": true
+  },
+  {
+    "word": "bitte",
+    "include": true
+  },
+  {
+    "word": "Entschuldigung",
+    "include": true
+  },
+  {
+    "word": "willkommen",
+    "include": true
+  },
+  {
+    "word": "Ich heiße",
+    "include": true
+  },
+  {
+    "word": "Freut mich",
+    "include": true
+  },
+  {
+    "word": "Alles Gute",
+    "include": true
+  },
+  {
+    "word": "Schönen Tag noch",
+    "include": true
+  }
+]

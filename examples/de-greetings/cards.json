@@ -1,0 +1,2442 @@
+[
+  {
+    "key": "Hallo||interjection",
+    "text": "Hallo",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈhalo/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/hallo.png",
+      "concept": "a person smiling and waving hello"
+    },
+    "examples": [
+      {
+        "source": "Hallo, ich bin Anna.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 7,
+            "end": 10
+          },
+          {
+            "text": "bin",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "Anna",
+            "lemma": "Anna",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 15,
+            "end": 19
+          }
+        ]
+      },
+      {
+        "source": "Hallo! Schön, dich zu sehen.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Schön",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "start": 7,
+            "end": 12
+          },
+          {
+            "text": "dich",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "zu",
+            "lemma": "zu",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "start": 19,
+            "end": 21
+          },
+          {
+            "text": "sehen",
+            "lemma": "sehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "start": 22,
+            "end": 27
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Guten Morgen||phrase",
+    "text": "Guten Morgen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Guten Morgen! Hast du gut geschlafen?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Morgen",
+            "lemma": "Morgen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 12
+          },
+          {
+            "text": "Hast",
+            "lemma": "haben",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "du",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 19,
+            "end": 21
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 22,
+            "end": 25
+          },
+          {
+            "text": "geschlafen",
+            "lemma": "schlafen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past_participle"
+            ],
+            "start": 26,
+            "end": 36
+          }
+        ]
+      },
+      {
+        "source": "Guten Morgen, Frau Weber.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Morgen",
+            "lemma": "Morgen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 12
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "Weber",
+            "lemma": "Weber",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 19,
+            "end": 24
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Guten Tag||phrase",
+    "text": "Guten Tag",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈtaːk/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Guten Tag, wie kann ich Ihnen helfen?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "kann",
+            "lemma": "können",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 15,
+            "end": 19
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 20,
+            "end": 23
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "start": 24,
+            "end": 29
+          },
+          {
+            "text": "helfen",
+            "lemma": "helfen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "start": 30,
+            "end": 36
+          }
+        ]
+      },
+      {
+        "source": "Guten Tag, Herr Schmidt!",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 11,
+            "end": 15
+          },
+          {
+            "text": "Schmidt",
+            "lemma": "Schmidt",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 23
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Guten Abend||phrase",
+    "text": "Guten Abend",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈaːbn̩t/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Guten Abend! Der Tisch ist fertig.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Abend",
+            "lemma": "Abend",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 11
+          },
+          {
+            "text": "Der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "masculine"
+            ],
+            "start": 13,
+            "end": 16
+          },
+          {
+            "text": "Tisch",
+            "lemma": "Tisch",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 17,
+            "end": 22
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 23,
+            "end": 26
+          },
+          {
+            "text": "fertig",
+            "lemma": "fertig",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "start": 27,
+            "end": 33
+          }
+        ]
+      },
+      {
+        "source": "Guten Abend, meine Damen und Herren.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Abend",
+            "lemma": "Abend",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 11
+          },
+          {
+            "text": "meine",
+            "lemma": "mein",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [
+              "plural"
+            ],
+            "start": 13,
+            "end": 18
+          },
+          {
+            "text": "Damen",
+            "lemma": "Dame",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "start": 19,
+            "end": 24
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "start": 25,
+            "end": 28
+          },
+          {
+            "text": "Herren",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "start": 29,
+            "end": 35
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Gute Nacht||phrase",
+    "text": "Gute Nacht",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtə ˈnaxt/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Gute Nacht und schlaf gut!",
+        "tokens": [
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "start": 0,
+            "end": 4
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 5,
+            "end": 10
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "schlaf",
+            "lemma": "schlafen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "imperative"
+            ],
+            "start": 15,
+            "end": 21
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 22,
+            "end": 25
+          }
+        ]
+      },
+      {
+        "source": "Ich gehe ins Bett. Gute Nacht!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "gehe",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 8
+          },
+          {
+            "text": "ins",
+            "lemma": "in das",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 9,
+            "end": 12
+          },
+          {
+            "text": "Bett",
+            "lemma": "Bett",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "start": 13,
+            "end": 17
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "start": 19,
+            "end": 23
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 24,
+            "end": 29
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Tschüss||interjection",
+    "text": "Tschüss",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/tʃʏs/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/tschuess.png",
+      "concept": "a person walking away and waving goodbye"
+    },
+    "examples": [
+      {
+        "source": "Tschüss, bis morgen!",
+        "tokens": [
+          {
+            "text": "Tschüss",
+            "lemma": "tschüss",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 7
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 9,
+            "end": 12
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 13,
+            "end": 19
+          }
+        ]
+      },
+      {
+        "source": "Ich muss los. Tschüss!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "muss",
+            "lemma": "müssen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 8
+          },
+          {
+            "text": "los",
+            "lemma": "los",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 9,
+            "end": 12
+          },
+          {
+            "text": "Tschüss",
+            "lemma": "tschüss",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 14,
+            "end": 21
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Auf Wiedersehen||phrase",
+    "text": "Auf Wiedersehen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/aʊ̯f ˈviːdɐˌzeːən/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Auf Wiedersehen und vielen Dank!",
+        "tokens": [
+          {
+            "text": "Auf",
+            "lemma": "auf",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "Wiedersehen",
+            "lemma": "Wiedersehen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "start": 4,
+            "end": 15
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 19
+          },
+          {
+            "text": "vielen",
+            "lemma": "viel",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 20,
+            "end": 26
+          },
+          {
+            "text": "Dank",
+            "lemma": "Dank",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 27,
+            "end": 31
+          }
+        ]
+      },
+      {
+        "source": "Auf Wiedersehen, Frau Müller.",
+        "tokens": [
+          {
+            "text": "Auf",
+            "lemma": "auf",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "Wiedersehen",
+            "lemma": "Wiedersehen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "start": 4,
+            "end": 15
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 17,
+            "end": 21
+          },
+          {
+            "text": "Müller",
+            "lemma": "Müller",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 22,
+            "end": 28
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Bis später||phrase",
+    "text": "Bis später",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/bɪs ˈʃpɛːtɐ/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Bis später, ich komme um sechs.",
+        "tokens": [
+          {
+            "text": "Bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "später",
+            "lemma": "spät",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [
+              "comparative"
+            ],
+            "start": 4,
+            "end": 10
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 12,
+            "end": 15
+          },
+          {
+            "text": "komme",
+            "lemma": "kommen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 16,
+            "end": 21
+          },
+          {
+            "text": "um",
+            "lemma": "um",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 22,
+            "end": 24
+          },
+          {
+            "text": "sechs",
+            "lemma": "sechs",
+            "partOfSpeech": "numeral",
+            "grammarCodes": [],
+            "start": 25,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "source": "Okay, bis später!",
+        "tokens": [
+          {
+            "text": "Okay",
+            "lemma": "okay",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 4
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "später",
+            "lemma": "spät",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [
+              "comparative"
+            ],
+            "start": 10,
+            "end": 16
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Bis morgen||phrase",
+    "text": "Bis morgen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/bɪs ˈmɔʁɡn̩/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Bis morgen in der Schule!",
+        "tokens": [
+          {
+            "text": "Bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 4,
+            "end": 10
+          },
+          {
+            "text": "in",
+            "lemma": "in",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 11,
+            "end": 13
+          },
+          {
+            "text": "der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "dative",
+              "feminine"
+            ],
+            "start": 14,
+            "end": 17
+          },
+          {
+            "text": "Schule",
+            "lemma": "Schule",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 18,
+            "end": 24
+          }
+        ]
+      },
+      {
+        "source": "Gute Nacht, bis morgen!",
+        "tokens": [
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "start": 0,
+            "end": 4
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 5,
+            "end": 10
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 12,
+            "end": 15
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 22
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Wie geht's?||phrase",
+    "text": "Wie geht's?",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/viː ˈɡeːts/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Hallo Tom, wie geht's?",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Tom",
+            "lemma": "Tom",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "geht's",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present",
+              "contraction"
+            ],
+            "start": 15,
+            "end": 21
+          }
+        ]
+      },
+      {
+        "source": "Wie geht's dir heute?",
+        "tokens": [
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "geht's",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present",
+              "contraction"
+            ],
+            "start": 4,
+            "end": 10
+          },
+          {
+            "text": "dir",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "heute",
+            "lemma": "heute",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 15,
+            "end": 20
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Wie geht es Ihnen?||phrase",
+    "text": "Wie geht es Ihnen?",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/viː ɡeːt ɛs ˈiːnən/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Guten Tag, Frau Berg. Wie geht es Ihnen?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 11,
+            "end": 15
+          },
+          {
+            "text": "Berg",
+            "lemma": "Berg",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 20
+          },
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 22,
+            "end": 25
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 26,
+            "end": 30
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 31,
+            "end": 33
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "start": 34,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "source": "Wie geht es Ihnen heute, Herr Doktor?",
+        "tokens": [
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 8
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 9,
+            "end": 11
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "start": 12,
+            "end": 17
+          },
+          {
+            "text": "heute",
+            "lemma": "heute",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 18,
+            "end": 23
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 25,
+            "end": 29
+          },
+          {
+            "text": "Doktor",
+            "lemma": "Doktor",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 30,
+            "end": 36
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Mir geht es gut||phrase",
+    "text": "Mir geht es gut",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/miːɐ̯ ɡeːt ɛs ˈɡuːt/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Danke, mir geht es gut.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "mir",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 7,
+            "end": 10
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 11,
+            "end": 15
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 18
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 19,
+            "end": 22
+          }
+        ]
+      },
+      {
+        "source": "Mir geht es gut, und dir?",
+        "tokens": [
+          {
+            "text": "Mir",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 8
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 9,
+            "end": 11
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 12,
+            "end": 15
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "start": 17,
+            "end": 20
+          },
+          {
+            "text": "dir",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 21,
+            "end": 24
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "danke||interjection",
+    "text": "danke",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈdaŋkə/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/danke.png",
+      "concept": "a person handing flowers to say thank you"
+    },
+    "examples": [
+      {
+        "source": "Danke für die Blumen!",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "für",
+            "lemma": "für",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 6,
+            "end": 9
+          },
+          {
+            "text": "die",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "plural"
+            ],
+            "start": 10,
+            "end": 13
+          },
+          {
+            "text": "Blumen",
+            "lemma": "Blume",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "start": 14,
+            "end": 20
+          }
+        ]
+      },
+      {
+        "source": "Danke, das ist sehr nett.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "das",
+            "lemma": "das",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 7,
+            "end": 10
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "sehr",
+            "lemma": "sehr",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 15,
+            "end": 19
+          },
+          {
+            "text": "nett",
+            "lemma": "nett",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "start": 20,
+            "end": 24
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "bitte||interjection",
+    "text": "bitte",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈbɪtə/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/bitte.png",
+      "concept": "a person holding out an open hand, asking politely"
+    },
+    "examples": [
+      {
+        "source": "Ein Wasser, bitte.",
+        "tokens": [
+          {
+            "text": "Ein",
+            "lemma": "ein",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "neuter"
+            ],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "Wasser",
+            "lemma": "Wasser",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "start": 4,
+            "end": 10
+          },
+          {
+            "text": "bitte",
+            "lemma": "bitte",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 12,
+            "end": 17
+          }
+        ]
+      },
+      {
+        "source": "Danke! Bitte, gern geschehen.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Bitte",
+            "lemma": "bitte",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 7,
+            "end": 12
+          },
+          {
+            "text": "gern",
+            "lemma": "gern",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 14,
+            "end": 18
+          },
+          {
+            "text": "geschehen",
+            "lemma": "geschehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past_participle"
+            ],
+            "start": 19,
+            "end": 28
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Entschuldigung|die|noun",
+    "text": "Entschuldigung",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Entschuldigungen",
+    "partOfSpeech": "noun",
+    "phonetic": "/ɛntˈʃʊldɪɡʊŋ/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Entschuldigung, wo ist der Bahnhof?",
+        "tokens": [
+          {
+            "text": "Entschuldigung",
+            "lemma": "Entschuldigung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 0,
+            "end": 14
+          },
+          {
+            "text": "wo",
+            "lemma": "wo",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 18
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 19,
+            "end": 22
+          },
+          {
+            "text": "der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "masculine"
+            ],
+            "start": 23,
+            "end": 26
+          },
+          {
+            "text": "Bahnhof",
+            "lemma": "Bahnhof",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 27,
+            "end": 34
+          }
+        ]
+      },
+      {
+        "source": "Entschuldigung, das war mein Fehler.",
+        "tokens": [
+          {
+            "text": "Entschuldigung",
+            "lemma": "Entschuldigung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 0,
+            "end": 14
+          },
+          {
+            "text": "das",
+            "lemma": "das",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 19
+          },
+          {
+            "text": "war",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past"
+            ],
+            "start": 20,
+            "end": 23
+          },
+          {
+            "text": "mein",
+            "lemma": "mein",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [],
+            "start": 24,
+            "end": 28
+          },
+          {
+            "text": "Fehler",
+            "lemma": "Fehler",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 29,
+            "end": 35
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "willkommen||interjection",
+    "text": "willkommen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/vɪlˈkɔmən/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/willkommen.png",
+      "concept": "a person opening a door to welcome someone in"
+    },
+    "examples": [
+      {
+        "source": "Willkommen in Berlin!",
+        "tokens": [
+          {
+            "text": "Willkommen",
+            "lemma": "willkommen",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 10
+          },
+          {
+            "text": "in",
+            "lemma": "in",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "start": 11,
+            "end": 13
+          },
+          {
+            "text": "Berlin",
+            "lemma": "Berlin",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 14,
+            "end": 20
+          }
+        ]
+      },
+      {
+        "source": "Herzlich willkommen bei uns!",
+        "tokens": [
+          {
+            "text": "Herzlich",
+            "lemma": "herzlich",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 8
+          },
+          {
+            "text": "willkommen",
+            "lemma": "willkommen",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 9,
+            "end": 19
+          },
+          {
+            "text": "bei",
+            "lemma": "bei",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 20,
+            "end": 23
+          },
+          {
+            "text": "uns",
+            "lemma": "wir",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 24,
+            "end": 27
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Ich heiße||phrase",
+    "text": "Ich heiße",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ɪç ˈhaɪ̯sə/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/ich-heisse.png",
+      "concept": "a person pointing at themselves to say their name"
+    },
+    "examples": [
+      {
+        "source": "Hallo, ich heiße Lena.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 7,
+            "end": 10
+          },
+          {
+            "text": "heiße",
+            "lemma": "heißen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 11,
+            "end": 16
+          },
+          {
+            "text": "Lena",
+            "lemma": "Lena",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 17,
+            "end": 21
+          }
+        ]
+      },
+      {
+        "source": "Ich heiße Paul. Und du?",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "heiße",
+            "lemma": "heißen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 9
+          },
+          {
+            "text": "Paul",
+            "lemma": "Paul",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 10,
+            "end": 14
+          },
+          {
+            "text": "Und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "start": 16,
+            "end": 19
+          },
+          {
+            "text": "du",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 20,
+            "end": 22
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Freut mich||phrase",
+    "text": "Freut mich",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/fʁɔʏ̯t mɪç/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Freut mich, Sie kennenzulernen.",
+        "tokens": [
+          {
+            "text": "Freut",
+            "lemma": "freuen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "mich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 6,
+            "end": 10
+          },
+          {
+            "text": "Sie",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "formal"
+            ],
+            "start": 12,
+            "end": 15
+          },
+          {
+            "text": "kennenzulernen",
+            "lemma": "kennenlernen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "start": 16,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "source": "Ich bin Max. Freut mich!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": "bin",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 4,
+            "end": 7
+          },
+          {
+            "text": "Max",
+            "lemma": "Max",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 8,
+            "end": 11
+          },
+          {
+            "text": "Freut",
+            "lemma": "freuen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "start": 13,
+            "end": 18
+          },
+          {
+            "text": "mich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 19,
+            "end": 23
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Alles Gute||phrase",
+    "text": "Alles Gute",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˈaləs ˈɡuːtə/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Alles Gute zum Geburtstag!",
+        "tokens": [
+          {
+            "text": "Alles",
+            "lemma": "alles",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "nominalised"
+            ],
+            "start": 6,
+            "end": 10
+          },
+          {
+            "text": "zum",
+            "lemma": "zu dem",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "dative"
+            ],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "Geburtstag",
+            "lemma": "Geburtstag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 15,
+            "end": 25
+          }
+        ]
+      },
+      {
+        "source": "Alles Gute für die Prüfung!",
+        "tokens": [
+          {
+            "text": "Alles",
+            "lemma": "alles",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "nominalised"
+            ],
+            "start": 6,
+            "end": 10
+          },
+          {
+            "text": "für",
+            "lemma": "für",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 11,
+            "end": 14
+          },
+          {
+            "text": "die",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "accusative",
+              "feminine"
+            ],
+            "start": 15,
+            "end": 18
+          },
+          {
+            "text": "Prüfung",
+            "lemma": "Prüfung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "start": 19,
+            "end": 26
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "Schönen Tag noch||phrase",
+    "text": "Schönen Tag noch",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˈʃøːnən taːk nɔx/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Danke, schönen Tag noch!",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "start": 0,
+            "end": 5
+          },
+          {
+            "text": "schönen",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 7,
+            "end": 14
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 15,
+            "end": 18
+          },
+          {
+            "text": "noch",
+            "lemma": "noch",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "start": 19,
+            "end": 23
+          }
+        ]
+      },
+      {
+        "source": "Schönen Tag noch, Herr Fischer!",
+        "tokens": [
+          {
+            "text": "Schönen",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "start": 0,
+            "end": 7
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 8,
+            "end": 11
+          },
+          {
+            "text": "noch",
+            "lemma": "noch",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "start": 12,
+            "end": 16
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "start": 18,
+            "end": 22
+          },
+          {
+            "text": "Fischer",
+            "lemma": "Fischer",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "start": 23,
+            "end": 30
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  }
+]

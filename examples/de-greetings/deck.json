@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "de-greetings",
+  "name": "German Greetings",
+  "description": "Twenty greetings and polite phrases for the first day in Germany: hello and goodbye, morning to night, please and thank you, and how to say your name.",
+  "learningLanguage": "de",
+  "knownLanguage": "en-US",
+  "direction": "en-US-to-de",
+  "topic": "greetings",
+  "level": "A1",
+  "wordCount": 20,
+  "author": "Vaazh Studios",
+  "licence": "CC-BY-NC-SA-4.0",
+  "attribution": {
+    "title": "German Greetings",
+    "author": "Vaazh Studios",
+    "url": "https://github.com/vaazh-studios/vocabloot-deck-kit",
+    "note": "The canonical deck of the Vocabloot Deck Kit. Six stickers come from the Vocabloot German A1 pool (CC BY-NC-SA 4.0, © 2026 Vaazh Studios); the text is by Vaazh Studios."
+  },
+  "createdAt": "2026-09-16",
+  "updatedAt": "2026-09-16",
+  "kitVersion": "0.1.0",
+  "promptVersion": "hand-authored-1"
+}
