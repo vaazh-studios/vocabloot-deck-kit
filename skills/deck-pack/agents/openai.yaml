@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pack the deck"
+  short_description: "The .vlbackup, with the app's own codec"
+  default_prompt: "Pack my deck into the file."

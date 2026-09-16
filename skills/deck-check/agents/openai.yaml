@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check the deck"
+  short_description: "Every gate and a preview of the deck as the app shows it"
+  default_prompt: "Check my deck before packing."

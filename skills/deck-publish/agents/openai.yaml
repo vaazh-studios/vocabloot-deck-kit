@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open it in the app"
+  short_description: "How to open a packed deck on iPhone or Android"
+  default_prompt: "How do I open the deck in Vocabloot?"

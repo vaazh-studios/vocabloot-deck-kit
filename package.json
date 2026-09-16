@@ -14,7 +14,8 @@
     "format:check": "prettier --check \"scripts/**/*.mjs\" \"tests/*.test.mjs\" \"registry/*.json\" package.json",
     "check": "npm run format:check && npm run lint && npm test",
     "registry:refresh": "node scripts/lib/registry.mjs --refresh",
-    "install-skills": "node scripts/install-skills.mjs"
+    "install-skills": "node scripts/install-skills.mjs",
+    "plugin-zip": "node scripts/plugin-zip.mjs"
   },
   "dependencies": {
     "openai": "^6.46.0",

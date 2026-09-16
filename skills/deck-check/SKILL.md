@@ -3,9 +3,6 @@ name: deck-check
 description: Validate a Vocabloot deck folder before packing: schema, language and localization alignment, token offsets and coverage, sticker references and decisions, blocking flags; renders an app-like preview. Use before /deck-pack, when a creator asks whether a deck is ready, correct or complete, or says /deck-check.
 license: MIT
 compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
-metadata:
-  author: Vaazh Studios
-  version: "0.1"
 ---
 
 # /deck-check

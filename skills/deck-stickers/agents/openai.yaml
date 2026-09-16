@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stickers"
+  short_description: "A picture idea per card, prompts, checks and a contact sheet"
+  default_prompt: "Let's do the pictures for my deck."

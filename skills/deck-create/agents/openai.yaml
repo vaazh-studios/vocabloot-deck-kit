@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create a deck"
+  short_description: "Start a Vocabloot deck: languages, topic, level, word list"
+  default_prompt: "Make me a German deck about the bakery."

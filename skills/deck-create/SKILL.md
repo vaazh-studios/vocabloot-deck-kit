@@ -3,9 +3,6 @@ name: deck-create
 description: Start a Vocabloot deck from a conversation: asks which language the creator speaks and which they are learning, the topic, how many words, the level, words to include or avoid; checks the pair against the Vocabloot app's live language registry; scaffolds the deck folder and has you propose the word list. Use when someone wants to make, start or build a Vocabloot deck, a vocabulary deck, a word list or flashcards for a language, or says /deck-create.
 license: MIT
 compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
-metadata:
-  author: Vaazh Studios
-  version: "0.1"
 ---
 
 # /deck-create

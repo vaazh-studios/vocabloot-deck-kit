@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write the cards"
+  short_description: "Every app-ready field, two sentences and tokens per card"
+  default_prompt: "Write the cards for my deck."

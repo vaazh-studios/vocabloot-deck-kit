@@ -3,9 +3,6 @@ name: deck-stickers
 description: Decide which cards get a sticker (a picture idea per card: a rising sun for Guten Morgen), write provider-agnostic sticker prompts, take images made with any tool or generate them with the creator's own OpenAI key, run mechanical checks, look at every image yourself, render a contact sheet, and record approve, reject or defer decisions; never regenerates an approved sticker unless asked. Use after /deck-text, when a deck needs images, stickers or pictures, or when the creator says /deck-stickers.
 license: MIT
 compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
-metadata:
-  author: Vaazh Studios
-  version: "0.1"
 ---
 
 # /deck-stickers

@@ -14,13 +14,17 @@ Before submitting (founder, once):
 - [ ] Developer or business identity verified in the organization settings.
 - [ ] Decide the countries the plugin is offered in (the portal asks; "all available" is the natural answer for a free tool).
 
+What the portal does (walked through on 2026-09-16): "Create plugin" > "Skills only" > upload a ZIP of the plugin folder (the Codex-native layout with `.codex-plugin/plugin.json`, `skills/`, `scripts/`, `prompts/`, `registry/`, `packer/`, `package.json`, `package-lock.json`, `README.md`, `LICENSE`; no `node_modules`, no symlinked folders, 290 KB). The validator refuses a `metadata:` block in any `SKILL.md` ("Skill interface settings must use agents/openai.yaml"), so each skill carries `agents/openai.yaml` with `interface.display_name`, `short_description` and `default_prompt` instead. The manifest pre-fills the form (icons, name, description, category, URLs, version, package name, capabilities, starter prompts); the subtitle is capped at 30 characters; the developer name must match the verified identity (an individual identity shows the legal name, a business identity would show "Vaazh Studios"); each skill is scanned (all six passed, about two minutes); the last step is four attestations and "Confirm and submit", which the account holder ticks.
+
+A helper builds the ZIP: `npm run plugin-zip` writes `dist/vocabloot-deck-kit.zip`.
+
 What the portal asks for, ready to paste:
 
 | field | value |
 |---|---|
 | Plugin name | Vocabloot Deck Kit |
-| Developer name | Vaazh Studios |
-| Short description | Make a language deck for the Vocabloot app |
+| Developer name | must match the verified identity; today that is the individual legal name, so "Vaazh Studios" needs a verified business identity first |
+| Subtitle (30 characters max) | Make Vocabloot language decks |
 | Long description | Say which language you speak, which you are learning and what the deck is about. The assistant writes every card (pronunciation, grammar, two example sentences, tap-a-word meanings) and a picture idea per word; the kit validates each card, checks the images and packs a .vlbackup the Vocabloot app opens as its own. |
 | Category | Education & Research |
 | Logo | `.codex-plugin/assets/logo.png` (1024 x 1024, the app icon) |

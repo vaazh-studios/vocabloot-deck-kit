@@ -7,3 +7,4 @@ examples/**/stickers/source/
 examples/**/cards-cache.json
 examples/**/review/verification.json
 examples/**/work/
+dist/

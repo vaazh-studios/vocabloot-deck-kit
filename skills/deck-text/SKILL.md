@@ -3,9 +3,6 @@ name: deck-text
 description: Write every app-ready field of a Vocabloot deck: article, gender, plural, IPA, romanization, translation, two example sentences with translations, tappable tokens with lemma, part of speech, grammar codes and meanings, and a sticker picture idea per card; the script validates each card and writes cards.json, the localization file and a review report. Use after /deck-create, when a deck folder has words.json but no cards.json, or when the creator says /deck-text, generate the cards, or write the sentences.
 license: MIT
 compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
-metadata:
-  author: Vaazh Studios
-  version: "0.1"
 ---
 
 # /deck-text
