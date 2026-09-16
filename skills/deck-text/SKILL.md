@@ -10,6 +10,8 @@ metadata:
 
 # /deck-text
 
+Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
+
 Run on the deck folder the creator made with `/deck-create`:
 
 ```bash

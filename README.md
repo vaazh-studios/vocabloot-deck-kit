@@ -36,7 +36,7 @@ git clone https://github.com/vaazh-studios/vocabloot-deck-kit
 cd vocabloot-deck-kit && npm install
 ```
 
-**Claude Code.** Open the kit folder in Claude Code and the six skills are there. From another folder, load it as a plugin for the session:
+**Claude Code.** Open the kit folder in Claude Code and the six skills are there (`.claude/skills/`). From another folder, load it as a plugin for the session:
 
 ```bash
 claude --plugin-dir /path/to/vocabloot-deck-kit
@@ -49,7 +49,7 @@ claude plugin marketplace add vaazh-studios/vocabloot-deck-kit
 claude plugin install vocabloot-deck-kit@vocabloot-deck-kit
 ```
 
-**Codex.** Open the kit folder in Codex and the skills are found in `.agents/skills/` (Codex reads that folder at repo scope). The repo carries a Codex plugin manifest (`.codex-plugin/plugin.json`) for the Codex plugin marketplace.
+**Codex.** Open the kit folder in Codex and the skills are found in `.agents/skills/` (Codex reads that folder at repo scope). The repo carries a Codex plugin manifest (`.codex-plugin/plugin.json`); the directory listing is a submission through OpenAI's portal, see `docs/plugin-submission.md`.
 
 **Any folder, either assistant.** Copy the skills into your user skill folders with the kit's path written into every command:
 

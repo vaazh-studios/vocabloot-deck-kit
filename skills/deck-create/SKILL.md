@@ -10,6 +10,8 @@ metadata:
 
 # /deck-create
 
+Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
+
 You are starting a Vocabloot deck for a creator. Ask, one at a time, and keep each question to one line:
 
 1. **"Which language do you speak?"** (the known language: translations and explanations will be in it). Say "I speak" in your wording; never assume a native language.
@@ -19,7 +21,7 @@ You are starting a Vocabloot deck for a creator. Ask, one at a time, and keep ea
 5. **"Which level?"** (A1 to C2; suggest A1 for beginners).
 6. **"Any words you want in, or want to avoid?"** (optional).
 
-Then run, from the kit's root:
+Then run:
 
 ```bash
 node scripts/create.mjs --known "<answer 1>" --learning "<answer 2>" --topic "<answer 3>" --count <answer 4> --level <answer 5> --include "<in>" --avoid "<avoid>" --author "<the creator's name, or Anonymous>" --out <where they want the deck folder>

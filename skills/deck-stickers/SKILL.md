@@ -10,6 +10,8 @@ metadata:
 
 # /deck-stickers
 
+Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
+
 Ask the creator how they want images: **"Make them with any image tool you like, or generate them with your own OpenAI key?"**
 
 - With their own tool (the default, no key): `node scripts/stickers.mjs <deck-folder> --provider none`. Tell them the prompts are in `prompts/stickers.json` (one per sticker card, with a negative prompt) and that each image goes to `stickers/source/<slug>.png` (any size, transparent background). Rerun the same command once the files are in place.

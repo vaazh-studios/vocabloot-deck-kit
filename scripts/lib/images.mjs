@@ -1,5 +1,16 @@
 // Mechanical sticker checks and preparation, with sharp (deck kit spec section 7).
-import sharp from "sharp";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+// sharp is the kit's one native dependency; a plugin install without node_modules gets the fix, not a module error.
+const KIT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
+let sharp;
+try {
+  sharp = (await import("sharp")).default;
+} catch {
+  console.error(`The kit's dependencies are not installed. Run: npm install --prefix "${KIT}"`);
+  process.exit(2);
+}
 
 export const CHECKS = { minSize: 512, maxBorderOpaque: 0.05, minSubjectAt96: 0.08, prepared: 768, colours: 255 };
 

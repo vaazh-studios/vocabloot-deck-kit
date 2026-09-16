@@ -10,6 +10,8 @@ metadata:
 
 # /deck-check
 
+Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
+
 ```bash
 node scripts/check.mjs <deck-folder>
 ```
