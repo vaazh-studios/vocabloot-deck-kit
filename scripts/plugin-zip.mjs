@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const KIT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const INCLUDE = [
+  ".claude-plugin",
   ".codex-plugin",
   "skills",
   "scripts",

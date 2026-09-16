@@ -1,10 +1,22 @@
 # Vocabloot Deck Kit
 
+[![Check](https://github.com/vaazh-studios/vocabloot-deck-kit/actions/workflows/check.yml/badge.svg)](https://github.com/vaazh-studios/vocabloot-deck-kit/actions/workflows/check.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node 22](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)](https://nodejs.org)
+[![ChatGPT plugin directory](https://img.shields.io/badge/ChatGPT%20plugins-published-10a37f.svg)](https://chatgpt.com/plugins/plugins_6aaafa1735208191ac6afb27325cc385)
+[![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-d97757.svg)](#install)
+
 Make a [Vocabloot](https://vocabloot.com) deck from a conversation. Say which language you speak, which you are learning and what the deck is about; get a `.vlbackup` the app opens as its own, with everything a word's detail page shows: pronunciation, grammar, two example sentences with translations, tap-a-word meanings and a sticker.
 
 Six skills for Claude Code or Codex, six small Node scripts, no API key.
 
+**Get it:** [in the ChatGPT plugin directory](https://chatgpt.com/plugins/plugins_6aaafa1735208191ac6afb27325cc385) for Codex and ChatGPT, or as a [Claude Code plugin](#install) from this repo (submitted to Anthropic's community marketplace, in review).
+
+<p align="center"><img src="docs/images/card-in-app.png" width="300" alt="A word detail page in the Vocabloot app: a sticker of a megaphone, the headword die Ansage, its meaning, part of speech, and an example sentence with its translation"></p>
+<p align="center"><sub>What a card is: a deck imported into the app, on iPhone. A kit deck fills this same page, with two sentences and tap-a-word meanings.</sub></p>
+
 - [How it works](#how-it-works)
+- [What a card contains](#what-a-card-contains)
 - [Install](#install)
 - [Try it](#try-it)
 - [The workflow](#the-workflow)
@@ -14,6 +26,8 @@ Six skills for Claude Code or Codex, six small Node scripts, no API key.
 - [The gates](#the-gates)
 - [The example deck](#the-example-deck)
 - [What is public and what is not](#what-is-public-and-what-is-not)
+- [Questions](#questions)
+- [When something refuses](#when-something-refuses)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -26,6 +40,38 @@ Then the assistant writes the cards itself. For each word it gets a request file
 Every card also gets a picture idea. A bread roll is a bread roll; "Guten Morgen" is a rising sun; "Freut mich" is a handshake; only words with no honest picture stay text-only. You make the images with any tool you like from the prompts the kit writes (or with your own OpenAI key), the kit checks them mechanically, the assistant looks at each one and says whether a learner would get the meaning, and you approve, reject or defer on a contact sheet.
 
 The packer is the Vocabloot app's own codec compiled to JavaScript. It refuses, with the card named, while anything is unresolved. The file it writes is the file the app exports, so the app opens it as its own.
+
+## What a card contains
+
+One card from the example deck, trimmed. The learning-language side lives in `cards.json`; the side in your language lives in `localizations/<your language>.json`, aligned token by token.
+
+```jsonc
+// cards.json
+{
+  "key": "Guten Morgen||phrase",
+  "text": "Guten Morgen",
+  "partOfSpeech": "phrase",
+  "phonetic": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+  "sticker": { "mode": "symbolic", "concept": "a rising sun over a flat horizon in warm morning light" },
+  "examples": [{
+    "source": "Guten Morgen! Hast du gut geschlafen?",
+    "tokens": [
+      { "text": "Guten",  "lemma": "gut",    "partOfSpeech": "adjective", "grammarCodes": ["accusative"] },
+      { "text": "Morgen", "lemma": "Morgen", "partOfSpeech": "noun",      "grammarCodes": ["masculine"] },
+      { "text": "Hast",   "lemma": "haben",  "partOfSpeech": "verb",      "grammarCodes": ["present"] }
+    ]
+  }]
+}
+// localizations/en-US.json
+{
+  "key": "Guten Morgen||phrase",
+  "translation": "good morning",
+  "examples": [{ "target": "Good morning! Did you sleep well?",
+                 "tokens": [{ "meanings": ["good"] }, { "meanings": ["morning"] }, { "meanings": ["have", "did"] }] }]
+}
+```
+
+In the app: the headword with its pronunciation, the meaning, the sentence with a play button, and every word tappable for its meaning.
 
 ## Install
 
@@ -128,6 +174,31 @@ The packer refuses, with the card named, when a sentence's tokens do not reprodu
 ## What is public and what is not
 
 Public here: the schema, the folder, the registry identifiers, the content and sticker quality rules, the prompts in `prompts/`, validation, the packer, the skills, the example deck. Not here: Vocabloot's production prompts and per-language rules, the backend's logic, internal content, the official decks' card registry. Official decks use this same pipeline with a private `--prompt-file`.
+
+## Questions
+
+**Do I need an API key?** No. The assistant you are talking to writes the content; the scripts validate it. A key is only for generating images with OpenAI's image model, or for running the scripts unattended.
+
+**Which languages?** Only the ones the Vocabloot app offers, read live from the app's registry when you start a deck. The kit never claims a language the app does not have.
+
+**Where do the images come from?** From you: any image tool, using the prompts the kit writes (transparent background, one subject). Or from OpenAI with your own key. Every image is checked mechanically and looked at by the assistant before you approve it.
+
+**What leaves my machine?** One request to `vocabloot.com/api/capabilities` for the language list. Nothing else, unless you configure an OpenAI key, in which case the kit calls OpenAI with it. There is no Vocabloot account, upload or telemetry in the kit.
+
+**Can I edit the generated files by hand?** `deck.json` (name, description, author, licence) yes. `cards.json` and the localization no: fixes go through the word list, `--refresh`, or the sticker review, so every card stays validated. The one exception is `sticker.concept`, when a picture idea is wrong.
+
+**How does the deck reach the app?** As a `.vlbackup` file: AirDrop, mail or Files on iPhone, a download on Android. Opening it merges the words into the wordbook; opening it twice adds nothing.
+
+**Can I publish a deck for everyone?** Not yet. Sharing the file is sharing the deck; community publishing on vocabloot.com is in the works.
+
+## When something refuses
+
+- `The kit's dependencies are not installed. Run: npm install --prefix "<kit>"`: run exactly that command; the kit's one native dependency (`sharp`) is missing.
+- `Vocabloot does not offer <language> as a language to learn yet`: the app's registry does not have it; the message lists what it has.
+- `N requests to answer, then run the same command again`: the assistant has request files to answer in `work/`; nothing is wrong.
+- `<card key>: sticker not approved yet`: open `review/stickers.html` and approve, reject or defer that sticker.
+- `<card key>: unresolved flags: ...`: read that card in `review/report.md`; the fix goes through `--refresh "<word>"` or the word list.
+- The registry cannot be reached: the kit falls back to the dated snapshot in `registry/` and says so; a snapshot older than 30 days is refused; run `npm run registry:refresh` online.
 
 ## Contributing
 
