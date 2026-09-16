@@ -15,10 +15,10 @@ import { CARD_SCHEMA, VERIFY_SCHEMA, fill, grammarRules, loadPrompt } from "./li
 import { loadLanguageFacts, nameOf } from "./lib/registry.mjs";
 import { renderReport } from "./lib/report.mjs";
 import { keyOf } from "./lib/schema.mjs";
-import { assignOffsets, tokenProblems } from "./lib/tokens.mjs";
+import { assignOffsets, lazyTokenProblems, tokenProblems } from "./lib/tokens.mjs";
 
 /** One model answer (CARD_SCHEMA) becomes a card plus its localization entry; token problems become flags. */
-export function splitAnswer(answer, { word }) {
+export function splitAnswer(answer, { word, sameLanguage = false }) {
   const flags = [];
   const card = {
     key: "",
@@ -44,7 +44,14 @@ export function splitAnswer(answer, { word }) {
       ex.source,
       ex.tokens.map((t) => ({ ...t })),
     );
-    const problems = tokenProblems(ex.source, withOffsets);
+    const problems = [
+      ...tokenProblems(ex.source, withOffsets),
+      ...lazyTokenProblems(
+        withOffsets,
+        ex.tokens.map((t) => t.meanings),
+        { sameLanguage },
+      ),
+    ];
     if (problems.length) flags.push(`example ${i + 1}: ${problems[0]}`);
     card.examples.push({
       source: ex.source,
@@ -127,7 +134,10 @@ export async function generateText(
       if (!answer) continue; // the agent has a request to answer; nothing is written this run
       cache.put(key, answer, `card:${entry.word}`);
     }
-    const { card, loc } = splitAnswer(answer, { word: entry.word });
+    const { card, loc } = splitAnswer(answer, {
+      word: entry.word,
+      sameLanguage: deck.learningLanguage.slice(0, 2) === deck.knownLanguage.slice(0, 2),
+    });
     // A sticker already reviewed for this key survives a text rerun; its mode was the reviewer's decision.
     const previous = folder.cards?.find((c) => c.key === card.key);
     if (previous?.sticker?.file && previous.sticker.mode !== "text-first") {

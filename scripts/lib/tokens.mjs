@@ -54,3 +54,37 @@ export function assignOffsets(source, tokens) {
     return { ...t, start: at, end: cursor };
   });
 }
+
+/**
+ * Tokens an assistant filled in without doing the work: every token tagged "other",
+ * or a meaning that is just the word itself when the two languages differ. A proper
+ * noun (capitalised, lemma equal to its text, tagged noun) may keep its own name.
+ */
+export function lazyTokenProblems(tokens, meanings, { sameLanguage = false } = {}) {
+  const problems = [];
+  const words = tokens.filter((t) => /\p{L}/u.test(t.text));
+  if (words.length >= 2) {
+    const other = words.filter((t) => !t.partOfSpeech || t.partOfSpeech === "other").length;
+    if (other * 2 > words.length)
+      problems.push(`${other} of ${words.length} tokens are tagged "other"; tag each with its part of speech`);
+  }
+  if (!sameLanguage) {
+    const untranslated = [];
+    words.forEach((t, i) => {
+      const m = meanings?.[i] ?? [];
+      const isName = t.partOfSpeech === "noun" && /^\p{Lu}/u.test(t.text) && (t.lemma ?? t.text) === t.text;
+      if (m.length === 1 && m[0].trim().toLowerCase() === t.text.toLowerCase() && !isName) untranslated.push(t.text);
+    });
+    // One echo may be a cognate (en "name", de "Name"); two in one sentence is a shortcut.
+    if (untranslated.length >= 2)
+      problems.push(
+        `meaning equals the word for ${untranslated
+          .slice(0, 3)
+          .map((w) => `'${w}'`)
+          .join(
+            ", ",
+          )}${untranslated.length > 3 ? ` and ${untranslated.length - 3} more` : ""}; give the meaning in the known language`,
+      );
+  }
+  return problems;
+}

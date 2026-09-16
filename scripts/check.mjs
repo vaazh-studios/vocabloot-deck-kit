@@ -7,6 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadFolder, stickerExists } from "./lib/folder.mjs";
+import { lazyTokenProblems } from "./lib/tokens.mjs";
 import { loadLanguageFacts } from "./lib/registry.mjs";
 import { deferredKeys, validateCards, validateDeck, validateLocalization, validateReview } from "./lib/schema.mjs";
 import { renderPreview } from "./lib/preview.mjs";
@@ -19,7 +20,20 @@ export function checkFolder(folder, { facts = loadLanguageFacts() } = {}) {
   const deferred = deferredKeys(folder.review);
   p.push(...validateCards(folder.cards, { facts, learningLanguage: folder.deck.learningLanguage, deferred }));
   if (!folder.localization) p.push(`localizations/${folder.deck.knownLanguage}.json is missing; run /deck-text`);
-  else p.push(...validateLocalization(folder.localization, folder.cards));
+  else {
+    p.push(...validateLocalization(folder.localization, folder.cards));
+    // Tokens someone filled in without doing the work fail here too, however cards.json was written.
+    const sameLanguage = folder.deck.learningLanguage.slice(0, 2) === folder.deck.knownLanguage.slice(0, 2);
+    const loc = new Map(folder.localization.map((l) => [l.key, l]));
+    for (const card of folder.cards) {
+      const l = loc.get(card.key);
+      (card.examples ?? []).forEach((ex, i) => {
+        const meanings = l?.examples?.[i]?.tokens?.map((t) => t.meanings) ?? [];
+        for (const problem of lazyTokenProblems(ex.tokens ?? [], meanings, { sameLanguage }))
+          p.push(`${card.key} example ${i + 1}: ${problem}`);
+      });
+    }
+  }
   for (const c of folder.cards) {
     if (c.sticker?.mode !== "text-first" && c.sticker?.file && !stickerExists(folder.dir, c))
       p.push(`${c.key}: sticker file ${c.sticker.file} is missing`);

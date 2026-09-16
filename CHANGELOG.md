@@ -2,6 +2,7 @@
 
 ## 0.1.1 (2026-09-17)
 
+- Lazy tokens are refused by `/deck-text`, `/deck-check` and the packer: a sentence with more than half its tokens tagged "other", or two or more meanings that just repeat the word (a name may keep its name, one cognate is fine). Found in three decks an assistant built by scripting the answers instead of writing them.
 - Every skill shows its work: a milestone line before and after each step ("Step 3 of 6"), cards written in batches of five with their headwords, every sticker displayed in the chat the moment it exists, the contact sheet and the preview shown, the packed file offered, one deck at a time. Found by the founder running the plugin in ChatGPT, where it worked for minutes and showed nothing.
 
 ## 0.1.0 (2026-09-16)

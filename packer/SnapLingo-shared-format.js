@@ -16,88 +16,88 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var protoOf = kotlin_kotlin.$_$.u4;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.j4;
+  var protoOf = kotlin_kotlin.$_$.y4;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.m4;
   var PluginGeneratedSerialDescriptor = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.j1;
   var Unit_instance = kotlin_kotlin.$_$.c;
-  var Long = kotlin_kotlin.$_$.g6;
-  var equalsLong = kotlin_kotlin.$_$.k3;
-  var THROW_CCE = kotlin_kotlin.$_$.h6;
+  var Long = kotlin_kotlin.$_$.o6;
+  var equalsLong = kotlin_kotlin.$_$.n3;
+  var THROW_CCE = kotlin_kotlin.$_$.p6;
   var UnknownFieldException_init_$Create$ = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.l;
   var IntSerializer_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.h;
   var LongSerializer_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.i;
   var StringSerializer_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.j;
   var typeParametersSerializers = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.e1;
   var GeneratedSerializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.f1;
-  var initMetadataForObject = kotlin_kotlin.$_$.n4;
+  var initMetadataForObject = kotlin_kotlin.$_$.q4;
   var VOID = kotlin_kotlin.$_$.a;
   var throwMissingFieldException = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.l1;
-  var objectCreate = kotlin_kotlin.$_$.t4;
-  var getStringHashCode = kotlin_kotlin.$_$.g4;
-  var initMetadataForClass = kotlin_kotlin.$_$.i4;
+  var objectCreate = kotlin_kotlin.$_$.x4;
+  var getStringHashCode = kotlin_kotlin.$_$.j4;
+  var initMetadataForClass = kotlin_kotlin.$_$.l4;
   var BooleanSerializer_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.g;
   var get_nullable = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.o;
-  var getBooleanHashCode = kotlin_kotlin.$_$.e4;
-  var charCodeAt = kotlin_kotlin.$_$.z3;
+  var getBooleanHashCode = kotlin_kotlin.$_$.h4;
+  var charCodeAt = kotlin_kotlin.$_$.c4;
   var toString = kotlin_kotlin.$_$.d1;
-  var listOf = kotlin_kotlin.$_$.n2;
+  var listOf = kotlin_kotlin.$_$.o2;
   var Regex_init_$Create$ = kotlin_kotlin.$_$.p;
   var StringCompanionObject_instance = kotlin_kotlin.$_$.b;
   var serializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.p;
   var MapSerializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.n;
-  var joinToString = kotlin_kotlin.$_$.h2;
-  var contentEquals = kotlin_kotlin.$_$.s1;
-  var contentHashCode = kotlin_kotlin.$_$.t1;
-  var toString_0 = kotlin_kotlin.$_$.w4;
-  var charSequenceLength = kotlin_kotlin.$_$.b4;
-  var encodeToByteArray = kotlin_kotlin.$_$.i5;
+  var joinToString = kotlin_kotlin.$_$.i2;
+  var contentEquals = kotlin_kotlin.$_$.t1;
+  var contentHashCode = kotlin_kotlin.$_$.u1;
+  var toString_0 = kotlin_kotlin.$_$.a5;
+  var charSequenceLength = kotlin_kotlin.$_$.e4;
+  var encodeToByteArray = kotlin_kotlin.$_$.m5;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.a1;
-  var startsWith = kotlin_kotlin.$_$.t5;
-  var charSequenceGet = kotlin_kotlin.$_$.a4;
+  var startsWith = kotlin_kotlin.$_$.a6;
+  var charSequenceGet = kotlin_kotlin.$_$.d4;
   var Char__toInt_impl_vasixd = kotlin_kotlin.$_$.c1;
-  var charArrayOf = kotlin_kotlin.$_$.x3;
-  var split = kotlin_kotlin.$_$.r5;
-  var compare = kotlin_kotlin.$_$.h3;
+  var charArrayOf = kotlin_kotlin.$_$.a4;
+  var split = kotlin_kotlin.$_$.y5;
+  var compare = kotlin_kotlin.$_$.k3;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.v;
-  var shiftRightUnsigned = kotlin_kotlin.$_$.r3;
-  var convertToByte = kotlin_kotlin.$_$.i3;
-  var getValue = kotlin_kotlin.$_$.e2;
-  var collectionSizeOrDefault = kotlin_kotlin.$_$.q1;
-  var mapCapacity = kotlin_kotlin.$_$.o2;
-  var coerceAtLeast = kotlin_kotlin.$_$.y4;
+  var shiftRightUnsigned = kotlin_kotlin.$_$.u3;
+  var convertToByte = kotlin_kotlin.$_$.l3;
+  var getValue = kotlin_kotlin.$_$.f2;
+  var collectionSizeOrDefault = kotlin_kotlin.$_$.r1;
+  var mapCapacity = kotlin_kotlin.$_$.p2;
+  var coerceAtLeast = kotlin_kotlin.$_$.c5;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.l;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.e;
   var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.o;
-  var fromInt = kotlin_kotlin.$_$.l3;
-  var add = kotlin_kotlin.$_$.e3;
-  var Exception = kotlin_kotlin.$_$.e6;
+  var fromInt = kotlin_kotlin.$_$.o3;
+  var add = kotlin_kotlin.$_$.h3;
+  var Exception = kotlin_kotlin.$_$.m6;
   var Exception_init_$Init$ = kotlin_kotlin.$_$.s;
-  var captureStack = kotlin_kotlin.$_$.w3;
+  var captureStack = kotlin_kotlin.$_$.z3;
   var _ULong___init__impl__c78o9k = kotlin_kotlin.$_$.e1;
   var _ULong___get_data__impl__fggpzb = kotlin_kotlin.$_$.f1;
-  var shiftLeft = kotlin_kotlin.$_$.q3;
-  var bitwiseAnd = kotlin_kotlin.$_$.f3;
-  var bitwiseOr = kotlin_kotlin.$_$.g3;
-  var equals = kotlin_kotlin.$_$.d4;
+  var shiftLeft = kotlin_kotlin.$_$.t3;
+  var bitwiseAnd = kotlin_kotlin.$_$.i3;
+  var bitwiseOr = kotlin_kotlin.$_$.j3;
+  var equals = kotlin_kotlin.$_$.g4;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.r;
-  var ulongCompare = kotlin_kotlin.$_$.t6;
-  var ulongRemainder = kotlin_kotlin.$_$.v6;
-  var convertToInt = kotlin_kotlin.$_$.j3;
-  var ulongDivide = kotlin_kotlin.$_$.u6;
-  var numberToChar = kotlin_kotlin.$_$.s4;
+  var ulongCompare = kotlin_kotlin.$_$.b7;
+  var ulongRemainder = kotlin_kotlin.$_$.d7;
+  var convertToInt = kotlin_kotlin.$_$.m3;
+  var ulongDivide = kotlin_kotlin.$_$.c7;
+  var numberToChar = kotlin_kotlin.$_$.w4;
   var ULong__toString_impl_f9au7k = kotlin_kotlin.$_$.g1;
-  var padStart = kotlin_kotlin.$_$.p5;
+  var padStart = kotlin_kotlin.$_$.w5;
   var LinkedHashMapSerializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.h1;
   var LazyThreadSafetyMode_PUBLICATION_getInstance = kotlin_kotlin.$_$.d;
-  var lazy = kotlin_kotlin.$_$.n6;
-  var emptyMap = kotlin_kotlin.$_$.a2;
-  var hashCode = kotlin_kotlin.$_$.h4;
+  var lazy = kotlin_kotlin.$_$.v6;
+  var emptyMap = kotlin_kotlin.$_$.b2;
+  var hashCode = kotlin_kotlin.$_$.k4;
   var ArrayListSerializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.c1;
-  var emptyList = kotlin_kotlin.$_$.z1;
-  var multiply = kotlin_kotlin.$_$.n3;
-  var arrayCopy = kotlin_kotlin.$_$.n1;
-  var rotateRight = kotlin_kotlin.$_$.q6;
-  var toByte = kotlin_kotlin.$_$.v4;
+  var emptyList = kotlin_kotlin.$_$.a2;
+  var multiply = kotlin_kotlin.$_$.q3;
+  var arrayCopy = kotlin_kotlin.$_$.o1;
+  var rotateRight = kotlin_kotlin.$_$.y6;
+  var toByte = kotlin_kotlin.$_$.z4;
   //endregion
   //region block: pre-declaration
   initMetadataForCompanion(Companion);
@@ -134,7 +134,7 @@
   //endregion
   function Companion() {
   }
-  protoOf(Companion).yk = function () {
+  protoOf(Companion).dl = function () {
     return $serializer_getInstance();
   };
   var Companion_instance;
@@ -144,34 +144,34 @@
   function $serializer() {
     $serializer_instance = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.BackupHeader', this, 4);
-    tmp0_serialDesc.zi('schemaVersion', true);
-    tmp0_serialDesc.zi('createdAtEpochMs', true);
-    tmp0_serialDesc.zi('appVersion', true);
-    tmp0_serialDesc.zi('wordCount', true);
-    this.zk_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('schemaVersion', true);
+    tmp0_serialDesc.ej('createdAtEpochMs', true);
+    tmp0_serialDesc.ej('appVersion', true);
+    tmp0_serialDesc.ej('wordCount', true);
+    this.el_1 = tmp0_serialDesc;
   }
-  protoOf($serializer).al = function (encoder, value) {
-    var tmp0_desc = this.zk_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    if (tmp1_output.vf(tmp0_desc, 0) ? true : !(value.bl_1 === 1)) {
-      tmp1_output.mf(tmp0_desc, 0, value.bl_1);
+  protoOf($serializer).fl = function (encoder, value) {
+    var tmp0_desc = this.el_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    if (tmp1_output.ag(tmp0_desc, 0) ? true : !(value.gl_1 === 1)) {
+      tmp1_output.rf(tmp0_desc, 0, value.gl_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 1) ? true : !equalsLong(value.cl_1, new Long(0, 0))) {
-      tmp1_output.nf(tmp0_desc, 1, value.cl_1);
+    if (tmp1_output.ag(tmp0_desc, 1) ? true : !equalsLong(value.hl_1, new Long(0, 0))) {
+      tmp1_output.sf(tmp0_desc, 1, value.hl_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 2) ? true : !(value.dl_1 === '')) {
-      tmp1_output.of(tmp0_desc, 2, value.dl_1);
+    if (tmp1_output.ag(tmp0_desc, 2) ? true : !(value.il_1 === '')) {
+      tmp1_output.tf(tmp0_desc, 2, value.il_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 3) ? true : !(value.el_1 === 0)) {
-      tmp1_output.mf(tmp0_desc, 3, value.el_1);
+    if (tmp1_output.ag(tmp0_desc, 3) ? true : !(value.jl_1 === 0)) {
+      tmp1_output.rf(tmp0_desc, 3, value.jl_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer).id = function (encoder, value) {
-    return this.al(encoder, value instanceof BackupHeader ? value : THROW_CCE());
+  protoOf($serializer).nd = function (encoder, value) {
+    return this.fl(encoder, value instanceof BackupHeader ? value : THROW_CCE());
   };
-  protoOf($serializer).jd = function (decoder) {
-    var tmp0_desc = this.zk_1;
+  protoOf($serializer).od = function (decoder) {
+    var tmp0_desc = this.el_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
@@ -179,50 +179,50 @@
     var tmp5_local1 = new Long(0, 0);
     var tmp6_local2 = null;
     var tmp7_local3 = 0;
-    var tmp8_input = decoder.re(tmp0_desc);
-    if (tmp8_input.bf()) {
-      tmp4_local0 = tmp8_input.ue(tmp0_desc, 0);
+    var tmp8_input = decoder.we(tmp0_desc);
+    if (tmp8_input.gf()) {
+      tmp4_local0 = tmp8_input.ze(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp8_input.ve(tmp0_desc, 1);
+      tmp5_local1 = tmp8_input.af(tmp0_desc, 1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp8_input.we(tmp0_desc, 2);
+      tmp6_local2 = tmp8_input.bf(tmp0_desc, 2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
-      tmp7_local3 = tmp8_input.ue(tmp0_desc, 3);
+      tmp7_local3 = tmp8_input.ze(tmp0_desc, 3);
       tmp3_bitMask0 = tmp3_bitMask0 | 8;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp8_input.cf(tmp0_desc);
+        tmp2_index = tmp8_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp8_input.ue(tmp0_desc, 0);
+            tmp4_local0 = tmp8_input.ze(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp8_input.ve(tmp0_desc, 1);
+            tmp5_local1 = tmp8_input.af(tmp0_desc, 1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp8_input.we(tmp0_desc, 2);
+            tmp6_local2 = tmp8_input.bf(tmp0_desc, 2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           case 3:
-            tmp7_local3 = tmp8_input.ue(tmp0_desc, 3);
+            tmp7_local3 = tmp8_input.ze(tmp0_desc, 3);
             tmp3_bitMask0 = tmp3_bitMask0 | 8;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp8_input.se(tmp0_desc);
+    tmp8_input.xe(tmp0_desc);
     return BackupHeader_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, null);
   };
-  protoOf($serializer).hd = function () {
-    return this.zk_1;
+  protoOf($serializer).md = function () {
+    return this.el_1;
   };
-  protoOf($serializer).bj = function () {
+  protoOf($serializer).gj = function () {
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -236,24 +236,24 @@
   }
   function BackupHeader_init_$Init$(seen0, schemaVersion, createdAtEpochMs, appVersion, wordCount, serializationConstructorMarker, $this) {
     if (!(0 === (0 & seen0))) {
-      throwMissingFieldException(seen0, 0, $serializer_getInstance().zk_1);
+      throwMissingFieldException(seen0, 0, $serializer_getInstance().el_1);
     }
     if (0 === (seen0 & 1))
-      $this.bl_1 = 1;
+      $this.gl_1 = 1;
     else
-      $this.bl_1 = schemaVersion;
+      $this.gl_1 = schemaVersion;
     if (0 === (seen0 & 2))
-      $this.cl_1 = new Long(0, 0);
+      $this.hl_1 = new Long(0, 0);
     else
-      $this.cl_1 = createdAtEpochMs;
+      $this.hl_1 = createdAtEpochMs;
     if (0 === (seen0 & 4))
-      $this.dl_1 = '';
+      $this.il_1 = '';
     else
-      $this.dl_1 = appVersion;
+      $this.il_1 = appVersion;
     if (0 === (seen0 & 8))
-      $this.el_1 = 0;
+      $this.jl_1 = 0;
     else
-      $this.el_1 = wordCount;
+      $this.jl_1 = wordCount;
     return $this;
   }
   function BackupHeader_init_$Create$(seen0, schemaVersion, createdAtEpochMs, appVersion, wordCount, serializationConstructorMarker) {
@@ -264,19 +264,19 @@
     createdAtEpochMs = createdAtEpochMs === VOID ? new Long(0, 0) : createdAtEpochMs;
     appVersion = appVersion === VOID ? '' : appVersion;
     wordCount = wordCount === VOID ? 0 : wordCount;
-    this.bl_1 = schemaVersion;
-    this.cl_1 = createdAtEpochMs;
-    this.dl_1 = appVersion;
-    this.el_1 = wordCount;
+    this.gl_1 = schemaVersion;
+    this.hl_1 = createdAtEpochMs;
+    this.il_1 = appVersion;
+    this.jl_1 = wordCount;
   }
   protoOf(BackupHeader).toString = function () {
-    return 'BackupHeader(schemaVersion=' + this.bl_1 + ', createdAtEpochMs=' + this.cl_1.toString() + ', appVersion=' + this.dl_1 + ', wordCount=' + this.el_1 + ')';
+    return 'BackupHeader(schemaVersion=' + this.gl_1 + ', createdAtEpochMs=' + this.hl_1.toString() + ', appVersion=' + this.il_1 + ', wordCount=' + this.jl_1 + ')';
   };
   protoOf(BackupHeader).hashCode = function () {
-    var result = this.bl_1;
-    result = imul(result, 31) + this.cl_1.hashCode() | 0;
-    result = imul(result, 31) + getStringHashCode(this.dl_1) | 0;
-    result = imul(result, 31) + this.el_1 | 0;
+    var result = this.gl_1;
+    result = imul(result, 31) + this.hl_1.hashCode() | 0;
+    result = imul(result, 31) + getStringHashCode(this.il_1) | 0;
+    result = imul(result, 31) + this.jl_1 | 0;
     return result;
   };
   protoOf(BackupHeader).equals = function (other) {
@@ -284,19 +284,19 @@
       return true;
     if (!(other instanceof BackupHeader))
       return false;
-    if (!(this.bl_1 === other.bl_1))
+    if (!(this.gl_1 === other.gl_1))
       return false;
-    if (!equalsLong(this.cl_1, other.cl_1))
+    if (!equalsLong(this.hl_1, other.hl_1))
       return false;
-    if (!(this.dl_1 === other.dl_1))
+    if (!(this.il_1 === other.il_1))
       return false;
-    if (!(this.el_1 === other.el_1))
+    if (!(this.jl_1 === other.jl_1))
       return false;
     return true;
   };
   function Companion_0() {
   }
-  protoOf(Companion_0).yk = function () {
+  protoOf(Companion_0).dl = function () {
     return $serializer_getInstance_0();
   };
   var Companion_instance_0;
@@ -306,38 +306,38 @@
   function $serializer_0() {
     $serializer_instance_0 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.BackupSettings', this, 5);
-    tmp0_serialDesc.zi('targetLanguage', true);
-    tmp0_serialDesc.zi('knownLanguage', true);
-    tmp0_serialDesc.zi('cameraFlashMode', true);
-    tmp0_serialDesc.zi('uiSoundsEnabled', true);
-    tmp0_serialDesc.zi('hapticsEnabled', true);
-    this.fl_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('targetLanguage', true);
+    tmp0_serialDesc.ej('knownLanguage', true);
+    tmp0_serialDesc.ej('cameraFlashMode', true);
+    tmp0_serialDesc.ej('uiSoundsEnabled', true);
+    tmp0_serialDesc.ej('hapticsEnabled', true);
+    this.kl_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_0).gl = function (encoder, value) {
-    var tmp0_desc = this.fl_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    if (tmp1_output.vf(tmp0_desc, 0) ? true : !(value.hl_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 0, StringSerializer_getInstance(), value.hl_1);
+  protoOf($serializer_0).ll = function (encoder, value) {
+    var tmp0_desc = this.kl_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    if (tmp1_output.ag(tmp0_desc, 0) ? true : !(value.ml_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 0, StringSerializer_getInstance(), value.ml_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 1) ? true : !(value.il_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 1, StringSerializer_getInstance(), value.il_1);
+    if (tmp1_output.ag(tmp0_desc, 1) ? true : !(value.nl_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 1, StringSerializer_getInstance(), value.nl_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 2) ? true : !(value.jl_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 2, StringSerializer_getInstance(), value.jl_1);
+    if (tmp1_output.ag(tmp0_desc, 2) ? true : !(value.ol_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 2, StringSerializer_getInstance(), value.ol_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 3) ? true : !(value.kl_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 3, BooleanSerializer_getInstance(), value.kl_1);
+    if (tmp1_output.ag(tmp0_desc, 3) ? true : !(value.pl_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 3, BooleanSerializer_getInstance(), value.pl_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 4) ? true : !(value.ll_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 4, BooleanSerializer_getInstance(), value.ll_1);
+    if (tmp1_output.ag(tmp0_desc, 4) ? true : !(value.ql_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 4, BooleanSerializer_getInstance(), value.ql_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_0).id = function (encoder, value) {
-    return this.gl(encoder, value instanceof BackupSettings ? value : THROW_CCE());
+  protoOf($serializer_0).nd = function (encoder, value) {
+    return this.ll(encoder, value instanceof BackupSettings ? value : THROW_CCE());
   };
-  protoOf($serializer_0).jd = function (decoder) {
-    var tmp0_desc = this.fl_1;
+  protoOf($serializer_0).od = function (decoder) {
+    var tmp0_desc = this.kl_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
@@ -346,56 +346,56 @@
     var tmp6_local2 = null;
     var tmp7_local3 = null;
     var tmp8_local4 = null;
-    var tmp9_input = decoder.re(tmp0_desc);
-    if (tmp9_input.bf()) {
-      tmp4_local0 = tmp9_input.ze(tmp0_desc, 0, StringSerializer_getInstance(), tmp4_local0);
+    var tmp9_input = decoder.we(tmp0_desc);
+    if (tmp9_input.gf()) {
+      tmp4_local0 = tmp9_input.ef(tmp0_desc, 0, StringSerializer_getInstance(), tmp4_local0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp9_input.ze(tmp0_desc, 1, StringSerializer_getInstance(), tmp5_local1);
+      tmp5_local1 = tmp9_input.ef(tmp0_desc, 1, StringSerializer_getInstance(), tmp5_local1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp9_input.ze(tmp0_desc, 2, StringSerializer_getInstance(), tmp6_local2);
+      tmp6_local2 = tmp9_input.ef(tmp0_desc, 2, StringSerializer_getInstance(), tmp6_local2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
-      tmp7_local3 = tmp9_input.ze(tmp0_desc, 3, BooleanSerializer_getInstance(), tmp7_local3);
+      tmp7_local3 = tmp9_input.ef(tmp0_desc, 3, BooleanSerializer_getInstance(), tmp7_local3);
       tmp3_bitMask0 = tmp3_bitMask0 | 8;
-      tmp8_local4 = tmp9_input.ze(tmp0_desc, 4, BooleanSerializer_getInstance(), tmp8_local4);
+      tmp8_local4 = tmp9_input.ef(tmp0_desc, 4, BooleanSerializer_getInstance(), tmp8_local4);
       tmp3_bitMask0 = tmp3_bitMask0 | 16;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp9_input.cf(tmp0_desc);
+        tmp2_index = tmp9_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp9_input.ze(tmp0_desc, 0, StringSerializer_getInstance(), tmp4_local0);
+            tmp4_local0 = tmp9_input.ef(tmp0_desc, 0, StringSerializer_getInstance(), tmp4_local0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp9_input.ze(tmp0_desc, 1, StringSerializer_getInstance(), tmp5_local1);
+            tmp5_local1 = tmp9_input.ef(tmp0_desc, 1, StringSerializer_getInstance(), tmp5_local1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp9_input.ze(tmp0_desc, 2, StringSerializer_getInstance(), tmp6_local2);
+            tmp6_local2 = tmp9_input.ef(tmp0_desc, 2, StringSerializer_getInstance(), tmp6_local2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           case 3:
-            tmp7_local3 = tmp9_input.ze(tmp0_desc, 3, BooleanSerializer_getInstance(), tmp7_local3);
+            tmp7_local3 = tmp9_input.ef(tmp0_desc, 3, BooleanSerializer_getInstance(), tmp7_local3);
             tmp3_bitMask0 = tmp3_bitMask0 | 8;
             break;
           case 4:
-            tmp8_local4 = tmp9_input.ze(tmp0_desc, 4, BooleanSerializer_getInstance(), tmp8_local4);
+            tmp8_local4 = tmp9_input.ef(tmp0_desc, 4, BooleanSerializer_getInstance(), tmp8_local4);
             tmp3_bitMask0 = tmp3_bitMask0 | 16;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp9_input.se(tmp0_desc);
+    tmp9_input.xe(tmp0_desc);
     return BackupSettings_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, null);
   };
-  protoOf($serializer_0).hd = function () {
-    return this.fl_1;
+  protoOf($serializer_0).md = function () {
+    return this.kl_1;
   };
-  protoOf($serializer_0).bj = function () {
+  protoOf($serializer_0).gj = function () {
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -409,28 +409,28 @@
   }
   function BackupSettings_init_$Init$(seen0, targetLanguage, knownLanguage, cameraFlashMode, uiSoundsEnabled, hapticsEnabled, serializationConstructorMarker, $this) {
     if (!(0 === (0 & seen0))) {
-      throwMissingFieldException(seen0, 0, $serializer_getInstance_0().fl_1);
+      throwMissingFieldException(seen0, 0, $serializer_getInstance_0().kl_1);
     }
     if (0 === (seen0 & 1))
-      $this.hl_1 = null;
+      $this.ml_1 = null;
     else
-      $this.hl_1 = targetLanguage;
+      $this.ml_1 = targetLanguage;
     if (0 === (seen0 & 2))
-      $this.il_1 = null;
+      $this.nl_1 = null;
     else
-      $this.il_1 = knownLanguage;
+      $this.nl_1 = knownLanguage;
     if (0 === (seen0 & 4))
-      $this.jl_1 = null;
+      $this.ol_1 = null;
     else
-      $this.jl_1 = cameraFlashMode;
+      $this.ol_1 = cameraFlashMode;
     if (0 === (seen0 & 8))
-      $this.kl_1 = null;
+      $this.pl_1 = null;
     else
-      $this.kl_1 = uiSoundsEnabled;
+      $this.pl_1 = uiSoundsEnabled;
     if (0 === (seen0 & 16))
-      $this.ll_1 = null;
+      $this.ql_1 = null;
     else
-      $this.ll_1 = hapticsEnabled;
+      $this.ql_1 = hapticsEnabled;
     return $this;
   }
   function BackupSettings_init_$Create$(seen0, targetLanguage, knownLanguage, cameraFlashMode, uiSoundsEnabled, hapticsEnabled, serializationConstructorMarker) {
@@ -442,21 +442,21 @@
     cameraFlashMode = cameraFlashMode === VOID ? null : cameraFlashMode;
     uiSoundsEnabled = uiSoundsEnabled === VOID ? null : uiSoundsEnabled;
     hapticsEnabled = hapticsEnabled === VOID ? null : hapticsEnabled;
-    this.hl_1 = targetLanguage;
-    this.il_1 = knownLanguage;
-    this.jl_1 = cameraFlashMode;
-    this.kl_1 = uiSoundsEnabled;
-    this.ll_1 = hapticsEnabled;
+    this.ml_1 = targetLanguage;
+    this.nl_1 = knownLanguage;
+    this.ol_1 = cameraFlashMode;
+    this.pl_1 = uiSoundsEnabled;
+    this.ql_1 = hapticsEnabled;
   }
   protoOf(BackupSettings).toString = function () {
-    return 'BackupSettings(targetLanguage=' + this.hl_1 + ', knownLanguage=' + this.il_1 + ', cameraFlashMode=' + this.jl_1 + ', uiSoundsEnabled=' + this.kl_1 + ', hapticsEnabled=' + this.ll_1 + ')';
+    return 'BackupSettings(targetLanguage=' + this.ml_1 + ', knownLanguage=' + this.nl_1 + ', cameraFlashMode=' + this.ol_1 + ', uiSoundsEnabled=' + this.pl_1 + ', hapticsEnabled=' + this.ql_1 + ')';
   };
   protoOf(BackupSettings).hashCode = function () {
-    var result = this.hl_1 == null ? 0 : getStringHashCode(this.hl_1);
-    result = imul(result, 31) + (this.il_1 == null ? 0 : getStringHashCode(this.il_1)) | 0;
-    result = imul(result, 31) + (this.jl_1 == null ? 0 : getStringHashCode(this.jl_1)) | 0;
-    result = imul(result, 31) + (this.kl_1 == null ? 0 : getBooleanHashCode(this.kl_1)) | 0;
-    result = imul(result, 31) + (this.ll_1 == null ? 0 : getBooleanHashCode(this.ll_1)) | 0;
+    var result = this.ml_1 == null ? 0 : getStringHashCode(this.ml_1);
+    result = imul(result, 31) + (this.nl_1 == null ? 0 : getStringHashCode(this.nl_1)) | 0;
+    result = imul(result, 31) + (this.ol_1 == null ? 0 : getStringHashCode(this.ol_1)) | 0;
+    result = imul(result, 31) + (this.pl_1 == null ? 0 : getBooleanHashCode(this.pl_1)) | 0;
+    result = imul(result, 31) + (this.ql_1 == null ? 0 : getBooleanHashCode(this.ql_1)) | 0;
     return result;
   };
   protoOf(BackupSettings).equals = function (other) {
@@ -464,15 +464,15 @@
       return true;
     if (!(other instanceof BackupSettings))
       return false;
-    if (!(this.hl_1 == other.hl_1))
+    if (!(this.ml_1 == other.ml_1))
       return false;
-    if (!(this.il_1 == other.il_1))
+    if (!(this.nl_1 == other.nl_1))
       return false;
-    if (!(this.jl_1 == other.jl_1))
+    if (!(this.ol_1 == other.ol_1))
       return false;
-    if (!(this.kl_1 == other.kl_1))
+    if (!(this.pl_1 == other.pl_1))
       return false;
-    if (!(this.ll_1 == other.ll_1))
+    if (!(this.ql_1 == other.ql_1))
       return false;
     return true;
   };
@@ -482,25 +482,25 @@
   }
   function BackupPackage() {
     BackupPackage_instance = this;
-    this.ml_1 = '.vlbackup';
-    this.nl_1 = '.slbackup';
-    this.ol_1 = listOf(['.vlbackup', '.slbackup']);
-    this.pl_1 = 'backup.json';
-    this.ql_1 = 'manifest.json';
-    this.rl_1 = 'doodles.json';
-    this.sl_1 = 'settings.json';
-    this.tl_1 = 'words/';
-    this.ul_1 = '.jpg';
-    this.vl_1 = '.png';
-    this.wl_1 = listOf(['manifest.json', 'doodles.json', 'settings.json', 'backup.json']);
-    this.xl_1 = Regex_init_$Create$('^word-[0-9]{1,17}-[a-z0-9]{4}$');
-    this.yl_1 = MapSerializer(serializer(StringCompanionObject_instance), serializer(StringCompanionObject_instance));
-    this.zl_1 = '0123456789abcdef';
+    this.rl_1 = '.vlbackup';
+    this.sl_1 = '.slbackup';
+    this.tl_1 = listOf(['.vlbackup', '.slbackup']);
+    this.ul_1 = 'backup.json';
+    this.vl_1 = 'manifest.json';
+    this.wl_1 = 'doodles.json';
+    this.xl_1 = 'settings.json';
+    this.yl_1 = 'words/';
+    this.zl_1 = '.jpg';
+    this.am_1 = '.png';
+    this.bm_1 = listOf(['manifest.json', 'doodles.json', 'settings.json', 'backup.json']);
+    this.cm_1 = Regex_init_$Create$('^word-[0-9]{1,17}-[a-z0-9]{4}$');
+    this.dm_1 = MapSerializer(serializer(StringCompanionObject_instance), serializer(StringCompanionObject_instance));
+    this.em_1 = '0123456789abcdef';
   }
-  protoOf(BackupPackage).am = function (id) {
+  protoOf(BackupPackage).fm = function (id) {
     return 'words/' + id + '.png';
   };
-  protoOf(BackupPackage).bm = function (bytes) {
+  protoOf(BackupPackage).gm = function (bytes) {
     var tmp = sha256(bytes);
     return joinToString(tmp, '', VOID, VOID, VOID, VOID, BackupPackage$sha256Hex$lambda);
   };
@@ -515,19 +515,19 @@
     maxNameBytes = maxNameBytes === VOID ? 512 : maxNameBytes;
     maxEntryBytes = maxEntryBytes === VOID ? new Long(26214400, 0) : maxEntryBytes;
     maxTotalBytes = maxTotalBytes === VOID ? new Long(524288000, 0) : maxTotalBytes;
-    this.cm_1 = maxEntries;
-    this.dm_1 = maxNameBytes;
-    this.em_1 = maxEntryBytes;
-    this.fm_1 = maxTotalBytes;
+    this.hm_1 = maxEntries;
+    this.im_1 = maxNameBytes;
+    this.jm_1 = maxEntryBytes;
+    this.km_1 = maxTotalBytes;
   }
   protoOf(Limits).toString = function () {
-    return 'Limits(maxEntries=' + this.cm_1 + ', maxNameBytes=' + this.dm_1 + ', maxEntryBytes=' + this.em_1.toString() + ', maxTotalBytes=' + this.fm_1.toString() + ')';
+    return 'Limits(maxEntries=' + this.hm_1 + ', maxNameBytes=' + this.im_1 + ', maxEntryBytes=' + this.jm_1.toString() + ', maxTotalBytes=' + this.km_1.toString() + ')';
   };
   protoOf(Limits).hashCode = function () {
-    var result = this.cm_1;
-    result = imul(result, 31) + this.dm_1 | 0;
-    result = imul(result, 31) + this.em_1.hashCode() | 0;
-    result = imul(result, 31) + this.fm_1.hashCode() | 0;
+    var result = this.hm_1;
+    result = imul(result, 31) + this.im_1 | 0;
+    result = imul(result, 31) + this.jm_1.hashCode() | 0;
+    result = imul(result, 31) + this.km_1.hashCode() | 0;
     return result;
   };
   protoOf(Limits).equals = function (other) {
@@ -535,47 +535,47 @@
       return true;
     if (!(other instanceof Limits))
       return false;
-    if (!(this.cm_1 === other.cm_1))
+    if (!(this.hm_1 === other.hm_1))
       return false;
-    if (!(this.dm_1 === other.dm_1))
+    if (!(this.im_1 === other.im_1))
       return false;
-    if (!equalsLong(this.em_1, other.em_1))
+    if (!equalsLong(this.jm_1, other.jm_1))
       return false;
-    if (!equalsLong(this.fm_1, other.fm_1))
+    if (!equalsLong(this.km_1, other.km_1))
       return false;
     return true;
   };
   function Entry(name, content) {
-    this.gm_1 = name;
-    this.hm_1 = content;
+    this.lm_1 = name;
+    this.mm_1 = content;
   }
   protoOf(Entry).equals = function (other) {
     var tmp;
     var tmp_0;
     if (other instanceof Entry) {
-      tmp_0 = other.gm_1 === this.gm_1;
+      tmp_0 = other.lm_1 === this.lm_1;
     } else {
       tmp_0 = false;
     }
     if (tmp_0) {
-      tmp = contentEquals(other.hm_1, this.hm_1);
+      tmp = contentEquals(other.mm_1, this.mm_1);
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(Entry).hashCode = function () {
-    return imul(getStringHashCode(this.gm_1), 31) + contentHashCode(this.hm_1) | 0;
+    return imul(getStringHashCode(this.lm_1), 31) + contentHashCode(this.mm_1) | 0;
   };
   protoOf(Entry).toString = function () {
-    return 'Entry(name=' + this.gm_1 + ', content=' + toString_0(this.hm_1) + ')';
+    return 'Entry(name=' + this.lm_1 + ', content=' + toString_0(this.mm_1) + ')';
   };
   function validateName($this, name, limits) {
     // Inline function 'kotlin.text.isEmpty' call
     if (charSequenceLength(name) === 0)
       throw new ContainerFormatException('Empty entry name.');
-    if (encodeToByteArray(name).length > limits.dm_1) {
-      throw new ContainerFormatException('Entry name exceeds ' + limits.dm_1 + ' UTF-8 bytes.');
+    if (encodeToByteArray(name).length > limits.im_1) {
+      throw new ContainerFormatException('Entry name exceeds ' + limits.im_1 + ' UTF-8 bytes.');
     }
     if (startsWith(name, _Char___init__impl__6a9atx(47)))
       throw new ContainerFormatException("Entry name has a leading slash: '" + name + "'.");
@@ -654,20 +654,20 @@
   }
   function BinaryContainer$encode$lambda($byName) {
     return function (name) {
-      return getValue($byName, name).hm_1;
+      return getValue($byName, name).mm_1;
     };
   }
   function BinaryContainer() {
     BinaryContainer_instance = this;
-    this.im_1 = 'SLBK1';
-    this.jm_1 = 10000;
-    this.km_1 = 512;
-    this.lm_1 = new Long(26214400, 0);
-    this.mm_1 = new Long(524288000, 0);
-    this.nm_1 = 32;
-    this.om_1 = 5;
+    this.nm_1 = 'SLBK1';
+    this.om_1 = 10000;
+    this.pm_1 = 512;
+    this.qm_1 = new Long(26214400, 0);
+    this.rm_1 = new Long(524288000, 0);
+    this.sm_1 = 32;
+    this.tm_1 = 5;
   }
-  protoOf(BinaryContainer).pm = function (magic, entries, limits, sink) {
+  protoOf(BinaryContainer).um = function (magic, entries, limits, sink) {
     // Inline function 'kotlin.collections.associateBy' call
     var capacity = coerceAtLeast(mapCapacity(collectionSizeOrDefault(entries, 10)), 16);
     // Inline function 'kotlin.collections.associateByTo' call
@@ -675,7 +675,7 @@
     var _iterator__ex2g4s = entries.g();
     while (_iterator__ex2g4s.h()) {
       var element = _iterator__ex2g4s.i();
-      var tmp$ret$2 = element.gm_1;
+      var tmp$ret$2 = element.lm_1;
       destination.w1(tmp$ret$2, element);
     }
     var byName = destination;
@@ -688,31 +688,31 @@
     var _iterator__ex2g4s_0 = entries.g();
     while (_iterator__ex2g4s_0.h()) {
       var item = _iterator__ex2g4s_0.i();
-      var tmp$ret$5 = item.gm_1;
+      var tmp$ret$5 = item.lm_1;
       destination_0.e(tmp$ret$5);
     }
     var tmp = destination_0;
-    this.qm(magic, tmp, limits, BinaryContainer$encode$lambda(byName), sink);
+    this.vm(magic, tmp, limits, BinaryContainer$encode$lambda(byName), sink);
   };
-  protoOf(BinaryContainer).rm = function (magic, entries, limits, sink, $super) {
+  protoOf(BinaryContainer).wm = function (magic, entries, limits, sink, $super) {
     limits = limits === VOID ? new Limits() : limits;
     var tmp;
     if ($super === VOID) {
-      this.pm(magic, entries, limits, sink);
+      this.um(magic, entries, limits, sink);
       tmp = Unit_instance;
     } else {
-      tmp = $super.pm.call(this, magic, entries, limits, sink);
+      tmp = $super.um.call(this, magic, entries, limits, sink);
     }
     return tmp;
   };
-  protoOf(BinaryContainer).qm = function (magic, names, limits, contentOf, sink) {
+  protoOf(BinaryContainer).vm = function (magic, names, limits, contentOf, sink) {
     // Inline function 'kotlin.require' call
     if (!(magic.length === 5)) {
       var message = 'Magic must be 5 ASCII chars.';
       throw IllegalArgumentException_init_$Create$(toString_0(message));
     }
-    if (names.k() > limits.cm_1) {
-      throw new ContainerFormatException('Too many entries: ' + names.k() + ' > ' + limits.cm_1 + '.');
+    if (names.k() > limits.hm_1) {
+      throw new ContainerFormatException('Too many entries: ' + names.k() + ' > ' + limits.hm_1 + '.');
     }
     // Inline function 'kotlin.collections.mutableSetOf' call
     var seen = LinkedHashSet_init_$Create$();
@@ -731,12 +731,12 @@
     while (_iterator__ex2g4s_0.h()) {
       var name_0 = _iterator__ex2g4s_0.i();
       var content = contentOf(name_0);
-      if (compare(fromInt(content.length), limits.em_1) > 0) {
-        throw new ContainerFormatException("Entry '" + name_0 + "' exceeds " + limits.em_1.toString() + ' bytes.');
+      if (compare(fromInt(content.length), limits.jm_1) > 0) {
+        throw new ContainerFormatException("Entry '" + name_0 + "' exceeds " + limits.jm_1.toString() + ' bytes.');
       }
       total = add(total, fromInt(content.length));
-      if (compare(total, limits.fm_1) > 0) {
-        throw new ContainerFormatException('Package exceeds ' + limits.fm_1.toString() + ' bytes.');
+      if (compare(total, limits.km_1) > 0) {
+        throw new ContainerFormatException('Package exceeds ' + limits.km_1.toString() + ' bytes.');
       }
       var nameBytes = encodeToByteArray(name_0);
       sink(uInt32(this, fromInt(nameBytes.length)));
@@ -806,11 +806,11 @@
   }
   function CardId() {
     CardId_instance = this;
-    this.sm_1 = _ULong___init__impl__c78o9k(new Long(1410065408, 2));
-    this.tm_1 = _ULong___init__impl__c78o9k(new Long(1679616, 0));
-    this.um_1 = '0123456789abcdefghijklmnopqrstuvwxyz';
+    this.xm_1 = _ULong___init__impl__c78o9k(new Long(1410065408, 2));
+    this.ym_1 = _ULong___init__impl__c78o9k(new Long(1679616, 0));
+    this.zm_1 = '0123456789abcdefghijklmnopqrstuvwxyz';
   }
-  protoOf(CardId).vm = function (key, salt) {
+  protoOf(CardId).an = function (key, salt) {
     // Inline function 'kotlin.Char' call
     var tmp;
     // Inline function 'kotlin.code' call
@@ -840,7 +840,7 @@
     var suffix = padStart(base36(this, tmp$ret$4), 4, _Char___init__impl__6a9atx(48));
     return 'word-' + digits + '-' + suffix;
   };
-  protoOf(CardId).wm = function (deckId) {
+  protoOf(CardId).bn = function (deckId) {
     var hash = sha256(encodeToByteArray(deckId));
     var value = 0;
     var inductionVariable = 0;
@@ -874,7 +874,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.xm_1 = [null, null, null, null, null, null, null, tmp_1, null, null, lazy(tmp_2, WordSnapEntry$Companion$$childSerializers$_anonymous__u4ivsk_0)];
+    tmp.cn_1 = [null, null, null, null, null, null, null, tmp_1, null, null, lazy(tmp_2, WordSnapEntry$Companion$$childSerializers$_anonymous__u4ivsk_0)];
   }
   var Companion_instance_1;
   function Companion_getInstance_1() {
@@ -885,55 +885,55 @@
   function $serializer_1() {
     $serializer_instance_1 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.WordSnapEntry', this, 11);
-    tmp0_serialDesc.zi('id', false);
-    tmp0_serialDesc.zi('word', false);
-    tmp0_serialDesc.zi('language', false);
-    tmp0_serialDesc.zi('createdAtEpochMs', false);
-    tmp0_serialDesc.zi('isFavorite', true);
-    tmp0_serialDesc.zi('hasImage', true);
-    tmp0_serialDesc.zi('hasCutout', true);
-    tmp0_serialDesc.zi('translations', true);
-    tmp0_serialDesc.zi('glossLanguage', true);
-    tmp0_serialDesc.zi('glossVerified', true);
-    tmp0_serialDesc.zi('translationMeta', true);
-    this.ym_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('id', false);
+    tmp0_serialDesc.ej('word', false);
+    tmp0_serialDesc.ej('language', false);
+    tmp0_serialDesc.ej('createdAtEpochMs', false);
+    tmp0_serialDesc.ej('isFavorite', true);
+    tmp0_serialDesc.ej('hasImage', true);
+    tmp0_serialDesc.ej('hasCutout', true);
+    tmp0_serialDesc.ej('translations', true);
+    tmp0_serialDesc.ej('glossLanguage', true);
+    tmp0_serialDesc.ej('glossVerified', true);
+    tmp0_serialDesc.ej('translationMeta', true);
+    this.dn_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_1).zm = function (encoder, value) {
-    var tmp0_desc = this.ym_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    var tmp2_cached = Companion_getInstance_1().xm_1;
-    tmp1_output.of(tmp0_desc, 0, value.an_1);
-    tmp1_output.pf(tmp0_desc, 1, $serializer_getInstance_2(), value.bn_1);
-    tmp1_output.of(tmp0_desc, 2, value.cn_1);
-    tmp1_output.nf(tmp0_desc, 3, value.dn_1);
-    if (tmp1_output.vf(tmp0_desc, 4) ? true : !(value.en_1 === false)) {
-      tmp1_output.lf(tmp0_desc, 4, value.en_1);
+  protoOf($serializer_1).en = function (encoder, value) {
+    var tmp0_desc = this.dn_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    var tmp2_cached = Companion_getInstance_1().cn_1;
+    tmp1_output.tf(tmp0_desc, 0, value.fn_1);
+    tmp1_output.uf(tmp0_desc, 1, $serializer_getInstance_2(), value.gn_1);
+    tmp1_output.tf(tmp0_desc, 2, value.hn_1);
+    tmp1_output.sf(tmp0_desc, 3, value.in_1);
+    if (tmp1_output.ag(tmp0_desc, 4) ? true : !(value.jn_1 === false)) {
+      tmp1_output.qf(tmp0_desc, 4, value.jn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 5) ? true : !(value.fn_1 === false)) {
-      tmp1_output.lf(tmp0_desc, 5, value.fn_1);
+    if (tmp1_output.ag(tmp0_desc, 5) ? true : !(value.kn_1 === false)) {
+      tmp1_output.qf(tmp0_desc, 5, value.kn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 6) ? true : !(value.gn_1 === false)) {
-      tmp1_output.lf(tmp0_desc, 6, value.gn_1);
+    if (tmp1_output.ag(tmp0_desc, 6) ? true : !(value.ln_1 === false)) {
+      tmp1_output.qf(tmp0_desc, 6, value.ln_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 7) ? true : !equals(value.hn_1, emptyMap())) {
-      tmp1_output.pf(tmp0_desc, 7, tmp2_cached[7].p1(), value.hn_1);
+    if (tmp1_output.ag(tmp0_desc, 7) ? true : !equals(value.mn_1, emptyMap())) {
+      tmp1_output.uf(tmp0_desc, 7, tmp2_cached[7].p1(), value.mn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 8) ? true : !(value.in_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 8, StringSerializer_getInstance(), value.in_1);
+    if (tmp1_output.ag(tmp0_desc, 8) ? true : !(value.nn_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 8, StringSerializer_getInstance(), value.nn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 9) ? true : !(value.jn_1 === false)) {
-      tmp1_output.lf(tmp0_desc, 9, value.jn_1);
+    if (tmp1_output.ag(tmp0_desc, 9) ? true : !(value.on_1 === false)) {
+      tmp1_output.qf(tmp0_desc, 9, value.on_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 10) ? true : !equals(value.kn_1, emptyMap())) {
-      tmp1_output.pf(tmp0_desc, 10, tmp2_cached[10].p1(), value.kn_1);
+    if (tmp1_output.ag(tmp0_desc, 10) ? true : !equals(value.pn_1, emptyMap())) {
+      tmp1_output.uf(tmp0_desc, 10, tmp2_cached[10].p1(), value.pn_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_1).id = function (encoder, value) {
-    return this.zm(encoder, value instanceof WordSnapEntry ? value : THROW_CCE());
+  protoOf($serializer_1).nd = function (encoder, value) {
+    return this.en(encoder, value instanceof WordSnapEntry ? value : THROW_CCE());
   };
-  protoOf($serializer_1).jd = function (decoder) {
-    var tmp0_desc = this.ym_1;
+  protoOf($serializer_1).od = function (decoder) {
+    var tmp0_desc = this.dn_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
@@ -948,94 +948,94 @@
     var tmp12_local8 = null;
     var tmp13_local9 = false;
     var tmp14_local10 = null;
-    var tmp15_input = decoder.re(tmp0_desc);
-    var tmp16_cached = Companion_getInstance_1().xm_1;
-    if (tmp15_input.bf()) {
-      tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+    var tmp15_input = decoder.we(tmp0_desc);
+    var tmp16_cached = Companion_getInstance_1().cn_1;
+    if (tmp15_input.gf()) {
+      tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp15_input.xe(tmp0_desc, 1, $serializer_getInstance_2(), tmp5_local1);
+      tmp5_local1 = tmp15_input.cf(tmp0_desc, 1, $serializer_getInstance_2(), tmp5_local1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp15_input.we(tmp0_desc, 2);
+      tmp6_local2 = tmp15_input.bf(tmp0_desc, 2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
-      tmp7_local3 = tmp15_input.ve(tmp0_desc, 3);
+      tmp7_local3 = tmp15_input.af(tmp0_desc, 3);
       tmp3_bitMask0 = tmp3_bitMask0 | 8;
-      tmp8_local4 = tmp15_input.te(tmp0_desc, 4);
+      tmp8_local4 = tmp15_input.ye(tmp0_desc, 4);
       tmp3_bitMask0 = tmp3_bitMask0 | 16;
-      tmp9_local5 = tmp15_input.te(tmp0_desc, 5);
+      tmp9_local5 = tmp15_input.ye(tmp0_desc, 5);
       tmp3_bitMask0 = tmp3_bitMask0 | 32;
-      tmp10_local6 = tmp15_input.te(tmp0_desc, 6);
+      tmp10_local6 = tmp15_input.ye(tmp0_desc, 6);
       tmp3_bitMask0 = tmp3_bitMask0 | 64;
-      tmp11_local7 = tmp15_input.xe(tmp0_desc, 7, tmp16_cached[7].p1(), tmp11_local7);
+      tmp11_local7 = tmp15_input.cf(tmp0_desc, 7, tmp16_cached[7].p1(), tmp11_local7);
       tmp3_bitMask0 = tmp3_bitMask0 | 128;
-      tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+      tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
       tmp3_bitMask0 = tmp3_bitMask0 | 256;
-      tmp13_local9 = tmp15_input.te(tmp0_desc, 9);
+      tmp13_local9 = tmp15_input.ye(tmp0_desc, 9);
       tmp3_bitMask0 = tmp3_bitMask0 | 512;
-      tmp14_local10 = tmp15_input.xe(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
+      tmp14_local10 = tmp15_input.cf(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
       tmp3_bitMask0 = tmp3_bitMask0 | 1024;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp15_input.cf(tmp0_desc);
+        tmp2_index = tmp15_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+            tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp15_input.xe(tmp0_desc, 1, $serializer_getInstance_2(), tmp5_local1);
+            tmp5_local1 = tmp15_input.cf(tmp0_desc, 1, $serializer_getInstance_2(), tmp5_local1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp15_input.we(tmp0_desc, 2);
+            tmp6_local2 = tmp15_input.bf(tmp0_desc, 2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           case 3:
-            tmp7_local3 = tmp15_input.ve(tmp0_desc, 3);
+            tmp7_local3 = tmp15_input.af(tmp0_desc, 3);
             tmp3_bitMask0 = tmp3_bitMask0 | 8;
             break;
           case 4:
-            tmp8_local4 = tmp15_input.te(tmp0_desc, 4);
+            tmp8_local4 = tmp15_input.ye(tmp0_desc, 4);
             tmp3_bitMask0 = tmp3_bitMask0 | 16;
             break;
           case 5:
-            tmp9_local5 = tmp15_input.te(tmp0_desc, 5);
+            tmp9_local5 = tmp15_input.ye(tmp0_desc, 5);
             tmp3_bitMask0 = tmp3_bitMask0 | 32;
             break;
           case 6:
-            tmp10_local6 = tmp15_input.te(tmp0_desc, 6);
+            tmp10_local6 = tmp15_input.ye(tmp0_desc, 6);
             tmp3_bitMask0 = tmp3_bitMask0 | 64;
             break;
           case 7:
-            tmp11_local7 = tmp15_input.xe(tmp0_desc, 7, tmp16_cached[7].p1(), tmp11_local7);
+            tmp11_local7 = tmp15_input.cf(tmp0_desc, 7, tmp16_cached[7].p1(), tmp11_local7);
             tmp3_bitMask0 = tmp3_bitMask0 | 128;
             break;
           case 8:
-            tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+            tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
             tmp3_bitMask0 = tmp3_bitMask0 | 256;
             break;
           case 9:
-            tmp13_local9 = tmp15_input.te(tmp0_desc, 9);
+            tmp13_local9 = tmp15_input.ye(tmp0_desc, 9);
             tmp3_bitMask0 = tmp3_bitMask0 | 512;
             break;
           case 10:
-            tmp14_local10 = tmp15_input.xe(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
+            tmp14_local10 = tmp15_input.cf(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
             tmp3_bitMask0 = tmp3_bitMask0 | 1024;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp15_input.se(tmp0_desc);
+    tmp15_input.xe(tmp0_desc);
     return WordSnapEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, tmp14_local10, null);
   };
-  protoOf($serializer_1).hd = function () {
-    return this.ym_1;
+  protoOf($serializer_1).md = function () {
+    return this.dn_1;
   };
-  protoOf($serializer_1).bj = function () {
-    var tmp0_cached = Companion_getInstance_1().xm_1;
+  protoOf($serializer_1).gj = function () {
+    var tmp0_cached = Companion_getInstance_1().cn_1;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -1049,40 +1049,40 @@
   }
   function WordSnapEntry_init_$Init$(seen0, id, word, language, createdAtEpochMs, isFavorite, hasImage, hasCutout, translations, glossLanguage, glossVerified, translationMeta, serializationConstructorMarker, $this) {
     if (!(15 === (15 & seen0))) {
-      throwMissingFieldException(seen0, 15, $serializer_getInstance_1().ym_1);
+      throwMissingFieldException(seen0, 15, $serializer_getInstance_1().dn_1);
     }
-    $this.an_1 = id;
-    $this.bn_1 = word;
-    $this.cn_1 = language;
-    $this.dn_1 = createdAtEpochMs;
+    $this.fn_1 = id;
+    $this.gn_1 = word;
+    $this.hn_1 = language;
+    $this.in_1 = createdAtEpochMs;
     if (0 === (seen0 & 16))
-      $this.en_1 = false;
-    else
-      $this.en_1 = isFavorite;
-    if (0 === (seen0 & 32))
-      $this.fn_1 = false;
-    else
-      $this.fn_1 = hasImage;
-    if (0 === (seen0 & 64))
-      $this.gn_1 = false;
-    else
-      $this.gn_1 = hasCutout;
-    if (0 === (seen0 & 128))
-      $this.hn_1 = emptyMap();
-    else
-      $this.hn_1 = translations;
-    if (0 === (seen0 & 256))
-      $this.in_1 = null;
-    else
-      $this.in_1 = glossLanguage;
-    if (0 === (seen0 & 512))
       $this.jn_1 = false;
     else
-      $this.jn_1 = glossVerified;
-    if (0 === (seen0 & 1024))
-      $this.kn_1 = emptyMap();
+      $this.jn_1 = isFavorite;
+    if (0 === (seen0 & 32))
+      $this.kn_1 = false;
     else
-      $this.kn_1 = translationMeta;
+      $this.kn_1 = hasImage;
+    if (0 === (seen0 & 64))
+      $this.ln_1 = false;
+    else
+      $this.ln_1 = hasCutout;
+    if (0 === (seen0 & 128))
+      $this.mn_1 = emptyMap();
+    else
+      $this.mn_1 = translations;
+    if (0 === (seen0 & 256))
+      $this.nn_1 = null;
+    else
+      $this.nn_1 = glossLanguage;
+    if (0 === (seen0 & 512))
+      $this.on_1 = false;
+    else
+      $this.on_1 = glossVerified;
+    if (0 === (seen0 & 1024))
+      $this.pn_1 = emptyMap();
+    else
+      $this.pn_1 = translationMeta;
     return $this;
   }
   function WordSnapEntry_init_$Create$(seen0, id, word, language, createdAtEpochMs, isFavorite, hasImage, hasCutout, translations, glossLanguage, glossVerified, translationMeta, serializationConstructorMarker) {
@@ -1097,33 +1097,33 @@
     glossLanguage = glossLanguage === VOID ? null : glossLanguage;
     glossVerified = glossVerified === VOID ? false : glossVerified;
     translationMeta = translationMeta === VOID ? emptyMap() : translationMeta;
-    this.an_1 = id;
-    this.bn_1 = word;
-    this.cn_1 = language;
-    this.dn_1 = createdAtEpochMs;
-    this.en_1 = isFavorite;
-    this.fn_1 = hasImage;
-    this.gn_1 = hasCutout;
-    this.hn_1 = translations;
-    this.in_1 = glossLanguage;
-    this.jn_1 = glossVerified;
-    this.kn_1 = translationMeta;
+    this.fn_1 = id;
+    this.gn_1 = word;
+    this.hn_1 = language;
+    this.in_1 = createdAtEpochMs;
+    this.jn_1 = isFavorite;
+    this.kn_1 = hasImage;
+    this.ln_1 = hasCutout;
+    this.mn_1 = translations;
+    this.nn_1 = glossLanguage;
+    this.on_1 = glossVerified;
+    this.pn_1 = translationMeta;
   }
   protoOf(WordSnapEntry).toString = function () {
-    return 'WordSnapEntry(id=' + this.an_1 + ', word=' + this.bn_1.toString() + ', language=' + this.cn_1 + ', createdAtEpochMs=' + this.dn_1.toString() + ', isFavorite=' + this.en_1 + ', hasImage=' + this.fn_1 + ', hasCutout=' + this.gn_1 + ', translations=' + toString_0(this.hn_1) + ', glossLanguage=' + this.in_1 + ', glossVerified=' + this.jn_1 + ', translationMeta=' + toString_0(this.kn_1) + ')';
+    return 'WordSnapEntry(id=' + this.fn_1 + ', word=' + this.gn_1.toString() + ', language=' + this.hn_1 + ', createdAtEpochMs=' + this.in_1.toString() + ', isFavorite=' + this.jn_1 + ', hasImage=' + this.kn_1 + ', hasCutout=' + this.ln_1 + ', translations=' + toString_0(this.mn_1) + ', glossLanguage=' + this.nn_1 + ', glossVerified=' + this.on_1 + ', translationMeta=' + toString_0(this.pn_1) + ')';
   };
   protoOf(WordSnapEntry).hashCode = function () {
-    var result = getStringHashCode(this.an_1);
-    result = imul(result, 31) + this.bn_1.hashCode() | 0;
-    result = imul(result, 31) + getStringHashCode(this.cn_1) | 0;
-    result = imul(result, 31) + this.dn_1.hashCode() | 0;
-    result = imul(result, 31) + getBooleanHashCode(this.en_1) | 0;
-    result = imul(result, 31) + getBooleanHashCode(this.fn_1) | 0;
-    result = imul(result, 31) + getBooleanHashCode(this.gn_1) | 0;
-    result = imul(result, 31) + hashCode(this.hn_1) | 0;
-    result = imul(result, 31) + (this.in_1 == null ? 0 : getStringHashCode(this.in_1)) | 0;
+    var result = getStringHashCode(this.fn_1);
+    result = imul(result, 31) + this.gn_1.hashCode() | 0;
+    result = imul(result, 31) + getStringHashCode(this.hn_1) | 0;
+    result = imul(result, 31) + this.in_1.hashCode() | 0;
     result = imul(result, 31) + getBooleanHashCode(this.jn_1) | 0;
-    result = imul(result, 31) + hashCode(this.kn_1) | 0;
+    result = imul(result, 31) + getBooleanHashCode(this.kn_1) | 0;
+    result = imul(result, 31) + getBooleanHashCode(this.ln_1) | 0;
+    result = imul(result, 31) + hashCode(this.mn_1) | 0;
+    result = imul(result, 31) + (this.nn_1 == null ? 0 : getStringHashCode(this.nn_1)) | 0;
+    result = imul(result, 31) + getBooleanHashCode(this.on_1) | 0;
+    result = imul(result, 31) + hashCode(this.pn_1) | 0;
     return result;
   };
   protoOf(WordSnapEntry).equals = function (other) {
@@ -1131,27 +1131,27 @@
       return true;
     if (!(other instanceof WordSnapEntry))
       return false;
-    if (!(this.an_1 === other.an_1))
-      return false;
-    if (!this.bn_1.equals(other.bn_1))
-      return false;
-    if (!(this.cn_1 === other.cn_1))
-      return false;
-    if (!equalsLong(this.dn_1, other.dn_1))
-      return false;
-    if (!(this.en_1 === other.en_1))
-      return false;
     if (!(this.fn_1 === other.fn_1))
       return false;
-    if (!(this.gn_1 === other.gn_1))
+    if (!this.gn_1.equals(other.gn_1))
       return false;
-    if (!equals(this.hn_1, other.hn_1))
+    if (!(this.hn_1 === other.hn_1))
       return false;
-    if (!(this.in_1 == other.in_1))
+    if (!equalsLong(this.in_1, other.in_1))
       return false;
     if (!(this.jn_1 === other.jn_1))
       return false;
-    if (!equals(this.kn_1, other.kn_1))
+    if (!(this.kn_1 === other.kn_1))
+      return false;
+    if (!(this.ln_1 === other.ln_1))
+      return false;
+    if (!equals(this.mn_1, other.mn_1))
+      return false;
+    if (!(this.nn_1 == other.nn_1))
+      return false;
+    if (!(this.on_1 === other.on_1))
+      return false;
+    if (!equals(this.pn_1, other.pn_1))
       return false;
     return true;
   };
@@ -1170,7 +1170,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.ln_1 = [null, null, null, null, tmp_1, null, null, null, null, null, lazy(tmp_2, WordEntry$Companion$$childSerializers$_anonymous__sa94bi_0)];
+    tmp.qn_1 = [null, null, null, null, tmp_1, null, null, null, null, null, lazy(tmp_2, WordEntry$Companion$$childSerializers$_anonymous__sa94bi_0)];
   }
   var Companion_instance_2;
   function Companion_getInstance_2() {
@@ -1181,57 +1181,57 @@
   function $serializer_2() {
     $serializer_instance_2 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.WordEntry', this, 11);
-    tmp0_serialDesc.zi('text', false);
-    tmp0_serialDesc.zi('translation', false);
-    tmp0_serialDesc.zi('phonetic', false);
-    tmp0_serialDesc.zi('partOfSpeech', true);
-    tmp0_serialDesc.zi('examples', true);
-    tmp0_serialDesc.zi('article', true);
-    tmp0_serialDesc.zi('gender', true);
-    tmp0_serialDesc.zi('plural', true);
-    tmp0_serialDesc.zi('romanization', true);
-    tmp0_serialDesc.zi('classifier', true);
-    tmp0_serialDesc.zi('components', true);
-    this.mn_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('text', false);
+    tmp0_serialDesc.ej('translation', false);
+    tmp0_serialDesc.ej('phonetic', false);
+    tmp0_serialDesc.ej('partOfSpeech', true);
+    tmp0_serialDesc.ej('examples', true);
+    tmp0_serialDesc.ej('article', true);
+    tmp0_serialDesc.ej('gender', true);
+    tmp0_serialDesc.ej('plural', true);
+    tmp0_serialDesc.ej('romanization', true);
+    tmp0_serialDesc.ej('classifier', true);
+    tmp0_serialDesc.ej('components', true);
+    this.rn_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_2).nn = function (encoder, value) {
-    var tmp0_desc = this.mn_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    var tmp2_cached = Companion_getInstance_2().ln_1;
-    tmp1_output.of(tmp0_desc, 0, value.on_1);
-    tmp1_output.of(tmp0_desc, 1, value.pn_1);
-    tmp1_output.of(tmp0_desc, 2, value.qn_1);
-    if (tmp1_output.vf(tmp0_desc, 3) ? true : !(value.rn_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 3, StringSerializer_getInstance(), value.rn_1);
+  protoOf($serializer_2).sn = function (encoder, value) {
+    var tmp0_desc = this.rn_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    var tmp2_cached = Companion_getInstance_2().qn_1;
+    tmp1_output.tf(tmp0_desc, 0, value.tn_1);
+    tmp1_output.tf(tmp0_desc, 1, value.un_1);
+    tmp1_output.tf(tmp0_desc, 2, value.vn_1);
+    if (tmp1_output.ag(tmp0_desc, 3) ? true : !(value.wn_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 3, StringSerializer_getInstance(), value.wn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 4) ? true : !equals(value.sn_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 4, tmp2_cached[4].p1(), value.sn_1);
+    if (tmp1_output.ag(tmp0_desc, 4) ? true : !equals(value.xn_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 4, tmp2_cached[4].p1(), value.xn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 5) ? true : !(value.tn_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 5, StringSerializer_getInstance(), value.tn_1);
+    if (tmp1_output.ag(tmp0_desc, 5) ? true : !(value.yn_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 5, StringSerializer_getInstance(), value.yn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 6) ? true : !(value.un_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 6, StringSerializer_getInstance(), value.un_1);
+    if (tmp1_output.ag(tmp0_desc, 6) ? true : !(value.zn_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 6, StringSerializer_getInstance(), value.zn_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 7) ? true : !(value.vn_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 7, StringSerializer_getInstance(), value.vn_1);
+    if (tmp1_output.ag(tmp0_desc, 7) ? true : !(value.ao_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 7, StringSerializer_getInstance(), value.ao_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 8) ? true : !(value.wn_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 8, StringSerializer_getInstance(), value.wn_1);
+    if (tmp1_output.ag(tmp0_desc, 8) ? true : !(value.bo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 8, StringSerializer_getInstance(), value.bo_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 9) ? true : !(value.xn_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 9, StringSerializer_getInstance(), value.xn_1);
+    if (tmp1_output.ag(tmp0_desc, 9) ? true : !(value.co_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 9, StringSerializer_getInstance(), value.co_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 10) ? true : !equals(value.yn_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 10, tmp2_cached[10].p1(), value.yn_1);
+    if (tmp1_output.ag(tmp0_desc, 10) ? true : !equals(value.do_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 10, tmp2_cached[10].p1(), value.do_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_2).id = function (encoder, value) {
-    return this.nn(encoder, value instanceof WordEntry ? value : THROW_CCE());
+  protoOf($serializer_2).nd = function (encoder, value) {
+    return this.sn(encoder, value instanceof WordEntry ? value : THROW_CCE());
   };
-  protoOf($serializer_2).jd = function (decoder) {
-    var tmp0_desc = this.mn_1;
+  protoOf($serializer_2).od = function (decoder) {
+    var tmp0_desc = this.rn_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
@@ -1246,94 +1246,94 @@
     var tmp12_local8 = null;
     var tmp13_local9 = null;
     var tmp14_local10 = null;
-    var tmp15_input = decoder.re(tmp0_desc);
-    var tmp16_cached = Companion_getInstance_2().ln_1;
-    if (tmp15_input.bf()) {
-      tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+    var tmp15_input = decoder.we(tmp0_desc);
+    var tmp16_cached = Companion_getInstance_2().qn_1;
+    if (tmp15_input.gf()) {
+      tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp15_input.we(tmp0_desc, 1);
+      tmp5_local1 = tmp15_input.bf(tmp0_desc, 1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp15_input.we(tmp0_desc, 2);
+      tmp6_local2 = tmp15_input.bf(tmp0_desc, 2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
-      tmp7_local3 = tmp15_input.ze(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
+      tmp7_local3 = tmp15_input.ef(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
       tmp3_bitMask0 = tmp3_bitMask0 | 8;
-      tmp8_local4 = tmp15_input.xe(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
+      tmp8_local4 = tmp15_input.cf(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
       tmp3_bitMask0 = tmp3_bitMask0 | 16;
-      tmp9_local5 = tmp15_input.ze(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
+      tmp9_local5 = tmp15_input.ef(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
       tmp3_bitMask0 = tmp3_bitMask0 | 32;
-      tmp10_local6 = tmp15_input.ze(tmp0_desc, 6, StringSerializer_getInstance(), tmp10_local6);
+      tmp10_local6 = tmp15_input.ef(tmp0_desc, 6, StringSerializer_getInstance(), tmp10_local6);
       tmp3_bitMask0 = tmp3_bitMask0 | 64;
-      tmp11_local7 = tmp15_input.ze(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
+      tmp11_local7 = tmp15_input.ef(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
       tmp3_bitMask0 = tmp3_bitMask0 | 128;
-      tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+      tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
       tmp3_bitMask0 = tmp3_bitMask0 | 256;
-      tmp13_local9 = tmp15_input.ze(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
+      tmp13_local9 = tmp15_input.ef(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
       tmp3_bitMask0 = tmp3_bitMask0 | 512;
-      tmp14_local10 = tmp15_input.xe(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
+      tmp14_local10 = tmp15_input.cf(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
       tmp3_bitMask0 = tmp3_bitMask0 | 1024;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp15_input.cf(tmp0_desc);
+        tmp2_index = tmp15_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+            tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp15_input.we(tmp0_desc, 1);
+            tmp5_local1 = tmp15_input.bf(tmp0_desc, 1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp15_input.we(tmp0_desc, 2);
+            tmp6_local2 = tmp15_input.bf(tmp0_desc, 2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           case 3:
-            tmp7_local3 = tmp15_input.ze(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
+            tmp7_local3 = tmp15_input.ef(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
             tmp3_bitMask0 = tmp3_bitMask0 | 8;
             break;
           case 4:
-            tmp8_local4 = tmp15_input.xe(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
+            tmp8_local4 = tmp15_input.cf(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
             tmp3_bitMask0 = tmp3_bitMask0 | 16;
             break;
           case 5:
-            tmp9_local5 = tmp15_input.ze(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
+            tmp9_local5 = tmp15_input.ef(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
             tmp3_bitMask0 = tmp3_bitMask0 | 32;
             break;
           case 6:
-            tmp10_local6 = tmp15_input.ze(tmp0_desc, 6, StringSerializer_getInstance(), tmp10_local6);
+            tmp10_local6 = tmp15_input.ef(tmp0_desc, 6, StringSerializer_getInstance(), tmp10_local6);
             tmp3_bitMask0 = tmp3_bitMask0 | 64;
             break;
           case 7:
-            tmp11_local7 = tmp15_input.ze(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
+            tmp11_local7 = tmp15_input.ef(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
             tmp3_bitMask0 = tmp3_bitMask0 | 128;
             break;
           case 8:
-            tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+            tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
             tmp3_bitMask0 = tmp3_bitMask0 | 256;
             break;
           case 9:
-            tmp13_local9 = tmp15_input.ze(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
+            tmp13_local9 = tmp15_input.ef(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
             tmp3_bitMask0 = tmp3_bitMask0 | 512;
             break;
           case 10:
-            tmp14_local10 = tmp15_input.xe(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
+            tmp14_local10 = tmp15_input.cf(tmp0_desc, 10, tmp16_cached[10].p1(), tmp14_local10);
             tmp3_bitMask0 = tmp3_bitMask0 | 1024;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp15_input.se(tmp0_desc);
+    tmp15_input.xe(tmp0_desc);
     return WordEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, tmp14_local10, null);
   };
-  protoOf($serializer_2).hd = function () {
-    return this.mn_1;
+  protoOf($serializer_2).md = function () {
+    return this.rn_1;
   };
-  protoOf($serializer_2).bj = function () {
-    var tmp0_cached = Companion_getInstance_2().ln_1;
+  protoOf($serializer_2).gj = function () {
+    var tmp0_cached = Companion_getInstance_2().qn_1;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -1347,43 +1347,43 @@
   }
   function WordEntry_init_$Init$(seen0, text, translation, phonetic, partOfSpeech, examples, article, gender, plural, romanization, classifier, components, serializationConstructorMarker, $this) {
     if (!(7 === (7 & seen0))) {
-      throwMissingFieldException(seen0, 7, $serializer_getInstance_2().mn_1);
+      throwMissingFieldException(seen0, 7, $serializer_getInstance_2().rn_1);
     }
-    $this.on_1 = text;
-    $this.pn_1 = translation;
-    $this.qn_1 = phonetic;
+    $this.tn_1 = text;
+    $this.un_1 = translation;
+    $this.vn_1 = phonetic;
     if (0 === (seen0 & 8))
-      $this.rn_1 = null;
-    else
-      $this.rn_1 = partOfSpeech;
-    if (0 === (seen0 & 16))
-      $this.sn_1 = emptyList();
-    else
-      $this.sn_1 = examples;
-    if (0 === (seen0 & 32))
-      $this.tn_1 = null;
-    else
-      $this.tn_1 = article;
-    if (0 === (seen0 & 64))
-      $this.un_1 = null;
-    else
-      $this.un_1 = gender;
-    if (0 === (seen0 & 128))
-      $this.vn_1 = null;
-    else
-      $this.vn_1 = plural;
-    if (0 === (seen0 & 256))
       $this.wn_1 = null;
     else
-      $this.wn_1 = romanization;
+      $this.wn_1 = partOfSpeech;
+    if (0 === (seen0 & 16))
+      $this.xn_1 = emptyList();
+    else
+      $this.xn_1 = examples;
+    if (0 === (seen0 & 32))
+      $this.yn_1 = null;
+    else
+      $this.yn_1 = article;
+    if (0 === (seen0 & 64))
+      $this.zn_1 = null;
+    else
+      $this.zn_1 = gender;
+    if (0 === (seen0 & 128))
+      $this.ao_1 = null;
+    else
+      $this.ao_1 = plural;
+    if (0 === (seen0 & 256))
+      $this.bo_1 = null;
+    else
+      $this.bo_1 = romanization;
     if (0 === (seen0 & 512))
-      $this.xn_1 = null;
+      $this.co_1 = null;
     else
-      $this.xn_1 = classifier;
+      $this.co_1 = classifier;
     if (0 === (seen0 & 1024))
-      $this.yn_1 = emptyList();
+      $this.do_1 = emptyList();
     else
-      $this.yn_1 = components;
+      $this.do_1 = components;
     return $this;
   }
   function WordEntry_init_$Create$(seen0, text, translation, phonetic, partOfSpeech, examples, article, gender, plural, romanization, classifier, components, serializationConstructorMarker) {
@@ -1399,33 +1399,33 @@
     romanization = romanization === VOID ? null : romanization;
     classifier = classifier === VOID ? null : classifier;
     components = components === VOID ? emptyList() : components;
-    this.on_1 = text;
-    this.pn_1 = translation;
-    this.qn_1 = phonetic;
-    this.rn_1 = partOfSpeech;
-    this.sn_1 = examples;
-    this.tn_1 = article;
-    this.un_1 = gender;
-    this.vn_1 = plural;
-    this.wn_1 = romanization;
-    this.xn_1 = classifier;
-    this.yn_1 = components;
+    this.tn_1 = text;
+    this.un_1 = translation;
+    this.vn_1 = phonetic;
+    this.wn_1 = partOfSpeech;
+    this.xn_1 = examples;
+    this.yn_1 = article;
+    this.zn_1 = gender;
+    this.ao_1 = plural;
+    this.bo_1 = romanization;
+    this.co_1 = classifier;
+    this.do_1 = components;
   }
   protoOf(WordEntry).toString = function () {
-    return 'WordEntry(text=' + this.on_1 + ', translation=' + this.pn_1 + ', phonetic=' + this.qn_1 + ', partOfSpeech=' + this.rn_1 + ', examples=' + toString_0(this.sn_1) + ', article=' + this.tn_1 + ', gender=' + this.un_1 + ', plural=' + this.vn_1 + ', romanization=' + this.wn_1 + ', classifier=' + this.xn_1 + ', components=' + toString_0(this.yn_1) + ')';
+    return 'WordEntry(text=' + this.tn_1 + ', translation=' + this.un_1 + ', phonetic=' + this.vn_1 + ', partOfSpeech=' + this.wn_1 + ', examples=' + toString_0(this.xn_1) + ', article=' + this.yn_1 + ', gender=' + this.zn_1 + ', plural=' + this.ao_1 + ', romanization=' + this.bo_1 + ', classifier=' + this.co_1 + ', components=' + toString_0(this.do_1) + ')';
   };
   protoOf(WordEntry).hashCode = function () {
-    var result = getStringHashCode(this.on_1);
-    result = imul(result, 31) + getStringHashCode(this.pn_1) | 0;
-    result = imul(result, 31) + getStringHashCode(this.qn_1) | 0;
-    result = imul(result, 31) + (this.rn_1 == null ? 0 : getStringHashCode(this.rn_1)) | 0;
-    result = imul(result, 31) + hashCode(this.sn_1) | 0;
-    result = imul(result, 31) + (this.tn_1 == null ? 0 : getStringHashCode(this.tn_1)) | 0;
-    result = imul(result, 31) + (this.un_1 == null ? 0 : getStringHashCode(this.un_1)) | 0;
-    result = imul(result, 31) + (this.vn_1 == null ? 0 : getStringHashCode(this.vn_1)) | 0;
+    var result = getStringHashCode(this.tn_1);
+    result = imul(result, 31) + getStringHashCode(this.un_1) | 0;
+    result = imul(result, 31) + getStringHashCode(this.vn_1) | 0;
     result = imul(result, 31) + (this.wn_1 == null ? 0 : getStringHashCode(this.wn_1)) | 0;
-    result = imul(result, 31) + (this.xn_1 == null ? 0 : getStringHashCode(this.xn_1)) | 0;
-    result = imul(result, 31) + hashCode(this.yn_1) | 0;
+    result = imul(result, 31) + hashCode(this.xn_1) | 0;
+    result = imul(result, 31) + (this.yn_1 == null ? 0 : getStringHashCode(this.yn_1)) | 0;
+    result = imul(result, 31) + (this.zn_1 == null ? 0 : getStringHashCode(this.zn_1)) | 0;
+    result = imul(result, 31) + (this.ao_1 == null ? 0 : getStringHashCode(this.ao_1)) | 0;
+    result = imul(result, 31) + (this.bo_1 == null ? 0 : getStringHashCode(this.bo_1)) | 0;
+    result = imul(result, 31) + (this.co_1 == null ? 0 : getStringHashCode(this.co_1)) | 0;
+    result = imul(result, 31) + hashCode(this.do_1) | 0;
     return result;
   };
   protoOf(WordEntry).equals = function (other) {
@@ -1433,27 +1433,27 @@
       return true;
     if (!(other instanceof WordEntry))
       return false;
-    if (!(this.on_1 === other.on_1))
+    if (!(this.tn_1 === other.tn_1))
       return false;
-    if (!(this.pn_1 === other.pn_1))
+    if (!(this.un_1 === other.un_1))
       return false;
-    if (!(this.qn_1 === other.qn_1))
-      return false;
-    if (!(this.rn_1 == other.rn_1))
-      return false;
-    if (!equals(this.sn_1, other.sn_1))
-      return false;
-    if (!(this.tn_1 == other.tn_1))
-      return false;
-    if (!(this.un_1 == other.un_1))
-      return false;
-    if (!(this.vn_1 == other.vn_1))
+    if (!(this.vn_1 === other.vn_1))
       return false;
     if (!(this.wn_1 == other.wn_1))
       return false;
-    if (!(this.xn_1 == other.xn_1))
+    if (!equals(this.xn_1, other.xn_1))
       return false;
-    if (!equals(this.yn_1, other.yn_1))
+    if (!(this.yn_1 == other.yn_1))
+      return false;
+    if (!(this.zn_1 == other.zn_1))
+      return false;
+    if (!(this.ao_1 == other.ao_1))
+      return false;
+    if (!(this.bo_1 == other.bo_1))
+      return false;
+    if (!(this.co_1 == other.co_1))
+      return false;
+    if (!equals(this.do_1, other.do_1))
       return false;
     return true;
   };
@@ -1467,7 +1467,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.zn_1 = [null, null, lazy(tmp_0, WordExampleEntry$Companion$$childSerializers$_anonymous__ixk3l4)];
+    tmp.eo_1 = [null, null, lazy(tmp_0, WordExampleEntry$Companion$$childSerializers$_anonymous__ixk3l4)];
   }
   var Companion_instance_3;
   function Companion_getInstance_3() {
@@ -1478,73 +1478,73 @@
   function $serializer_3() {
     $serializer_instance_3 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.WordExampleEntry', this, 3);
-    tmp0_serialDesc.zi('source', false);
-    tmp0_serialDesc.zi('target', false);
-    tmp0_serialDesc.zi('tokens', true);
-    this.ao_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('source', false);
+    tmp0_serialDesc.ej('target', false);
+    tmp0_serialDesc.ej('tokens', true);
+    this.fo_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_3).bo = function (encoder, value) {
-    var tmp0_desc = this.ao_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    var tmp2_cached = Companion_getInstance_3().zn_1;
-    tmp1_output.of(tmp0_desc, 0, value.co_1);
-    tmp1_output.of(tmp0_desc, 1, value.do_1);
-    if (tmp1_output.vf(tmp0_desc, 2) ? true : !equals(value.eo_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 2, tmp2_cached[2].p1(), value.eo_1);
+  protoOf($serializer_3).go = function (encoder, value) {
+    var tmp0_desc = this.fo_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    var tmp2_cached = Companion_getInstance_3().eo_1;
+    tmp1_output.tf(tmp0_desc, 0, value.ho_1);
+    tmp1_output.tf(tmp0_desc, 1, value.io_1);
+    if (tmp1_output.ag(tmp0_desc, 2) ? true : !equals(value.jo_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 2, tmp2_cached[2].p1(), value.jo_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_3).id = function (encoder, value) {
-    return this.bo(encoder, value instanceof WordExampleEntry ? value : THROW_CCE());
+  protoOf($serializer_3).nd = function (encoder, value) {
+    return this.go(encoder, value instanceof WordExampleEntry ? value : THROW_CCE());
   };
-  protoOf($serializer_3).jd = function (decoder) {
-    var tmp0_desc = this.ao_1;
+  protoOf($serializer_3).od = function (decoder) {
+    var tmp0_desc = this.fo_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
     var tmp4_local0 = null;
     var tmp5_local1 = null;
     var tmp6_local2 = null;
-    var tmp7_input = decoder.re(tmp0_desc);
-    var tmp8_cached = Companion_getInstance_3().zn_1;
-    if (tmp7_input.bf()) {
-      tmp4_local0 = tmp7_input.we(tmp0_desc, 0);
+    var tmp7_input = decoder.we(tmp0_desc);
+    var tmp8_cached = Companion_getInstance_3().eo_1;
+    if (tmp7_input.gf()) {
+      tmp4_local0 = tmp7_input.bf(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp7_input.we(tmp0_desc, 1);
+      tmp5_local1 = tmp7_input.bf(tmp0_desc, 1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp7_input.xe(tmp0_desc, 2, tmp8_cached[2].p1(), tmp6_local2);
+      tmp6_local2 = tmp7_input.cf(tmp0_desc, 2, tmp8_cached[2].p1(), tmp6_local2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp7_input.cf(tmp0_desc);
+        tmp2_index = tmp7_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp7_input.we(tmp0_desc, 0);
+            tmp4_local0 = tmp7_input.bf(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp7_input.we(tmp0_desc, 1);
+            tmp5_local1 = tmp7_input.bf(tmp0_desc, 1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp7_input.xe(tmp0_desc, 2, tmp8_cached[2].p1(), tmp6_local2);
+            tmp6_local2 = tmp7_input.cf(tmp0_desc, 2, tmp8_cached[2].p1(), tmp6_local2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp7_input.se(tmp0_desc);
+    tmp7_input.xe(tmp0_desc);
     return WordExampleEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
   };
-  protoOf($serializer_3).hd = function () {
-    return this.ao_1;
+  protoOf($serializer_3).md = function () {
+    return this.fo_1;
   };
-  protoOf($serializer_3).bj = function () {
-    var tmp0_cached = Companion_getInstance_3().zn_1;
+  protoOf($serializer_3).gj = function () {
+    var tmp0_cached = Companion_getInstance_3().eo_1;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -1558,14 +1558,14 @@
   }
   function WordExampleEntry_init_$Init$(seen0, source, target, tokens, serializationConstructorMarker, $this) {
     if (!(3 === (3 & seen0))) {
-      throwMissingFieldException(seen0, 3, $serializer_getInstance_3().ao_1);
+      throwMissingFieldException(seen0, 3, $serializer_getInstance_3().fo_1);
     }
-    $this.co_1 = source;
-    $this.do_1 = target;
+    $this.ho_1 = source;
+    $this.io_1 = target;
     if (0 === (seen0 & 4))
-      $this.eo_1 = emptyList();
+      $this.jo_1 = emptyList();
     else
-      $this.eo_1 = tokens;
+      $this.jo_1 = tokens;
     return $this;
   }
   function WordExampleEntry_init_$Create$(seen0, source, target, tokens, serializationConstructorMarker) {
@@ -1574,17 +1574,17 @@
   function WordExampleEntry(source, target, tokens) {
     Companion_getInstance_3();
     tokens = tokens === VOID ? emptyList() : tokens;
-    this.co_1 = source;
-    this.do_1 = target;
-    this.eo_1 = tokens;
+    this.ho_1 = source;
+    this.io_1 = target;
+    this.jo_1 = tokens;
   }
   protoOf(WordExampleEntry).toString = function () {
-    return 'WordExampleEntry(source=' + this.co_1 + ', target=' + this.do_1 + ', tokens=' + toString_0(this.eo_1) + ')';
+    return 'WordExampleEntry(source=' + this.ho_1 + ', target=' + this.io_1 + ', tokens=' + toString_0(this.jo_1) + ')';
   };
   protoOf(WordExampleEntry).hashCode = function () {
-    var result = getStringHashCode(this.co_1);
-    result = imul(result, 31) + getStringHashCode(this.do_1) | 0;
-    result = imul(result, 31) + hashCode(this.eo_1) | 0;
+    var result = getStringHashCode(this.ho_1);
+    result = imul(result, 31) + getStringHashCode(this.io_1) | 0;
+    result = imul(result, 31) + hashCode(this.jo_1) | 0;
     return result;
   };
   protoOf(WordExampleEntry).equals = function (other) {
@@ -1592,11 +1592,11 @@
       return true;
     if (!(other instanceof WordExampleEntry))
       return false;
-    if (!(this.co_1 === other.co_1))
+    if (!(this.ho_1 === other.ho_1))
       return false;
-    if (!(this.do_1 === other.do_1))
+    if (!(this.io_1 === other.io_1))
       return false;
-    if (!equals(this.eo_1, other.eo_1))
+    if (!equals(this.jo_1, other.jo_1))
       return false;
     return true;
   };
@@ -1615,7 +1615,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.fo_1 = [null, null, null, null, tmp_1, null, lazy(tmp_2, WordExampleTokenEntry$Companion$$childSerializers$_anonymous__ibkw9d_0), null, null, null, null];
+    tmp.ko_1 = [null, null, null, null, tmp_1, null, lazy(tmp_2, WordExampleTokenEntry$Companion$$childSerializers$_anonymous__ibkw9d_0), null, null, null, null];
   }
   var Companion_instance_4;
   function Companion_getInstance_4() {
@@ -1626,57 +1626,57 @@
   function $serializer_4() {
     $serializer_instance_4 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.WordExampleTokenEntry', this, 11);
-    tmp0_serialDesc.zi('text', false);
-    tmp0_serialDesc.zi('start', false);
-    tmp0_serialDesc.zi('end', false);
-    tmp0_serialDesc.zi('lemma', true);
-    tmp0_serialDesc.zi('meanings', true);
-    tmp0_serialDesc.zi('partOfSpeech', true);
-    tmp0_serialDesc.zi('grammarCodes', true);
-    tmp0_serialDesc.zi('article', true);
-    tmp0_serialDesc.zi('gender', true);
-    tmp0_serialDesc.zi('plural', true);
-    tmp0_serialDesc.zi('romanization', true);
-    this.go_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('text', false);
+    tmp0_serialDesc.ej('start', false);
+    tmp0_serialDesc.ej('end', false);
+    tmp0_serialDesc.ej('lemma', true);
+    tmp0_serialDesc.ej('meanings', true);
+    tmp0_serialDesc.ej('partOfSpeech', true);
+    tmp0_serialDesc.ej('grammarCodes', true);
+    tmp0_serialDesc.ej('article', true);
+    tmp0_serialDesc.ej('gender', true);
+    tmp0_serialDesc.ej('plural', true);
+    tmp0_serialDesc.ej('romanization', true);
+    this.lo_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_4).ho = function (encoder, value) {
-    var tmp0_desc = this.go_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    var tmp2_cached = Companion_getInstance_4().fo_1;
-    tmp1_output.of(tmp0_desc, 0, value.io_1);
-    tmp1_output.mf(tmp0_desc, 1, value.jo_1);
-    tmp1_output.mf(tmp0_desc, 2, value.ko_1);
-    if (tmp1_output.vf(tmp0_desc, 3) ? true : !(value.lo_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 3, StringSerializer_getInstance(), value.lo_1);
+  protoOf($serializer_4).mo = function (encoder, value) {
+    var tmp0_desc = this.lo_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    var tmp2_cached = Companion_getInstance_4().ko_1;
+    tmp1_output.tf(tmp0_desc, 0, value.no_1);
+    tmp1_output.rf(tmp0_desc, 1, value.oo_1);
+    tmp1_output.rf(tmp0_desc, 2, value.po_1);
+    if (tmp1_output.ag(tmp0_desc, 3) ? true : !(value.qo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 3, StringSerializer_getInstance(), value.qo_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 4) ? true : !equals(value.mo_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 4, tmp2_cached[4].p1(), value.mo_1);
+    if (tmp1_output.ag(tmp0_desc, 4) ? true : !equals(value.ro_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 4, tmp2_cached[4].p1(), value.ro_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 5) ? true : !(value.no_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 5, StringSerializer_getInstance(), value.no_1);
+    if (tmp1_output.ag(tmp0_desc, 5) ? true : !(value.so_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 5, StringSerializer_getInstance(), value.so_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 6) ? true : !equals(value.oo_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 6, tmp2_cached[6].p1(), value.oo_1);
+    if (tmp1_output.ag(tmp0_desc, 6) ? true : !equals(value.to_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 6, tmp2_cached[6].p1(), value.to_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 7) ? true : !(value.po_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 7, StringSerializer_getInstance(), value.po_1);
+    if (tmp1_output.ag(tmp0_desc, 7) ? true : !(value.uo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 7, StringSerializer_getInstance(), value.uo_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 8) ? true : !(value.qo_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 8, StringSerializer_getInstance(), value.qo_1);
+    if (tmp1_output.ag(tmp0_desc, 8) ? true : !(value.vo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 8, StringSerializer_getInstance(), value.vo_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 9) ? true : !(value.ro_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 9, StringSerializer_getInstance(), value.ro_1);
+    if (tmp1_output.ag(tmp0_desc, 9) ? true : !(value.wo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 9, StringSerializer_getInstance(), value.wo_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 10) ? true : !(value.so_1 == null)) {
-      tmp1_output.rf(tmp0_desc, 10, StringSerializer_getInstance(), value.so_1);
+    if (tmp1_output.ag(tmp0_desc, 10) ? true : !(value.xo_1 == null)) {
+      tmp1_output.wf(tmp0_desc, 10, StringSerializer_getInstance(), value.xo_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_4).id = function (encoder, value) {
-    return this.ho(encoder, value instanceof WordExampleTokenEntry ? value : THROW_CCE());
+  protoOf($serializer_4).nd = function (encoder, value) {
+    return this.mo(encoder, value instanceof WordExampleTokenEntry ? value : THROW_CCE());
   };
-  protoOf($serializer_4).jd = function (decoder) {
-    var tmp0_desc = this.go_1;
+  protoOf($serializer_4).od = function (decoder) {
+    var tmp0_desc = this.lo_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
@@ -1691,94 +1691,94 @@
     var tmp12_local8 = null;
     var tmp13_local9 = null;
     var tmp14_local10 = null;
-    var tmp15_input = decoder.re(tmp0_desc);
-    var tmp16_cached = Companion_getInstance_4().fo_1;
-    if (tmp15_input.bf()) {
-      tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+    var tmp15_input = decoder.we(tmp0_desc);
+    var tmp16_cached = Companion_getInstance_4().ko_1;
+    if (tmp15_input.gf()) {
+      tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp15_input.ue(tmp0_desc, 1);
+      tmp5_local1 = tmp15_input.ze(tmp0_desc, 1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp15_input.ue(tmp0_desc, 2);
+      tmp6_local2 = tmp15_input.ze(tmp0_desc, 2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
-      tmp7_local3 = tmp15_input.ze(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
+      tmp7_local3 = tmp15_input.ef(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
       tmp3_bitMask0 = tmp3_bitMask0 | 8;
-      tmp8_local4 = tmp15_input.xe(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
+      tmp8_local4 = tmp15_input.cf(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
       tmp3_bitMask0 = tmp3_bitMask0 | 16;
-      tmp9_local5 = tmp15_input.ze(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
+      tmp9_local5 = tmp15_input.ef(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
       tmp3_bitMask0 = tmp3_bitMask0 | 32;
-      tmp10_local6 = tmp15_input.xe(tmp0_desc, 6, tmp16_cached[6].p1(), tmp10_local6);
+      tmp10_local6 = tmp15_input.cf(tmp0_desc, 6, tmp16_cached[6].p1(), tmp10_local6);
       tmp3_bitMask0 = tmp3_bitMask0 | 64;
-      tmp11_local7 = tmp15_input.ze(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
+      tmp11_local7 = tmp15_input.ef(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
       tmp3_bitMask0 = tmp3_bitMask0 | 128;
-      tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+      tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
       tmp3_bitMask0 = tmp3_bitMask0 | 256;
-      tmp13_local9 = tmp15_input.ze(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
+      tmp13_local9 = tmp15_input.ef(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
       tmp3_bitMask0 = tmp3_bitMask0 | 512;
-      tmp14_local10 = tmp15_input.ze(tmp0_desc, 10, StringSerializer_getInstance(), tmp14_local10);
+      tmp14_local10 = tmp15_input.ef(tmp0_desc, 10, StringSerializer_getInstance(), tmp14_local10);
       tmp3_bitMask0 = tmp3_bitMask0 | 1024;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp15_input.cf(tmp0_desc);
+        tmp2_index = tmp15_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp15_input.we(tmp0_desc, 0);
+            tmp4_local0 = tmp15_input.bf(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp15_input.ue(tmp0_desc, 1);
+            tmp5_local1 = tmp15_input.ze(tmp0_desc, 1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp15_input.ue(tmp0_desc, 2);
+            tmp6_local2 = tmp15_input.ze(tmp0_desc, 2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           case 3:
-            tmp7_local3 = tmp15_input.ze(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
+            tmp7_local3 = tmp15_input.ef(tmp0_desc, 3, StringSerializer_getInstance(), tmp7_local3);
             tmp3_bitMask0 = tmp3_bitMask0 | 8;
             break;
           case 4:
-            tmp8_local4 = tmp15_input.xe(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
+            tmp8_local4 = tmp15_input.cf(tmp0_desc, 4, tmp16_cached[4].p1(), tmp8_local4);
             tmp3_bitMask0 = tmp3_bitMask0 | 16;
             break;
           case 5:
-            tmp9_local5 = tmp15_input.ze(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
+            tmp9_local5 = tmp15_input.ef(tmp0_desc, 5, StringSerializer_getInstance(), tmp9_local5);
             tmp3_bitMask0 = tmp3_bitMask0 | 32;
             break;
           case 6:
-            tmp10_local6 = tmp15_input.xe(tmp0_desc, 6, tmp16_cached[6].p1(), tmp10_local6);
+            tmp10_local6 = tmp15_input.cf(tmp0_desc, 6, tmp16_cached[6].p1(), tmp10_local6);
             tmp3_bitMask0 = tmp3_bitMask0 | 64;
             break;
           case 7:
-            tmp11_local7 = tmp15_input.ze(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
+            tmp11_local7 = tmp15_input.ef(tmp0_desc, 7, StringSerializer_getInstance(), tmp11_local7);
             tmp3_bitMask0 = tmp3_bitMask0 | 128;
             break;
           case 8:
-            tmp12_local8 = tmp15_input.ze(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
+            tmp12_local8 = tmp15_input.ef(tmp0_desc, 8, StringSerializer_getInstance(), tmp12_local8);
             tmp3_bitMask0 = tmp3_bitMask0 | 256;
             break;
           case 9:
-            tmp13_local9 = tmp15_input.ze(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
+            tmp13_local9 = tmp15_input.ef(tmp0_desc, 9, StringSerializer_getInstance(), tmp13_local9);
             tmp3_bitMask0 = tmp3_bitMask0 | 512;
             break;
           case 10:
-            tmp14_local10 = tmp15_input.ze(tmp0_desc, 10, StringSerializer_getInstance(), tmp14_local10);
+            tmp14_local10 = tmp15_input.ef(tmp0_desc, 10, StringSerializer_getInstance(), tmp14_local10);
             tmp3_bitMask0 = tmp3_bitMask0 | 1024;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp15_input.se(tmp0_desc);
+    tmp15_input.xe(tmp0_desc);
     return WordExampleTokenEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, tmp14_local10, null);
   };
-  protoOf($serializer_4).hd = function () {
-    return this.go_1;
+  protoOf($serializer_4).md = function () {
+    return this.lo_1;
   };
-  protoOf($serializer_4).bj = function () {
-    var tmp0_cached = Companion_getInstance_4().fo_1;
+  protoOf($serializer_4).gj = function () {
+    var tmp0_cached = Companion_getInstance_4().ko_1;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -1792,43 +1792,43 @@
   }
   function WordExampleTokenEntry_init_$Init$(seen0, text, start, end, lemma, meanings, partOfSpeech, grammarCodes, article, gender, plural, romanization, serializationConstructorMarker, $this) {
     if (!(7 === (7 & seen0))) {
-      throwMissingFieldException(seen0, 7, $serializer_getInstance_4().go_1);
+      throwMissingFieldException(seen0, 7, $serializer_getInstance_4().lo_1);
     }
-    $this.io_1 = text;
-    $this.jo_1 = start;
-    $this.ko_1 = end;
+    $this.no_1 = text;
+    $this.oo_1 = start;
+    $this.po_1 = end;
     if (0 === (seen0 & 8))
-      $this.lo_1 = null;
-    else
-      $this.lo_1 = lemma;
-    if (0 === (seen0 & 16))
-      $this.mo_1 = emptyList();
-    else
-      $this.mo_1 = meanings;
-    if (0 === (seen0 & 32))
-      $this.no_1 = null;
-    else
-      $this.no_1 = partOfSpeech;
-    if (0 === (seen0 & 64))
-      $this.oo_1 = emptyList();
-    else
-      $this.oo_1 = grammarCodes;
-    if (0 === (seen0 & 128))
-      $this.po_1 = null;
-    else
-      $this.po_1 = article;
-    if (0 === (seen0 & 256))
       $this.qo_1 = null;
     else
-      $this.qo_1 = gender;
-    if (0 === (seen0 & 512))
-      $this.ro_1 = null;
+      $this.qo_1 = lemma;
+    if (0 === (seen0 & 16))
+      $this.ro_1 = emptyList();
     else
-      $this.ro_1 = plural;
-    if (0 === (seen0 & 1024))
+      $this.ro_1 = meanings;
+    if (0 === (seen0 & 32))
       $this.so_1 = null;
     else
-      $this.so_1 = romanization;
+      $this.so_1 = partOfSpeech;
+    if (0 === (seen0 & 64))
+      $this.to_1 = emptyList();
+    else
+      $this.to_1 = grammarCodes;
+    if (0 === (seen0 & 128))
+      $this.uo_1 = null;
+    else
+      $this.uo_1 = article;
+    if (0 === (seen0 & 256))
+      $this.vo_1 = null;
+    else
+      $this.vo_1 = gender;
+    if (0 === (seen0 & 512))
+      $this.wo_1 = null;
+    else
+      $this.wo_1 = plural;
+    if (0 === (seen0 & 1024))
+      $this.xo_1 = null;
+    else
+      $this.xo_1 = romanization;
     return $this;
   }
   function WordExampleTokenEntry_init_$Create$(seen0, text, start, end, lemma, meanings, partOfSpeech, grammarCodes, article, gender, plural, romanization, serializationConstructorMarker) {
@@ -1844,33 +1844,33 @@
     gender = gender === VOID ? null : gender;
     plural = plural === VOID ? null : plural;
     romanization = romanization === VOID ? null : romanization;
-    this.io_1 = text;
-    this.jo_1 = start;
-    this.ko_1 = end;
-    this.lo_1 = lemma;
-    this.mo_1 = meanings;
-    this.no_1 = partOfSpeech;
-    this.oo_1 = grammarCodes;
-    this.po_1 = article;
-    this.qo_1 = gender;
-    this.ro_1 = plural;
-    this.so_1 = romanization;
+    this.no_1 = text;
+    this.oo_1 = start;
+    this.po_1 = end;
+    this.qo_1 = lemma;
+    this.ro_1 = meanings;
+    this.so_1 = partOfSpeech;
+    this.to_1 = grammarCodes;
+    this.uo_1 = article;
+    this.vo_1 = gender;
+    this.wo_1 = plural;
+    this.xo_1 = romanization;
   }
   protoOf(WordExampleTokenEntry).toString = function () {
-    return 'WordExampleTokenEntry(text=' + this.io_1 + ', start=' + this.jo_1 + ', end=' + this.ko_1 + ', lemma=' + this.lo_1 + ', meanings=' + toString_0(this.mo_1) + ', partOfSpeech=' + this.no_1 + ', grammarCodes=' + toString_0(this.oo_1) + ', article=' + this.po_1 + ', gender=' + this.qo_1 + ', plural=' + this.ro_1 + ', romanization=' + this.so_1 + ')';
+    return 'WordExampleTokenEntry(text=' + this.no_1 + ', start=' + this.oo_1 + ', end=' + this.po_1 + ', lemma=' + this.qo_1 + ', meanings=' + toString_0(this.ro_1) + ', partOfSpeech=' + this.so_1 + ', grammarCodes=' + toString_0(this.to_1) + ', article=' + this.uo_1 + ', gender=' + this.vo_1 + ', plural=' + this.wo_1 + ', romanization=' + this.xo_1 + ')';
   };
   protoOf(WordExampleTokenEntry).hashCode = function () {
-    var result = getStringHashCode(this.io_1);
-    result = imul(result, 31) + this.jo_1 | 0;
-    result = imul(result, 31) + this.ko_1 | 0;
-    result = imul(result, 31) + (this.lo_1 == null ? 0 : getStringHashCode(this.lo_1)) | 0;
-    result = imul(result, 31) + hashCode(this.mo_1) | 0;
-    result = imul(result, 31) + (this.no_1 == null ? 0 : getStringHashCode(this.no_1)) | 0;
-    result = imul(result, 31) + hashCode(this.oo_1) | 0;
-    result = imul(result, 31) + (this.po_1 == null ? 0 : getStringHashCode(this.po_1)) | 0;
+    var result = getStringHashCode(this.no_1);
+    result = imul(result, 31) + this.oo_1 | 0;
+    result = imul(result, 31) + this.po_1 | 0;
     result = imul(result, 31) + (this.qo_1 == null ? 0 : getStringHashCode(this.qo_1)) | 0;
-    result = imul(result, 31) + (this.ro_1 == null ? 0 : getStringHashCode(this.ro_1)) | 0;
+    result = imul(result, 31) + hashCode(this.ro_1) | 0;
     result = imul(result, 31) + (this.so_1 == null ? 0 : getStringHashCode(this.so_1)) | 0;
+    result = imul(result, 31) + hashCode(this.to_1) | 0;
+    result = imul(result, 31) + (this.uo_1 == null ? 0 : getStringHashCode(this.uo_1)) | 0;
+    result = imul(result, 31) + (this.vo_1 == null ? 0 : getStringHashCode(this.vo_1)) | 0;
+    result = imul(result, 31) + (this.wo_1 == null ? 0 : getStringHashCode(this.wo_1)) | 0;
+    result = imul(result, 31) + (this.xo_1 == null ? 0 : getStringHashCode(this.xo_1)) | 0;
     return result;
   };
   protoOf(WordExampleTokenEntry).equals = function (other) {
@@ -1878,27 +1878,27 @@
       return true;
     if (!(other instanceof WordExampleTokenEntry))
       return false;
-    if (!(this.io_1 === other.io_1))
+    if (!(this.no_1 === other.no_1))
       return false;
-    if (!(this.jo_1 === other.jo_1))
+    if (!(this.oo_1 === other.oo_1))
       return false;
-    if (!(this.ko_1 === other.ko_1))
-      return false;
-    if (!(this.lo_1 == other.lo_1))
-      return false;
-    if (!equals(this.mo_1, other.mo_1))
-      return false;
-    if (!(this.no_1 == other.no_1))
-      return false;
-    if (!equals(this.oo_1, other.oo_1))
-      return false;
-    if (!(this.po_1 == other.po_1))
+    if (!(this.po_1 === other.po_1))
       return false;
     if (!(this.qo_1 == other.qo_1))
       return false;
-    if (!(this.ro_1 == other.ro_1))
+    if (!equals(this.ro_1, other.ro_1))
       return false;
     if (!(this.so_1 == other.so_1))
+      return false;
+    if (!equals(this.to_1, other.to_1))
+      return false;
+    if (!(this.uo_1 == other.uo_1))
+      return false;
+    if (!(this.vo_1 == other.vo_1))
+      return false;
+    if (!(this.wo_1 == other.wo_1))
+      return false;
+    if (!(this.xo_1 == other.xo_1))
       return false;
     return true;
   };
@@ -1911,68 +1911,68 @@
   function $serializer_5() {
     $serializer_instance_5 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.TranslationMetaEntry', this, 3);
-    tmp0_serialDesc.zi('source', false);
-    tmp0_serialDesc.zi('translatedAtEpochMs', false);
-    tmp0_serialDesc.zi('contractVersion', false);
-    this.to_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('source', false);
+    tmp0_serialDesc.ej('translatedAtEpochMs', false);
+    tmp0_serialDesc.ej('contractVersion', false);
+    this.yo_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_5).uo = function (encoder, value) {
-    var tmp0_desc = this.to_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    tmp1_output.of(tmp0_desc, 0, value.vo_1);
-    tmp1_output.nf(tmp0_desc, 1, value.wo_1);
-    tmp1_output.mf(tmp0_desc, 2, value.xo_1);
-    tmp1_output.se(tmp0_desc);
+  protoOf($serializer_5).zo = function (encoder, value) {
+    var tmp0_desc = this.yo_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    tmp1_output.tf(tmp0_desc, 0, value.ap_1);
+    tmp1_output.sf(tmp0_desc, 1, value.bp_1);
+    tmp1_output.rf(tmp0_desc, 2, value.cp_1);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_5).id = function (encoder, value) {
-    return this.uo(encoder, value instanceof TranslationMetaEntry ? value : THROW_CCE());
+  protoOf($serializer_5).nd = function (encoder, value) {
+    return this.zo(encoder, value instanceof TranslationMetaEntry ? value : THROW_CCE());
   };
-  protoOf($serializer_5).jd = function (decoder) {
-    var tmp0_desc = this.to_1;
+  protoOf($serializer_5).od = function (decoder) {
+    var tmp0_desc = this.yo_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
     var tmp4_local0 = null;
     var tmp5_local1 = new Long(0, 0);
     var tmp6_local2 = 0;
-    var tmp7_input = decoder.re(tmp0_desc);
-    if (tmp7_input.bf()) {
-      tmp4_local0 = tmp7_input.we(tmp0_desc, 0);
+    var tmp7_input = decoder.we(tmp0_desc);
+    if (tmp7_input.gf()) {
+      tmp4_local0 = tmp7_input.bf(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp7_input.ve(tmp0_desc, 1);
+      tmp5_local1 = tmp7_input.af(tmp0_desc, 1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
-      tmp6_local2 = tmp7_input.ue(tmp0_desc, 2);
+      tmp6_local2 = tmp7_input.ze(tmp0_desc, 2);
       tmp3_bitMask0 = tmp3_bitMask0 | 4;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp7_input.cf(tmp0_desc);
+        tmp2_index = tmp7_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp7_input.we(tmp0_desc, 0);
+            tmp4_local0 = tmp7_input.bf(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp7_input.ve(tmp0_desc, 1);
+            tmp5_local1 = tmp7_input.af(tmp0_desc, 1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           case 2:
-            tmp6_local2 = tmp7_input.ue(tmp0_desc, 2);
+            tmp6_local2 = tmp7_input.ze(tmp0_desc, 2);
             tmp3_bitMask0 = tmp3_bitMask0 | 4;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp7_input.se(tmp0_desc);
+    tmp7_input.xe(tmp0_desc);
     return TranslationMetaEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
   };
-  protoOf($serializer_5).hd = function () {
-    return this.to_1;
+  protoOf($serializer_5).md = function () {
+    return this.yo_1;
   };
-  protoOf($serializer_5).bj = function () {
+  protoOf($serializer_5).gj = function () {
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -1986,28 +1986,28 @@
   }
   function TranslationMetaEntry_init_$Init$(seen0, source, translatedAtEpochMs, contractVersion, serializationConstructorMarker, $this) {
     if (!(7 === (7 & seen0))) {
-      throwMissingFieldException(seen0, 7, $serializer_getInstance_5().to_1);
+      throwMissingFieldException(seen0, 7, $serializer_getInstance_5().yo_1);
     }
-    $this.vo_1 = source;
-    $this.wo_1 = translatedAtEpochMs;
-    $this.xo_1 = contractVersion;
+    $this.ap_1 = source;
+    $this.bp_1 = translatedAtEpochMs;
+    $this.cp_1 = contractVersion;
     return $this;
   }
   function TranslationMetaEntry_init_$Create$(seen0, source, translatedAtEpochMs, contractVersion, serializationConstructorMarker) {
     return TranslationMetaEntry_init_$Init$(seen0, source, translatedAtEpochMs, contractVersion, serializationConstructorMarker, objectCreate(protoOf(TranslationMetaEntry)));
   }
   function TranslationMetaEntry(source, translatedAtEpochMs, contractVersion) {
-    this.vo_1 = source;
-    this.wo_1 = translatedAtEpochMs;
-    this.xo_1 = contractVersion;
+    this.ap_1 = source;
+    this.bp_1 = translatedAtEpochMs;
+    this.cp_1 = contractVersion;
   }
   protoOf(TranslationMetaEntry).toString = function () {
-    return 'TranslationMetaEntry(source=' + this.vo_1 + ', translatedAtEpochMs=' + this.wo_1.toString() + ', contractVersion=' + this.xo_1 + ')';
+    return 'TranslationMetaEntry(source=' + this.ap_1 + ', translatedAtEpochMs=' + this.bp_1.toString() + ', contractVersion=' + this.cp_1 + ')';
   };
   protoOf(TranslationMetaEntry).hashCode = function () {
-    var result = getStringHashCode(this.vo_1);
-    result = imul(result, 31) + this.wo_1.hashCode() | 0;
-    result = imul(result, 31) + this.xo_1 | 0;
+    var result = getStringHashCode(this.ap_1);
+    result = imul(result, 31) + this.bp_1.hashCode() | 0;
+    result = imul(result, 31) + this.cp_1 | 0;
     return result;
   };
   protoOf(TranslationMetaEntry).equals = function (other) {
@@ -2015,11 +2015,11 @@
       return true;
     if (!(other instanceof TranslationMetaEntry))
       return false;
-    if (!(this.vo_1 === other.vo_1))
+    if (!(this.ap_1 === other.ap_1))
       return false;
-    if (!equalsLong(this.wo_1, other.wo_1))
+    if (!equalsLong(this.bp_1, other.bp_1))
       return false;
-    if (!(this.xo_1 === other.xo_1))
+    if (!(this.cp_1 === other.cp_1))
       return false;
     return true;
   };
@@ -2033,9 +2033,9 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.yo_1 = [null, lazy(tmp_0, WordbookManifest$Companion$$childSerializers$_anonymous__qwr2u0)];
+    tmp.dp_1 = [null, lazy(tmp_0, WordbookManifest$Companion$$childSerializers$_anonymous__qwr2u0)];
   }
-  protoOf(Companion_6).yk = function () {
+  protoOf(Companion_6).dl = function () {
     return $serializer_getInstance_6();
   };
   var Companion_instance_6;
@@ -2047,66 +2047,66 @@
   function $serializer_6() {
     $serializer_instance_6 = this;
     var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('com.tntstudios.snaplingo.format.WordbookManifest', this, 2);
-    tmp0_serialDesc.zi('version', true);
-    tmp0_serialDesc.zi('words', true);
-    this.zo_1 = tmp0_serialDesc;
+    tmp0_serialDesc.ej('version', true);
+    tmp0_serialDesc.ej('words', true);
+    this.ep_1 = tmp0_serialDesc;
   }
-  protoOf($serializer_6).ap = function (encoder, value) {
-    var tmp0_desc = this.zo_1;
-    var tmp1_output = encoder.re(tmp0_desc);
-    var tmp2_cached = Companion_getInstance_6().yo_1;
-    if (tmp1_output.vf(tmp0_desc, 0) ? true : !(value.bp_1 === 1)) {
-      tmp1_output.mf(tmp0_desc, 0, value.bp_1);
+  protoOf($serializer_6).fp = function (encoder, value) {
+    var tmp0_desc = this.ep_1;
+    var tmp1_output = encoder.we(tmp0_desc);
+    var tmp2_cached = Companion_getInstance_6().dp_1;
+    if (tmp1_output.ag(tmp0_desc, 0) ? true : !(value.gp_1 === 1)) {
+      tmp1_output.rf(tmp0_desc, 0, value.gp_1);
     }
-    if (tmp1_output.vf(tmp0_desc, 1) ? true : !equals(value.cp_1, emptyList())) {
-      tmp1_output.pf(tmp0_desc, 1, tmp2_cached[1].p1(), value.cp_1);
+    if (tmp1_output.ag(tmp0_desc, 1) ? true : !equals(value.hp_1, emptyList())) {
+      tmp1_output.uf(tmp0_desc, 1, tmp2_cached[1].p1(), value.hp_1);
     }
-    tmp1_output.se(tmp0_desc);
+    tmp1_output.xe(tmp0_desc);
   };
-  protoOf($serializer_6).id = function (encoder, value) {
-    return this.ap(encoder, value instanceof WordbookManifest ? value : THROW_CCE());
+  protoOf($serializer_6).nd = function (encoder, value) {
+    return this.fp(encoder, value instanceof WordbookManifest ? value : THROW_CCE());
   };
-  protoOf($serializer_6).jd = function (decoder) {
-    var tmp0_desc = this.zo_1;
+  protoOf($serializer_6).od = function (decoder) {
+    var tmp0_desc = this.ep_1;
     var tmp1_flag = true;
     var tmp2_index = 0;
     var tmp3_bitMask0 = 0;
     var tmp4_local0 = 0;
     var tmp5_local1 = null;
-    var tmp6_input = decoder.re(tmp0_desc);
-    var tmp7_cached = Companion_getInstance_6().yo_1;
-    if (tmp6_input.bf()) {
-      tmp4_local0 = tmp6_input.ue(tmp0_desc, 0);
+    var tmp6_input = decoder.we(tmp0_desc);
+    var tmp7_cached = Companion_getInstance_6().dp_1;
+    if (tmp6_input.gf()) {
+      tmp4_local0 = tmp6_input.ze(tmp0_desc, 0);
       tmp3_bitMask0 = tmp3_bitMask0 | 1;
-      tmp5_local1 = tmp6_input.xe(tmp0_desc, 1, tmp7_cached[1].p1(), tmp5_local1);
+      tmp5_local1 = tmp6_input.cf(tmp0_desc, 1, tmp7_cached[1].p1(), tmp5_local1);
       tmp3_bitMask0 = tmp3_bitMask0 | 2;
     } else
       while (tmp1_flag) {
-        tmp2_index = tmp6_input.cf(tmp0_desc);
+        tmp2_index = tmp6_input.hf(tmp0_desc);
         switch (tmp2_index) {
           case -1:
             tmp1_flag = false;
             break;
           case 0:
-            tmp4_local0 = tmp6_input.ue(tmp0_desc, 0);
+            tmp4_local0 = tmp6_input.ze(tmp0_desc, 0);
             tmp3_bitMask0 = tmp3_bitMask0 | 1;
             break;
           case 1:
-            tmp5_local1 = tmp6_input.xe(tmp0_desc, 1, tmp7_cached[1].p1(), tmp5_local1);
+            tmp5_local1 = tmp6_input.cf(tmp0_desc, 1, tmp7_cached[1].p1(), tmp5_local1);
             tmp3_bitMask0 = tmp3_bitMask0 | 2;
             break;
           default:
             throw UnknownFieldException_init_$Create$(tmp2_index);
         }
       }
-    tmp6_input.se(tmp0_desc);
+    tmp6_input.xe(tmp0_desc);
     return WordbookManifest_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
   };
-  protoOf($serializer_6).hd = function () {
-    return this.zo_1;
+  protoOf($serializer_6).md = function () {
+    return this.ep_1;
   };
-  protoOf($serializer_6).bj = function () {
-    var tmp0_cached = Companion_getInstance_6().yo_1;
+  protoOf($serializer_6).gj = function () {
+    var tmp0_cached = Companion_getInstance_6().dp_1;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
@@ -2120,16 +2120,16 @@
   }
   function WordbookManifest_init_$Init$(seen0, version, words, serializationConstructorMarker, $this) {
     if (!(0 === (0 & seen0))) {
-      throwMissingFieldException(seen0, 0, $serializer_getInstance_6().zo_1);
+      throwMissingFieldException(seen0, 0, $serializer_getInstance_6().ep_1);
     }
     if (0 === (seen0 & 1))
-      $this.bp_1 = 1;
+      $this.gp_1 = 1;
     else
-      $this.bp_1 = version;
+      $this.gp_1 = version;
     if (0 === (seen0 & 2))
-      $this.cp_1 = emptyList();
+      $this.hp_1 = emptyList();
     else
-      $this.cp_1 = words;
+      $this.hp_1 = words;
     return $this;
   }
   function WordbookManifest_init_$Create$(seen0, version, words, serializationConstructorMarker) {
@@ -2139,15 +2139,15 @@
     Companion_getInstance_6();
     version = version === VOID ? 1 : version;
     words = words === VOID ? emptyList() : words;
-    this.bp_1 = version;
-    this.cp_1 = words;
+    this.gp_1 = version;
+    this.hp_1 = words;
   }
   protoOf(WordbookManifest).toString = function () {
-    return 'WordbookManifest(version=' + this.bp_1 + ', words=' + toString_0(this.cp_1) + ')';
+    return 'WordbookManifest(version=' + this.gp_1 + ', words=' + toString_0(this.hp_1) + ')';
   };
   protoOf(WordbookManifest).hashCode = function () {
-    var result = this.bp_1;
-    result = imul(result, 31) + hashCode(this.cp_1) | 0;
+    var result = this.gp_1;
+    result = imul(result, 31) + hashCode(this.hp_1) | 0;
     return result;
   };
   protoOf(WordbookManifest).equals = function (other) {
@@ -2155,22 +2155,22 @@
       return true;
     if (!(other instanceof WordbookManifest))
       return false;
-    if (!(this.bp_1 === other.bp_1))
+    if (!(this.gp_1 === other.gp_1))
       return false;
-    if (!equals(this.cp_1, other.cp_1))
+    if (!equals(this.hp_1, other.hp_1))
       return false;
     return true;
   };
   function sha256(bytes) {
-    return Sha256_getInstance().ep(bytes);
+    return Sha256_getInstance().jp(bytes);
   }
   function Sha256() {
     Sha256_instance = this;
     var tmp = this;
     // Inline function 'kotlin.intArrayOf' call
-    tmp.dp_1 = new Int32Array([1116352408, 1899447441, -1245643825, -373957723, 961987163, 1508970993, -1841331548, -1424204075, -670586216, 310598401, 607225278, 1426881987, 1925078388, -2132889090, -1680079193, -1046744716, -459576895, -272742522, 264347078, 604807628, 770255983, 1249150122, 1555081692, 1996064986, -1740746414, -1473132947, -1341970488, -1084653625, -958395405, -710438585, 113926993, 338241895, 666307205, 773529912, 1294757372, 1396182291, 1695183700, 1986661051, -2117940946, -1838011259, -1564481375, -1474664885, -1035236496, -949202525, -778901479, -694614492, -200395387, 275423344, 430227734, 506948616, 659060556, 883997877, 958139571, 1322822218, 1537002063, 1747873779, 1955562222, 2024104815, -2067236844, -1933114872, -1866530822, -1538233109, -1090935817, -965641998]);
+    tmp.ip_1 = new Int32Array([1116352408, 1899447441, -1245643825, -373957723, 961987163, 1508970993, -1841331548, -1424204075, -670586216, 310598401, 607225278, 1426881987, 1925078388, -2132889090, -1680079193, -1046744716, -459576895, -272742522, 264347078, 604807628, 770255983, 1249150122, 1555081692, 1996064986, -1740746414, -1473132947, -1341970488, -1084653625, -958395405, -710438585, 113926993, 338241895, 666307205, 773529912, 1294757372, 1396182291, 1695183700, 1986661051, -2117940946, -1838011259, -1564481375, -1474664885, -1035236496, -949202525, -778901479, -694614492, -200395387, 275423344, 430227734, 506948616, 659060556, 883997877, 958139571, 1322822218, 1537002063, 1747873779, 1955562222, 2024104815, -2067236844, -1933114872, -1866530822, -1538233109, -1090935817, -965641998]);
   }
-  protoOf(Sha256).ep = function (message) {
+  protoOf(Sha256).jp = function (message) {
     // Inline function 'kotlin.intArrayOf' call
     var h = new Int32Array([1779033703, -1150833019, 1013904242, -1521486534, 1359893119, -1694144372, 528734635, 1541459225]);
     // Inline function 'kotlin.Long.times' call
@@ -2231,7 +2231,7 @@
           inductionVariable_2 = inductionVariable_2 + 1 | 0;
           var s1_0 = rotateRight(e, 6) ^ rotateRight(e, 11) ^ rotateRight(e, 25);
           var ch = e & f ^ ~e & g;
-          var t1 = (((hh + s1_0 | 0) + ch | 0) + this.dp_1[i_2] | 0) + w[i_2] | 0;
+          var t1 = (((hh + s1_0 | 0) + ch | 0) + this.ip_1[i_2] | 0) + w[i_2] | 0;
           var s0_0 = rotateRight(a, 2) ^ rotateRight(a, 13) ^ rotateRight(a, 22);
           var maj = a & b ^ a & c ^ b & c;
           var t2 = s0_0 + maj | 0;
@@ -2276,14 +2276,14 @@
     return Sha256_instance;
   }
   //region block: post-declaration
-  protoOf($serializer).cj = typeParametersSerializers;
-  protoOf($serializer_0).cj = typeParametersSerializers;
-  protoOf($serializer_1).cj = typeParametersSerializers;
-  protoOf($serializer_2).cj = typeParametersSerializers;
-  protoOf($serializer_3).cj = typeParametersSerializers;
-  protoOf($serializer_4).cj = typeParametersSerializers;
-  protoOf($serializer_5).cj = typeParametersSerializers;
-  protoOf($serializer_6).cj = typeParametersSerializers;
+  protoOf($serializer).hj = typeParametersSerializers;
+  protoOf($serializer_0).hj = typeParametersSerializers;
+  protoOf($serializer_1).hj = typeParametersSerializers;
+  protoOf($serializer_2).hj = typeParametersSerializers;
+  protoOf($serializer_3).hj = typeParametersSerializers;
+  protoOf($serializer_4).hj = typeParametersSerializers;
+  protoOf($serializer_5).hj = typeParametersSerializers;
+  protoOf($serializer_6).hj = typeParametersSerializers;
   //endregion
   //region block: init
   Companion_instance = new Companion();

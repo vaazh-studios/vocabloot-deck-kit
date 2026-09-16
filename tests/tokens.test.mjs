@@ -1,7 +1,13 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { assignOffsets, tokenProblems, uncoveredWords, validateTokens } from "../scripts/lib/tokens.mjs";
+import {
+  assignOffsets,
+  lazyTokenProblems,
+  tokenProblems,
+  uncoveredWords,
+  validateTokens,
+} from "../scripts/lib/tokens.mjs";
 
 const s = "Hallo, wie geht es dir?";
 const t = (text, start) => ({ text, start, end: start + text.length });
@@ -40,4 +46,32 @@ test("assignOffsets rebuilds offsets in order and marks what it cannot find", ()
       [-1, -1],
     ],
   );
+});
+
+test("lazy tokens are named: a sentence tagged all other, or a meaning that is just the word; names may keep their name", () => {
+  const tokens = [
+    { text: "Hello", lemma: "hello", partOfSpeech: "other" },
+    { text: "my", lemma: "my", partOfSpeech: "other" },
+    { text: "name", lemma: "name", partOfSpeech: "other" },
+    { text: "Anna", lemma: "Anna", partOfSpeech: "noun" },
+  ];
+  const meanings = [["hello"], ["mein"], ["name"], ["Anna"]];
+  const p = lazyTokenProblems(tokens, meanings);
+  assert.match(p[0], /3 of 4 tokens are tagged "other"/);
+  assert.match(p[1], /meaning equals the word for 'Hello', 'name'/);
+  assert.deepEqual(
+    lazyTokenProblems(tokens, meanings, { sameLanguage: true }).length,
+    1,
+    "same-language decks may echo the word",
+  );
+  const good = [
+    { text: "Hello", lemma: "hello", partOfSpeech: "interjection" },
+    { text: "Anna", lemma: "Anna", partOfSpeech: "noun" },
+  ];
+  assert.deepEqual(lazyTokenProblems(good, [["Hallo"], ["Anna"]]), []);
+  const cognate = [
+    { text: "My", lemma: "my", partOfSpeech: "pronoun" },
+    { text: "name", lemma: "name", partOfSpeech: "noun" },
+  ];
+  assert.deepEqual(lazyTokenProblems(cognate, [["mein"], ["Name"]]), [], "one cognate is not a shortcut");
 });
