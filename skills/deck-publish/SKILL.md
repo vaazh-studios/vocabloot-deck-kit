@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-publish
 
+**Show your work.** This is step 6 of 6. Say so, then the three points below, in the creator's words if they asked in another language.
+
 Tell the creator, in this order:
 
 1. **Get the file onto the phone.** iPhone: AirDrop it, mail it to yourself, or save it to Files. Android: copy or download it.

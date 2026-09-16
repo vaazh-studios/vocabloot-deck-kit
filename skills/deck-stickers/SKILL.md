@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-stickers
 
+**Show your work.** This is step 3 of 6. Say so before the first command. Every image goes into the chat the moment it exists: display the file (the PNG in `stickers/source/` or `stickers/`) next to its word and mode, one by one as they are generated or arrive, not as a list of paths at the end. When all are in, show the contact sheet (`review/stickers.html` rendered, or the images in a grid if the host cannot render HTML) and the check results per sticker. Never describe an image the creator has not seen, and never approve one for them.
+
 Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
 
 Ask the creator how they want images: **"Make them with any image tool you like, or generate them with your own OpenAI key?"**

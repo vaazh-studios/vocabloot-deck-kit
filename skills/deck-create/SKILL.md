@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-create
 
+**Show your work.** This is step 1 of 6. Say so before the first command ("Step 1 of 6: creating the deck folder and proposing the words") and end the step with the list itself, not a summary of it. One deck per run: if the creator asks for several decks, make them one after another, and show each one finished before starting the next. Never work in silence for more than one command; say what is happening between commands.
+
 Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
 
 You are starting a Vocabloot deck for a creator. Ask, one at a time, and keep each question to one line:

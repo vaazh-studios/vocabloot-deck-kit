@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-check
 
+**Show your work.** This is step 4 of 6. Say so before the command. Show the preview: render `review/preview.html` (a screenshot or an inline render where the host can), otherwise show the first three cards as text with their stickers displayed. Then the problems, if any, with the card named, or "ready to pack".
+
 Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
 
 ```bash

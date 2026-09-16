@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 (2026-09-17)
+
+- Every skill shows its work: a milestone line before and after each step ("Step 3 of 6"), cards written in batches of five with their headwords, every sticker displayed in the chat the moment it exists, the contact sheet and the preview shown, the packed file offered, one deck at a time. Found by the founder running the plugin in ChatGPT, where it worked for minutes and showed nothing.
+
 ## 0.1.0 (2026-09-16)
 
 First public version.

@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-pack
 
+**Show your work.** This is step 5 of 6. Say so before the command, then post the result line (cards, stickers, size, SHA-256) and offer the file itself where the host can attach or download it, not only its path.
+
 Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
 
 ```bash

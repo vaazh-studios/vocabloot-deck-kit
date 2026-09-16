@@ -7,6 +7,8 @@ compatibility: Requires Node 22 and the kit's scripts (npm install in the kit fo
 
 # /deck-text
 
+**Show your work.** This is step 2 of 6. Say so before the first command. While you answer the requests, do them in batches of five and post one line after each batch ("Cards 1 to 5 of 20 written: Hallo, Guten Morgen, Guten Tag, Guten Abend, Gute Nacht"), so the creator sees the deck grow. After the rerun, post the result line (N cards, N flagged) and then three full cards exactly as they will read in the app: headword, pronunciation, meaning, both sentences with their translations. Never work in silence for more than one command.
+
 Commands below run from the kit's root, the folder two levels above this file (`<kit>/skills/<this skill>/SKILL.md`); from anywhere else, prefix `scripts/` with that path. If a script answers that dependencies are not installed, run the `npm install` it prints.
 
 Run on the deck folder the creator made with `/deck-create`:
