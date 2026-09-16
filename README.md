@@ -124,7 +124,7 @@ Each step is one skill; each skill runs one script, answers what the script asks
 3. **`/deck-stickers`** a picture idea per card and a prompt for any image model in `prompts/stickers.json`; you make the images (or the kit does, with your key); mechanical checks, the assistant's look at every image, a contact sheet; you approve, reject or defer each sticker. A deferred card ships text-only and keeps its picture idea for later.
 4. **`/deck-check`** every gate, and `review/preview.html`: the deck as the app shows it.
 5. **`/deck-pack`** the `.vlbackup`, with its SHA-256.
-6. **`/deck-publish`** how to open it on iPhone or Android. Publishing to the Vocabloot community is coming; until then sharing the file is sharing the deck.
+6. **`/deck-publish`** how to open it on iPhone or Android, and how to get it listed on [vocabloot.com/decks](https://vocabloot.com/decks/): email the file to founder@vaazhstudios.com.
 
 Answers are cached in the deck folder, so rerunning a step is free and reproducible.
 
@@ -189,7 +189,7 @@ Public here: the schema, the folder, the registry identifiers, the content and s
 
 **How does the deck reach the app?** As a `.vlbackup` file: AirDrop, mail or Files on iPhone, a download on Android. Opening it merges the words into the wordbook; opening it twice adds nothing.
 
-**Can I publish a deck for everyone?** Not yet. Sharing the file is sharing the deck; community publishing on vocabloot.com is in the works.
+**Can I publish a deck for everyone?** Yes: email the `.vlbackup` to founder@vaazhstudios.com with the licence you want; it is checked by hand and listed on [vocabloot.com/decks](https://vocabloot.com/decks/). An upload form is in the works.
 
 ## When something refuses
 
