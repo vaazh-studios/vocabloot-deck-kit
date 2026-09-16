@@ -1,0 +1,26 @@
+{
+  "name": "vocabloot-deck-kit",
+  "version": "0.1.0",
+  "description": "Make a Vocabloot deck from a conversation: app-ready cards, stickers and a .vlbackup that imports as is.",
+  "author": { "name": "Vaazh Studios", "url": "https://vocabloot.com" },
+  "homepage": "https://github.com/vaazh-studios/vocabloot-deck-kit",
+  "repository": "https://github.com/vaazh-studios/vocabloot-deck-kit",
+  "license": "MIT",
+  "keywords": ["vocabloot", "flashcards", "language-learning", "deck", "vocabulary"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vocabloot Deck Kit",
+    "developerName": "Vaazh Studios",
+    "shortDescription": "Make a language deck for the Vocabloot app",
+    "longDescription": "Say which language you speak, which you are learning and what the deck is about. The assistant writes every card (pronunciation, grammar, two example sentences, tap-a-word meanings) and a picture idea per word; the kit validates each card, checks the images and packs a .vlbackup the Vocabloot app opens as its own.",
+    "category": "Education",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Make me a German deck about the bakery.",
+      "I speak Spanish and I'm learning Japanese: 20 words for greetings."
+    ],
+    "websiteURL": "https://vocabloot.com",
+    "privacyPolicyURL": "https://privacy.vocabloot.com/",
+    "termsOfServiceURL": "https://terms.vocabloot.com/"
+  }
+}

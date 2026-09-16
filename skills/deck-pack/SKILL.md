@@ -1,6 +1,11 @@
 ---
 name: deck-pack
-description: Pack an approved Vocabloot deck folder into a .vlbackup with the app's own codec; refuses while any check fails.
+description: Pack an approved Vocabloot deck folder into a .vlbackup with the app's own codec; refuses with the card named while any check fails. Use when a checked deck should become the file the app opens, or when the creator says /deck-pack, export the deck, or make the file.
+license: MIT
+compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
+metadata:
+  author: Vaazh Studios
+  version: "0.1"
 ---
 
 # /deck-pack

@@ -1,6 +1,11 @@
 ---
 name: deck-publish
-description: Explain how to open a packed Vocabloot deck in the app; publishing to the Vocabloot community is a future capability.
+description: Explain how to open a packed Vocabloot deck (.vlbackup) in the app on iPhone or Android and what a card shows there; publishing to the Vocabloot community is a future capability. Use after /deck-pack, or when a creator asks how to install, import, share or publish a deck, or says /deck-publish.
+license: MIT
+compatibility: Requires Node 22 and the kit's scripts (npm install in the kit folder); network access to vocabloot.com for the language registry, with an offline snapshot fallback.
+metadata:
+  author: Vaazh Studios
+  version: "0.1"
 ---
 
 # /deck-publish
