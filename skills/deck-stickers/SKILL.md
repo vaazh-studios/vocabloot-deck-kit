@@ -1,14 +1,16 @@
 ---
 name: deck-stickers
-description: Decide which cards get a sticker, write provider-agnostic sticker prompts, generate images with the creator's OpenAI key or take images made elsewhere, run mechanical and vision checks, render a contact sheet, and record approvals; never regenerates an approved sticker unless asked.
+description: Decide which cards get a sticker (a picture idea per card), write provider-agnostic sticker prompts, take images made with any tool or generate them with the creator's own OpenAI key, run mechanical checks and look at every image yourself, render a contact sheet, and record approvals; never regenerates an approved sticker unless asked.
 ---
 
 # /deck-stickers
 
-Ask the creator how they want images: **"Generate them with your OpenAI key, or make them yourself with another tool?"**
+Ask the creator how they want images: **"Make them with any image tool you like, or generate them with your own OpenAI key?"**
 
-- With OpenAI: `node scripts/stickers.mjs <deck-folder> --provider openai`
-- With their own tool: `node scripts/stickers.mjs <deck-folder> --provider none`, then tell them the prompts are in `prompts/stickers.json` (one per sticker card, with a negative prompt) and that each image goes to `stickers/source/<slug>.png` (any size, transparent background); rerun the same command once the files are in place.
+- With their own tool (the default, no key): `node scripts/stickers.mjs <deck-folder> --provider none`. Tell them the prompts are in `prompts/stickers.json` (one per sticker card, with a negative prompt) and that each image goes to `stickers/source/<slug>.png` (any size, transparent background). Rerun the same command once the files are in place.
+- With OpenAI: `node scripts/stickers.mjs <deck-folder> --provider openai` (needs `OPENAI_API_KEY` in the environment or a `.env` file; the script says so if it is missing).
+
+**You are the vision check.** Once images exist, the script leaves one request per image in `work/vision/<slug>.request.md`. Open the image it names and look at it (do not guess from the file name or the prompt), answer honestly whether a learner who does not know the word would get the meaning from the picture alone, write `{"depicts": true|false, "reason": "..."}` to the answer file, and rerun. A vague picture is `false`; say why. With a key the script asks OpenAI's vision model instead.
 
 What the script does, so you can explain it. Every card has one of four modes, chosen by `/deck-text` and kept here:
 
@@ -17,7 +19,7 @@ What the script does, so you can explain it. Every card has one of four modes, c
 - **contextual**: a contrast or a small scene, only where that is what makes the meaning unmistakable.
 - **text-first**: no image, only when no honest picture exists (articles, "auch", "kein", "wie"). Function words are text-first by rule whatever the model said.
 
-Every image is checked mechanically (transparent background, subject not touching the edge, at least 512 px, readable at 96 px) and by a vision check that knows the mode (does a learner see the meaning from the image alone; is a symbolic metaphor conventional and read at a glance). An armchair for "quiet" fails the vision check on purpose.
+Every image is checked mechanically (transparent background, subject not touching the edge, at least 512 px, readable at 96 px) and by the vision check above, which knows the mode (does a learner see the meaning from the image alone; is a symbolic metaphor conventional and read at a glance). An armchair for "quiet" fails the vision check on purpose.
 
 Then open `review/stickers.html` with the creator and go through every sticker: approve, reject or defer each one.
 

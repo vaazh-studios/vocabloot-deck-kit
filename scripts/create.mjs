@@ -3,11 +3,13 @@
 // and the proposed word list from the topic (spec sections 2 and 3).
 //
 //   node scripts/create.mjs --known "English" --learning "German" --topic "at the bakery" --count 20 --level A1 [--include "Brötchen, Kaffee"] [--avoid "Bier"] [--author "Nirmal"] [--id de-bakery] [--out ./decks] [--offline]
+import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { apiKey } from "./lib/env.mjs";
 import { today, writeJson } from "./lib/folder.mjs";
+import { describeOpen } from "./lib/agent.mjs";
 import { DEFAULT_MODEL, makeClient } from "./lib/openai.mjs";
 import { WORDS_SCHEMA, fill, loadPrompt } from "./lib/prompts.mjs";
 import {
@@ -95,6 +97,7 @@ export async function createDeck({
     avoid: avoid || "none",
   };
   log(`create: proposing ${n} ${values.learningName} words for "${topic}"`);
+  if (client.isAgent) client.workDir = path.join(dir, "work"); // the requests live with the deck
   const answer = await client.chatJson({
     key: `words:${deckId}:${n}:${include}:${avoid}`,
     model,
@@ -103,6 +106,12 @@ export async function createDeck({
     schema: WORDS_SCHEMA,
     schemaName: "vocabloot_words",
   });
+  if (!answer) {
+    // The agent proposes the words itself: the folder exists, the request waits in work/words.
+    writeJson(path.join(dir, "deck.json"), deck);
+    if (!existsSync(path.join(dir, "words.json"))) writeJson(path.join(dir, "words.json"), []);
+    return { dir, deck, words: [], open: describeOpen(client, dir) };
+  }
   const seen = new Set();
   const words = [];
   for (const w of answer.words ?? []) {
@@ -124,7 +133,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
   const opt = (name, fallback) => (args.includes(name) ? args[args.indexOf(name) + 1] : fallback);
   try {
     const registry = args.includes("--offline") ? { ...loadSnapshot(), via: "snapshot" } : await fetchRegistry();
-    const client = makeClient({ apiKey: apiKey({ deckDir: opt("--out", ".") }) });
+    const client = makeClient({ apiKey: apiKey({ deckDir: opt("--out", ".") }), agent: args.includes("--agent") });
     const result = await createDeck({
       known: opt("--known"),
       learning: opt("--learning"),
@@ -139,6 +148,11 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
       client,
       registry,
     });
+    if (result.open) {
+      console.log(`${result.dir}: folder ready (registry via ${registry.via}, checked ${registry.checkedAt}).`);
+      console.log(result.open.join("\n"));
+      process.exit(3);
+    }
     console.log(
       `${result.dir}: ${result.words.length} words proposed (registry via ${registry.via}, checked ${registry.checkedAt}).`,
     );

@@ -83,7 +83,7 @@ export const CARD_SCHEMA = {
     phonetic: { type: "string" },
     romanization: { type: ["string", "null"] },
     translation: { type: "string" },
-    stickerMode: { type: "string", enum: ["sticker", "text-first", "contextual"] },
+    stickerMode: { type: "string", enum: ["sticker", "symbolic", "contextual", "text-first"] },
     stickerConcept: { type: "string" },
     examples: {
       type: "array",

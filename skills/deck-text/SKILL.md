@@ -8,17 +8,19 @@ description: Generate every app-ready field for a Vocabloot deck: article, gende
 Run on the deck folder the creator made with `/deck-create`:
 
 ```bash
-node scripts/text.mjs <deck-folder> --verify
+node scripts/text.mjs <deck-folder>
 ```
 
-`--verify` adds a second grading pass per card; keep it on unless the creator asks for speed. The script writes `cards.json` (learning-language content), `localizations/<known>.json` (translations and token meanings), `cards-cache.json` (so reruns are free) and `review/report.md`.
+Without an API key the script leaves one request per word in `work/text/<word>.request.md` and lists them. **You write the cards.** For each request: read it in full (the instructions are the card prompt filled in for this deck's languages and level; the input is the headword; the JSON schema is at the end), then write the card as one JSON object to the answer file it names. Every field to the letter: IPA between slashes, article, gender and plural for nouns where the language has them, two short natural sentences a learner at this level would say, and for every word of every sentence one token with its exact visible text, lemma, part of speech, grammar codes from the list, and one to three meanings in the creator's language. Choose the sticker mode with care: a formula like "good morning" is symbolic (a rising sun), not text-first. Then run the same command again: it validates every answer against the schema (a wrong field is named), turns the answers into `cards.json` (learning-language content), `localizations/<known>.json` (translations and token meanings), `cards-cache.json` (so reruns are free) and `review/report.md`. Answers you already gave are cached; only the ones it names are still open.
+
+With `OPENAI_API_KEY` set, the script asks OpenAI instead and `--verify` adds a second grading pass per card; `--agent` keeps the writing on you even with a key.
 
 Then open `review/report.md` and walk the creator through **"Needs a look"** first: every flagged card, with the flag in plain words (an uncovered word, a low-confidence field, a safety concern, a verify problem). For each flagged card the creator can:
 
 - accept it as is (say so; the flag stays and the packer will refuse until it is resolved, so this is only for reading),
-- regenerate it: `node scripts/text.mjs <deck-folder> --verify --refresh "<word>"`,
+- regenerate it: `node scripts/text.mjs <deck-folder> --refresh "<word>"` (this drops the cached answer; delete `work/text/<word>.json` too, then write a better answer to the new request),
 - replace the word in `words.json` and rerun.
 
 Never edit `cards.json` or the localization by hand to fix a flag; the fix goes through the word list or a refresh. After the flags, show the creator two or three cards in full (headword, meaning, both sentences with their translations) so they see what a card is, and ask **"Does this read right?"** Then say the next step is `/deck-stickers`.
 
-Rules: the model runs with the creator's own key only; the deck's prompt is `prompts/card.md` (a `--prompt-file` override exists for people who maintain their own).
+Rules: no key is needed and none is ever read but the creator's own; the deck's prompt is `prompts/card.md` (a `--prompt-file` override exists for people who maintain their own). Never write `cards.json` or the localization directly; your answers go through the script so every card is validated the same way.

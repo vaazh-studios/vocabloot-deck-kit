@@ -3,7 +3,7 @@
 // the chosen provider, mechanical and vision checks, the contact sheet, and the
 // preparation of approved stickers (deck kit spec section 7).
 //
-//   node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--force <key>] [--approve <key>] [--reject <key>] [--defer <key>] [--no-vision]
+//   node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--agent] [--force <key>] [--approve <key>] [--reject <key>] [--defer <key>] [--no-vision]
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import { apiKey } from "./lib/env.mjs";
 import { loadFolder, today, writeJson } from "./lib/folder.mjs";
 import { checkSticker, prepareSticker, renderSheet } from "./lib/images.mjs";
+import { describeOpen } from "./lib/agent.mjs";
 import { makeClient } from "./lib/openai.mjs";
 import { fill, loadPrompt } from "./lib/prompts.mjs";
 import { slugify } from "./create.mjs";
@@ -173,6 +174,7 @@ export async function runStickers(
           mode,
         }),
         pngBase64: source.toString("base64"),
+        imagePath: sourceFile,
       });
     }
     const failed = !check.ok || (visionResult && !visionResult.depicts);
@@ -201,6 +203,7 @@ export async function runStickers(
   writeFileSync(path.join(dir, "review", "stickers.html"), renderSheet({ deck, items }));
   return {
     items,
+    open: client?.isAgent && (client.missing.length || client.rejected.length) ? describeOpen(client, dir) : null,
     pending: items.filter((i) => i.status === "pending").length,
     failed: items.filter((i) => i.status === "failed" || i.status === "missing").length,
     deferred: items.filter((i) => i.status === "deferred").length,
@@ -268,12 +271,26 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
     }
     const provider = opt("--provider") ?? "none";
     const needsClient = provider === "openai" || !args.includes("--no-vision");
-    const client = needsClient ? makeClient({ apiKey: apiKey({ deckDir: dir }) }) : null;
+    const client = needsClient
+      ? makeClient({
+          apiKey: apiKey({ deckDir: dir }),
+          agent: args.includes("--agent"),
+          workDir: path.join(dir, "work"),
+        })
+      : null;
+    if (provider === "openai" && client?.isAgent)
+      throw new Error(
+        "--provider openai needs OPENAI_API_KEY in your environment or a .env file. Without a key, run --provider none and make the images with any tool (prompts in prompts/stickers.json, files to stickers/source/<slug>.png).",
+      );
     const force = args.flatMap((a, i) => (a === "--force" ? [args[i + 1]] : []));
     const result = await runStickers(dir, { provider, client, force, vision: !args.includes("--no-vision") });
     console.log(
-      `${result.items.length} sticker cards: ${result.pending} to review, ${result.failed} failed or missing. Open ${path.join(dir, "review", "stickers.html")} and approve or reject each one.`,
+      `${result.items.length} sticker cards: ${result.pending} to review, ${result.failed} failed or missing, ${result.deferred} deferred. Open ${path.join(dir, "review", "stickers.html")} and approve, reject or defer each one.`,
     );
+    if (result.open) {
+      console.log(result.open.join("\n"));
+      process.exit(3);
+    }
   } catch (error) {
     console.error(error.message);
     process.exit(1);

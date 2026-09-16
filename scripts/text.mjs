@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 import { ResponseCache, cacheKey } from "./lib/cache.mjs";
 import { apiKey } from "./lib/env.mjs";
 import { loadFolder, today, writeJson } from "./lib/folder.mjs";
+import { describeOpen } from "./lib/agent.mjs";
 import { DEFAULT_MODEL, makeClient } from "./lib/openai.mjs";
 import { CARD_SCHEMA, VERIFY_SCHEMA, fill, grammarRules, loadPrompt } from "./lib/prompts.mjs";
 import { loadLanguageFacts, nameOf } from "./lib/registry.mjs";
@@ -123,6 +124,7 @@ export async function generateText(
         schema: CARD_SCHEMA,
         schemaName: "vocabloot_card",
       });
+      if (!answer) continue; // the agent has a request to answer; nothing is written this run
       cache.put(key, answer, `card:${entry.word}`);
     }
     const { card, loc } = splitAnswer(answer, { word: entry.word });
@@ -152,6 +154,7 @@ export async function generateText(
           schema: VERIFY_SCHEMA,
           schemaName: "vocabloot_verify",
         });
+        if (!v) continue;
         cache.put(vKey, v, `verify:${entry.word}`);
       }
       verification[card.key] = v;
@@ -159,6 +162,9 @@ export async function generateText(
     }
     cards.push(card);
     localization.push(loc);
+  }
+  if (client.isAgent && (client.missing.length || client.rejected.length)) {
+    return { cards: 0, flagged: 0, report: null, open: describeOpen(client, dir) };
   }
   deck.updatedAt = today();
   deck.promptVersion = prompt.version;
@@ -180,14 +186,18 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
   const dir = args.find((a) => !a.startsWith("--"));
   if (!dir) {
     console.error(
-      "usage: node scripts/text.mjs <deck-folder> [--verify] [--refresh <key>] [--model <model>] [--prompt-file <path>]",
+      "usage: node scripts/text.mjs <deck-folder> [--agent] [--verify] [--refresh <key>] [--model <model>] [--prompt-file <path>]",
     );
     process.exit(2);
   }
   const opt = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
   const refresh = args.flatMap((a, i) => (a === "--refresh" ? [args[i + 1]] : []));
   try {
-    const client = makeClient({ apiKey: apiKey({ deckDir: dir }) });
+    const client = makeClient({
+      apiKey: apiKey({ deckDir: dir }),
+      agent: args.includes("--agent"),
+      workDir: path.join(dir, "work"),
+    });
     const result = await generateText(dir, {
       client,
       model: opt("--model") ?? DEFAULT_MODEL,
@@ -195,6 +205,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
       refresh,
       promptFile: opt("--prompt-file") ?? null,
     });
+    if (result.open) {
+      console.log(result.open.join("\n"));
+      process.exit(3);
+    }
     console.log(
       `${result.cards} cards written, ${result.flagged} flagged. Read ${result.report} before /deck-stickers.`,
     );

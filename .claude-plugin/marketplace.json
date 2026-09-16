@@ -1,0 +1,18 @@
+{
+  "name": "vocabloot-deck-kit",
+  "owner": { "name": "Vaazh Studios", "url": "https://vocabloot.com" },
+  "metadata": { "description": "Make Vocabloot decks from a conversation", "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "vocabloot-deck-kit",
+      "source": "./",
+      "description": "Make a Vocabloot deck from a conversation: app-ready cards, stickers and a .vlbackup that imports as is.",
+      "version": "0.1.0",
+      "author": { "name": "Vaazh Studios", "url": "https://vocabloot.com" },
+      "homepage": "https://github.com/vaazh-studios/vocabloot-deck-kit",
+      "license": "MIT",
+      "keywords": ["vocabloot", "flashcards", "language-learning", "deck"],
+      "category": "productivity"
+    }
+  ]
+}

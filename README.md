@@ -2,31 +2,33 @@
 
 Make a [Vocabloot](https://vocabloot.com) deck from a conversation: say which language you speak, which you are learning, and what the deck is about, and get a `.vlbackup` the app opens as its own, with everything a word's detail page shows: pronunciation, grammar, two example sentences with translations, and tap-a-word meanings.
 
-Six Claude Code skills drive small Node scripts. Your own OpenAI key writes the text; stickers come from OpenAI's image model with your key, or from any tool you like; the app's own codec, compiled to JavaScript, packs the file.
+Six skills for Claude Code or Codex drive small Node scripts. The model you are already talking to writes the cards; the scripts validate every field, assemble the folder, check the images and pack the file with the app's own codec. No API key. Stickers come from any image tool you like, or from OpenAI's image model with your own key if you have one.
 
 ## The five-minute path
 
-Needs Node 22, [Claude Code](https://claude.com/claude-code), and an OpenAI key.
+Needs Node 22 and [Claude Code](https://claude.com/claude-code) or [Codex](https://developers.openai.com/codex).
 
 ```bash
 git clone https://github.com/vaazh-studios/vocabloot-deck-kit
 cd vocabloot-deck-kit && npm install
-echo 'OPENAI_API_KEY=sk-...' > .env
-claude plugin add .   # or open the folder in Claude Code; the skills are in .claude-plugin
 ```
 
-Then, in Claude Code:
+Then open the folder in Claude Code or Codex: both find the skills there (`.claude-plugin/` and `.agents/skills/`). To use them from any folder, `npm run install-skills` copies them into `~/.claude/skills` and `~/.agents/skills` with this kit's path written in. Claude Code can also load the kit as a plugin: `claude --plugin-dir /path/to/vocabloot-deck-kit`, or `claude plugin marketplace add vaazh-studios/vocabloot-deck-kit` once and then `claude plugin install vocabloot-deck-kit@vocabloot-deck-kit`.
+
+Then:
 
 | skill | what happens |
 |---|---|
-| `/deck-create` | it asks: I speak, I'm learning, the topic, how many words, the level, words to include or avoid; checks the pair against the app's registry; proposes the word list |
-| `/deck-text` | every app-ready field, two sentences and tokens per card, a review report |
-| `/deck-stickers` | a picture idea per card (a rising sun for "Guten Morgen"), prompts for any image model, images through your key or your own tool, checks, a contact sheet you approve |
+| `/deck-create` | it asks: I speak, I'm learning, the topic, how many words, the level, words to include or avoid; checks the pair against the app's registry; the assistant proposes the word list |
+| `/deck-text` | the assistant writes every app-ready field, two sentences and tokens per card; the script validates each card against the schema and writes the folder and a review report |
+| `/deck-stickers` | a picture idea per card (a rising sun for "Guten Morgen"), prompts for any image model, images from your own tool or through your key, mechanical checks, the assistant looks at every image, a contact sheet you approve |
 | `/deck-check` | every gate, and a preview of the deck as the app shows it |
 | `/deck-pack` | the `.vlbackup` |
 | `/deck-publish` | how to open it in the app |
 
-Or without Claude Code, the scripts directly: `node scripts/create.mjs --known English --learning German --topic "at the bakery" --count 20 --level A1`, then `text.mjs`, `stickers.mjs`, `check.mjs`, `pack.mjs` on the folder it made.
+How the keyless part works: each script leaves its questions as request files in the deck's `work/` folder (the instructions, the input and the exact JSON schema), the assistant answers them, the script validates the answers and continues. Answers are cached, so reruns are free.
+
+Or without an assistant, the scripts directly with your own OpenAI key in `OPENAI_API_KEY` or a `.env` file: `node scripts/create.mjs --known English --learning German --topic "at the bakery" --count 20 --level A1`, then `text.mjs --verify`, `stickers.mjs --provider openai`, `check.mjs`, `pack.mjs` on the folder it made. The key is only ever read from your environment or that file.
 
 ## Languages
 
@@ -41,6 +43,7 @@ de-bakery/
   cards.json               learning-language content: headword, article, gender, plural, IPA, romanization, sticker mode, two sentences with tokens
   localizations/en-US.json translations and token meanings, aligned by card and token
   prompts/stickers.json    sticker prompts for any image model
+  work/                    the scripts' requests and the assistant's answers (safe to delete once cards.json exists)
   stickers/<slug>.png      prepared 768 px stickers; stickers/source/ holds the originals
   review/                  report.md, stickers.html, review.json (approvals), preview.html
   de-bakery.vlbackup       the result

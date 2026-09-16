@@ -22,6 +22,8 @@ node scripts/create.mjs --known "<answer 1>" --learning "<answer 2>" --topic "<a
 
 The script checks the pair against the app's registry at `https://vocabloot.com/api/capabilities`. If it refuses a language, show its message verbatim and ask again with the languages it lists; never work around it and never promise a language or a pair the registry does not offer. If "English" is ambiguous, the script picks English (US); say so and offer English (UK).
 
-When it succeeds, show the proposed word list exactly as printed and ask: **"Keep this list, or change anything?"** Apply changes by editing `words.json` (add, remove, rename entries; keep `include: true`), then show the list again. Do not move on until the creator says the list is right. Then say the next step is `/deck-text`.
+The script scaffolds the folder and, unless a key is configured, leaves one request for you: `work/words/proposal.request.md`. **You propose the words**: read the request, write the list as JSON to the answer file it names (exactly the schema at the end of the request, nothing else), and run the same command again. It then prints the list.
 
-Needs: Node 22 and an OpenAI key in `OPENAI_API_KEY` or a `.env` file. If there is no key, say exactly where to put it and stop.
+Show the proposed word list exactly as printed and ask: **"Keep this list, or change anything?"** Apply changes by editing `words.json` (add, remove, rename entries; keep `include: true`), then show the list again. Do not move on until the creator says the list is right. Then say the next step is `/deck-text`.
+
+Needs: Node 22. No API key: you are the model. (With `OPENAI_API_KEY` set the script asks OpenAI instead; `--agent` keeps it on you.)

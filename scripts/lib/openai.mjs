@@ -5,6 +5,8 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
+import { AgentClient } from "./agent.mjs";
+
 export const DEFAULT_MODEL = "gpt-4.1-mini";
 export const IMAGE_MODEL = "gpt-image-1";
 
@@ -119,14 +121,18 @@ export class OpenAIClient {
   }
 }
 
-/** Picks the client: fixtures when OPENAI_FIXTURES points at a folder, else the real one with the creator's key. */
+/**
+ * Picks the client: fixtures when OPENAI_FIXTURES points at a folder; the agent running the
+ * skill when there is no key (or `agent` is set); else the real API with the creator's key.
+ */
 export function makeClient({
   apiKey,
   fixtures = process.env.OPENAI_FIXTURES,
   record = process.env.OPENAI_RECORD,
+  agent = false,
+  workDir = null,
 } = {}) {
   if (fixtures) return new FixtureClient(fixtures);
-  if (!apiKey)
-    throw new Error("No OpenAI key. Put OPENAI_API_KEY in your environment or in a .env file next to the deck folder.");
+  if (agent || !apiKey) return new AgentClient(workDir ?? path.join(process.cwd(), "work"));
   return new OpenAIClient({ apiKey, record });
 }
