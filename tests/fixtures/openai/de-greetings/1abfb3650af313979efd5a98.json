@@ -1,0 +1,169 @@
+{
+  "key": "text:de-greetings:Guten Morgen",
+  "request": {},
+  "response": {
+    "text": "Guten Morgen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+    "romanization": null,
+    "translation": "good morning",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Guten Morgen! Hast du gut geschlafen?",
+        "target": "Good morning! Did you sleep well?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Morgen",
+            "lemma": "Morgen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "morning"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Hast",
+            "lemma": "haben",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "have",
+              "did"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "du",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "well"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geschlafen",
+            "lemma": "schlafen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past_participle"
+            ],
+            "meanings": [
+              "slept"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Guten Morgen, Frau Weber.",
+        "target": "Good morning, Mrs Weber.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Morgen",
+            "lemma": "Morgen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "morning"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "Mrs",
+              "woman"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "Weber",
+            "lemma": "Weber",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Weber"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

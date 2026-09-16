@@ -1,0 +1,122 @@
+{
+  "key": "text:de-greetings:Tschüss",
+  "request": {},
+  "response": {
+    "text": "Tschüss",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/tʃʏs/",
+    "romanization": null,
+    "translation": "bye",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person walking away and waving goodbye",
+    "examples": [
+      {
+        "source": "Tschüss, bis morgen!",
+        "target": "Bye, see you tomorrow!",
+        "tokens": [
+          {
+            "text": "Tschüss",
+            "lemma": "tschüss",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "bye"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "see you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "tomorrow"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Ich muss los. Tschüss!",
+        "target": "I have to go. Bye!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "muss",
+            "lemma": "müssen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "must",
+              "have to"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "los",
+            "lemma": "los",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "off",
+              "away"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tschüss",
+            "lemma": "tschüss",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "bye"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

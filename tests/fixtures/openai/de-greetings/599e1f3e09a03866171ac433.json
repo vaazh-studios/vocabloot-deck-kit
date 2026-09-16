@@ -1,0 +1,177 @@
+{
+  "key": "text:de-greetings:Mir geht es gut",
+  "request": {},
+  "response": {
+    "text": "Mir geht es gut",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/miːɐ̯ ɡeːt ɛs ˈɡuːt/",
+    "romanization": null,
+    "translation": "I am fine",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Danke, mir geht es gut.",
+        "target": "Thanks, I am fine.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "thanks"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "mir",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "to me"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "goes"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "it"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "well",
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Mir geht es gut, und dir?",
+        "target": "I am fine, and you?",
+        "tokens": [
+          {
+            "text": "Mir",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "to me"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "goes"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "it"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "well",
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "meanings": [
+              "and"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "dir",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "to you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

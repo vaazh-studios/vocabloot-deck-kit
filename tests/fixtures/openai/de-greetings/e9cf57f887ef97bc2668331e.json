@@ -1,0 +1,150 @@
+{
+  "key": "text:de-greetings:danke",
+  "request": {},
+  "response": {
+    "text": "danke",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈdaŋkə/",
+    "romanization": null,
+    "translation": "thank you",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person handing flowers to say thank you",
+    "examples": [
+      {
+        "source": "Danke für die Blumen!",
+        "target": "Thank you for the flowers!",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "thank you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "für",
+            "lemma": "für",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "for"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "die",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "plural"
+            ],
+            "meanings": [
+              "the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Blumen",
+            "lemma": "Blume",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "meanings": [
+              "flowers"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Danke, das ist sehr nett.",
+        "target": "Thanks, that is very kind.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "thanks"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "das",
+            "lemma": "das",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "that"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "is"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "sehr",
+            "lemma": "sehr",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "very"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "nett",
+            "lemma": "nett",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "meanings": [
+              "kind",
+              "nice"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

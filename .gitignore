@@ -4,3 +4,5 @@ node_modules/
 !examples/**/*.vlbackup
 examples/**/stickers/source/
 .DS_Store
+examples/**/cards-cache.json
+examples/**/review/verification.json

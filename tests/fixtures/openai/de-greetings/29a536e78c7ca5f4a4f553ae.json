@@ -1,0 +1,125 @@
+{
+  "key": "text:de-greetings:bitte",
+  "request": {},
+  "response": {
+    "text": "bitte",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈbɪtə/",
+    "romanization": null,
+    "translation": "please; you are welcome",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person holding out an open hand, asking politely",
+    "examples": [
+      {
+        "source": "Ein Wasser, bitte.",
+        "target": "A water, please.",
+        "tokens": [
+          {
+            "text": "Ein",
+            "lemma": "ein",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "neuter"
+            ],
+            "meanings": [
+              "a"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Wasser",
+            "lemma": "Wasser",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "meanings": [
+              "water"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "plural": null
+          },
+          {
+            "text": "bitte",
+            "lemma": "bitte",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "please"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Danke! Bitte, gern geschehen.",
+        "target": "Thanks! You are welcome.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "thanks"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Bitte",
+            "lemma": "bitte",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "you are welcome"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gern",
+            "lemma": "gern",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "gladly"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geschehen",
+            "lemma": "geschehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past_participle"
+            ],
+            "meanings": [
+              "done",
+              "happened"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

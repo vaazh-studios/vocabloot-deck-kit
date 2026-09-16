@@ -1,0 +1,150 @@
+{
+  "key": "text:de-greetings:Bis später",
+  "request": {},
+  "response": {
+    "text": "Bis später",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/bɪs ˈʃpɛːtɐ/",
+    "romanization": null,
+    "translation": "see you later",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Bis später, ich komme um sechs.",
+        "target": "See you later, I am coming at six.",
+        "tokens": [
+          {
+            "text": "Bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "see you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "später",
+            "lemma": "spät",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [
+              "comparative"
+            ],
+            "meanings": [
+              "later"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "komme",
+            "lemma": "kommen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "come",
+              "am coming"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "um",
+            "lemma": "um",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "at"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "sechs",
+            "lemma": "sechs",
+            "partOfSpeech": "numeral",
+            "grammarCodes": [],
+            "meanings": [
+              "six"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Okay, bis später!",
+        "target": "Okay, see you later!",
+        "tokens": [
+          {
+            "text": "Okay",
+            "lemma": "okay",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "okay"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "see you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "später",
+            "lemma": "spät",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [
+              "comparative"
+            ],
+            "meanings": [
+              "later"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

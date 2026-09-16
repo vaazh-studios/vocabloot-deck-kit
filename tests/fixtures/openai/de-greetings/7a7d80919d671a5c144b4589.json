@@ -1,0 +1,140 @@
+{
+  "key": "text:de-greetings:Wie geht's?",
+  "request": {},
+  "response": {
+    "text": "Wie geht's?",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/viː ˈɡeːts/",
+    "romanization": null,
+    "translation": "how are you? (informal)",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Hallo Tom, wie geht's?",
+        "target": "Hi Tom, how are you?",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "hello",
+              "hi"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tom",
+            "lemma": "Tom",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Tom"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "how"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht's",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present",
+              "contraction"
+            ],
+            "meanings": [
+              "goes it",
+              "is it going"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Wie geht's dir heute?",
+        "target": "How are you today?",
+        "tokens": [
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "how"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht's",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present",
+              "contraction"
+            ],
+            "meanings": [
+              "goes it",
+              "is it going"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "dir",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "to you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "heute",
+            "lemma": "heute",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "today"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

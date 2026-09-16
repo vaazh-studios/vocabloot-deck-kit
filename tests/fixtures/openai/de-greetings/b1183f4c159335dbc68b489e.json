@@ -1,0 +1,183 @@
+{
+  "key": "text:de-greetings:Guten Tag",
+  "request": {},
+  "response": {
+    "text": "Guten Tag",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈtaːk/",
+    "romanization": null,
+    "translation": "hello (formal); good day",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Guten Tag, wie kann ich Ihnen helfen?",
+        "target": "Hello, how can I help you?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "day"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "how"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "kann",
+            "lemma": "können",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "can"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "meanings": [
+              "you (formal)"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "helfen",
+            "lemma": "helfen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "meanings": [
+              "to help"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Guten Tag, Herr Schmidt!",
+        "target": "Good day, Mr Schmidt!",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "day"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Schmidt",
+            "lemma": "Schmidt",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Schmidt"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

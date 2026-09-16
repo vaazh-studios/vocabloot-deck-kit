@@ -1,0 +1,182 @@
+{
+  "key": "text:de-greetings:Gute Nacht",
+  "request": {},
+  "response": {
+    "text": "Gute Nacht",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtə ˈnaxt/",
+    "romanization": null,
+    "translation": "good night",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Gute Nacht und schlaf gut!",
+        "target": "Good night and sleep well!",
+        "tokens": [
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "night"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "meanings": [
+              "and"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "schlaf",
+            "lemma": "schlafen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "imperative"
+            ],
+            "meanings": [
+              "sleep"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gut",
+            "lemma": "gut",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "well"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Ich gehe ins Bett. Gute Nacht!",
+        "target": "I am going to bed. Good night!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "gehe",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "go",
+              "am going"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ins",
+            "lemma": "in das",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "into the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Bett",
+            "lemma": "Bett",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "meanings": [
+              "bed"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "plural": null
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "night"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

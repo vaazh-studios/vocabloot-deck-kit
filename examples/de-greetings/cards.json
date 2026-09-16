@@ -19,37 +19,49 @@
         "tokens": [
           {
             "text": "Hallo",
+            "start": 0,
+            "end": 5,
             "lemma": "hallo",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ich",
+            "start": 7,
+            "end": 10,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 7,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "bin",
+            "start": 11,
+            "end": 14,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Anna",
+            "start": 15,
+            "end": 19,
             "lemma": "Anna",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 15,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -58,47 +70,62 @@
         "tokens": [
           {
             "text": "Hallo",
+            "start": 0,
+            "end": 5,
             "lemma": "hallo",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Schön",
+            "start": 7,
+            "end": 12,
             "lemma": "schön",
             "partOfSpeech": "adjective",
             "grammarCodes": [],
-            "start": 7,
-            "end": 12
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "dich",
+            "start": 14,
+            "end": 18,
             "lemma": "du",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 14,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "zu",
+            "start": 19,
+            "end": 21,
             "lemma": "zu",
             "partOfSpeech": "particle",
             "grammarCodes": [],
-            "start": 19,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "sehen",
+            "start": 22,
+            "end": 27,
             "lemma": "sehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "infinitive"
             ],
-            "start": 22,
-            "end": 27
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -106,7 +133,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -129,16 +157,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Morgen",
+            "start": 6,
+            "end": 12,
             "lemma": "Morgen",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -146,44 +179,55 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 12
+            "plural": null
           },
           {
             "text": "Hast",
+            "start": 14,
+            "end": 18,
             "lemma": "haben",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 14,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "du",
+            "start": 19,
+            "end": 21,
             "lemma": "du",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 19,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gut",
+            "start": 22,
+            "end": 25,
             "lemma": "gut",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 22,
-            "end": 25
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geschlafen",
+            "start": 26,
+            "end": 36,
             "lemma": "schlafen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "past_participle"
             ],
-            "start": 26,
-            "end": 36
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -192,16 +236,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Morgen",
+            "start": 6,
+            "end": 12,
             "lemma": "Morgen",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -209,11 +258,12 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 12
+            "plural": null
           },
           {
             "text": "Frau",
+            "start": 14,
+            "end": 18,
             "lemma": "Frau",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -221,16 +271,18 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 14,
-            "end": 18
+            "plural": null
           },
           {
             "text": "Weber",
+            "start": 19,
+            "end": 24,
             "lemma": "Weber",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 19,
-            "end": 24
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -238,7 +290,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -261,16 +314,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tag",
+            "start": 6,
+            "end": 9,
             "lemma": "Tag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -278,55 +336,69 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 9
+            "plural": null
           },
           {
             "text": "wie",
+            "start": 11,
+            "end": 14,
             "lemma": "wie",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "kann",
+            "start": 15,
+            "end": 19,
             "lemma": "können",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 15,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ich",
+            "start": 20,
+            "end": 23,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 20,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Ihnen",
+            "start": 24,
+            "end": 29,
             "lemma": "Sie",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative",
               "formal"
             ],
-            "start": 24,
-            "end": 29
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "helfen",
+            "start": 30,
+            "end": 36,
             "lemma": "helfen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "infinitive"
             ],
-            "start": 30,
-            "end": 36
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -335,16 +407,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tag",
+            "start": 6,
+            "end": 9,
             "lemma": "Tag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -352,11 +429,12 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 9
+            "plural": null
           },
           {
             "text": "Herr",
+            "start": 11,
+            "end": 15,
             "lemma": "Herr",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -364,16 +442,18 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 11,
-            "end": 15
+            "plural": null
           },
           {
             "text": "Schmidt",
+            "start": 16,
+            "end": 23,
             "lemma": "Schmidt",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 16,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -381,7 +461,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -404,16 +485,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Abend",
+            "start": 6,
+            "end": 11,
             "lemma": "Abend",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -421,22 +507,26 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 11
+            "plural": null
           },
           {
             "text": "Der",
+            "start": 13,
+            "end": 16,
             "lemma": "der",
             "partOfSpeech": "article",
             "grammarCodes": [
               "nominative",
               "masculine"
             ],
-            "start": 13,
-            "end": 16
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tisch",
+            "start": 17,
+            "end": 22,
             "lemma": "Tisch",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -444,26 +534,31 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 17,
-            "end": 22
+            "plural": null
           },
           {
             "text": "ist",
+            "start": 23,
+            "end": 26,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 23,
-            "end": 26
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "fertig",
+            "start": 27,
+            "end": 33,
             "lemma": "fertig",
             "partOfSpeech": "adjective",
             "grammarCodes": [],
-            "start": 27,
-            "end": 33
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -472,16 +567,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Abend",
+            "start": 6,
+            "end": 11,
             "lemma": "Abend",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -489,46 +589,57 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 11
+            "plural": null
           },
           {
             "text": "meine",
+            "start": 13,
+            "end": 18,
             "lemma": "mein",
             "partOfSpeech": "determiner",
             "grammarCodes": [
               "plural"
             ],
-            "start": 13,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Damen",
+            "start": 19,
+            "end": 24,
             "lemma": "Dame",
             "partOfSpeech": "noun",
             "grammarCodes": [
               "plural"
             ],
-            "start": 19,
-            "end": 24
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "und",
+            "start": 25,
+            "end": 28,
             "lemma": "und",
             "partOfSpeech": "conjunction",
             "grammarCodes": [],
-            "start": 25,
-            "end": 28
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Herren",
+            "start": 29,
+            "end": 35,
             "lemma": "Herr",
             "partOfSpeech": "noun",
             "grammarCodes": [
               "plural"
             ],
-            "start": 29,
-            "end": 35
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -536,7 +647,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -559,16 +671,21 @@
         "tokens": [
           {
             "text": "Gute",
+            "start": 0,
+            "end": 4,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "feminine"
             ],
-            "start": 0,
-            "end": 4
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Nacht",
+            "start": 5,
+            "end": 10,
             "lemma": "Nacht",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -576,34 +693,42 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 5,
-            "end": 10
+            "plural": null
           },
           {
             "text": "und",
+            "start": 11,
+            "end": 14,
             "lemma": "und",
             "partOfSpeech": "conjunction",
             "grammarCodes": [],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "schlaf",
+            "start": 15,
+            "end": 21,
             "lemma": "schlafen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "imperative"
             ],
-            "start": 15,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gut",
+            "start": 22,
+            "end": 25,
             "lemma": "gut",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 22,
-            "end": 25
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -612,34 +737,45 @@
         "tokens": [
           {
             "text": "Ich",
+            "start": 0,
+            "end": 3,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gehe",
+            "start": 4,
+            "end": 8,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 8
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ins",
+            "start": 9,
+            "end": 12,
             "lemma": "in das",
             "partOfSpeech": "preposition",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 9,
-            "end": 12
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Bett",
+            "start": 13,
+            "end": 17,
             "lemma": "Bett",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -647,21 +783,25 @@
             ],
             "article": "das",
             "gender": "neuter",
-            "start": 13,
-            "end": 17
+            "plural": null
           },
           {
             "text": "Gute",
+            "start": 19,
+            "end": 23,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "feminine"
             ],
-            "start": 19,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Nacht",
+            "start": 24,
+            "end": 29,
             "lemma": "Nacht",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -669,8 +809,7 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 24,
-            "end": 29
+            "plural": null
           }
         ]
       }
@@ -678,7 +817,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -701,27 +841,36 @@
         "tokens": [
           {
             "text": "Tschüss",
+            "start": 0,
+            "end": 7,
             "lemma": "tschüss",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 7
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "bis",
+            "start": 9,
+            "end": 12,
             "lemma": "bis",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 9,
-            "end": 12
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "morgen",
+            "start": 13,
+            "end": 19,
             "lemma": "morgen",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 13,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -730,37 +879,49 @@
         "tokens": [
           {
             "text": "Ich",
+            "start": 0,
+            "end": 3,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "muss",
+            "start": 4,
+            "end": 8,
             "lemma": "müssen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 8
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "los",
+            "start": 9,
+            "end": 12,
             "lemma": "los",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 9,
-            "end": 12
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tschüss",
+            "start": 14,
+            "end": 21,
             "lemma": "tschüss",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 14,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -768,7 +929,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -791,14 +953,19 @@
         "tokens": [
           {
             "text": "Auf",
+            "start": 0,
+            "end": 3,
             "lemma": "auf",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Wiedersehen",
+            "start": 4,
+            "end": 15,
             "lemma": "Wiedersehen",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -806,29 +973,36 @@
             ],
             "article": "das",
             "gender": "neuter",
-            "start": 4,
-            "end": 15
+            "plural": null
           },
           {
             "text": "und",
+            "start": 16,
+            "end": 19,
             "lemma": "und",
             "partOfSpeech": "conjunction",
             "grammarCodes": [],
-            "start": 16,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "vielen",
+            "start": 20,
+            "end": 26,
             "lemma": "viel",
             "partOfSpeech": "determiner",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 20,
-            "end": 26
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Dank",
+            "start": 27,
+            "end": 31,
             "lemma": "Dank",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -836,8 +1010,7 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 27,
-            "end": 31
+            "plural": null
           }
         ]
       },
@@ -846,14 +1019,19 @@
         "tokens": [
           {
             "text": "Auf",
+            "start": 0,
+            "end": 3,
             "lemma": "auf",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Wiedersehen",
+            "start": 4,
+            "end": 15,
             "lemma": "Wiedersehen",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -861,11 +1039,12 @@
             ],
             "article": "das",
             "gender": "neuter",
-            "start": 4,
-            "end": 15
+            "plural": null
           },
           {
             "text": "Frau",
+            "start": 17,
+            "end": 21,
             "lemma": "Frau",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -873,16 +1052,18 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 17,
-            "end": 21
+            "plural": null
           },
           {
             "text": "Müller",
+            "start": 22,
+            "end": 28,
             "lemma": "Müller",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 22,
-            "end": 28
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -890,7 +1071,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -913,55 +1095,73 @@
         "tokens": [
           {
             "text": "Bis",
+            "start": 0,
+            "end": 3,
             "lemma": "bis",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "später",
+            "start": 4,
+            "end": 10,
             "lemma": "spät",
             "partOfSpeech": "adverb",
             "grammarCodes": [
               "comparative"
             ],
-            "start": 4,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ich",
+            "start": 12,
+            "end": 15,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 12,
-            "end": 15
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "komme",
+            "start": 16,
+            "end": 21,
             "lemma": "kommen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 16,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "um",
+            "start": 22,
+            "end": 24,
             "lemma": "um",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 22,
-            "end": 24
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "sechs",
+            "start": 25,
+            "end": 30,
             "lemma": "sechs",
             "partOfSpeech": "numeral",
             "grammarCodes": [],
-            "start": 25,
-            "end": 30
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -970,29 +1170,38 @@
         "tokens": [
           {
             "text": "Okay",
+            "start": 0,
+            "end": 4,
             "lemma": "okay",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 4
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "bis",
+            "start": 6,
+            "end": 9,
             "lemma": "bis",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 6,
-            "end": 9
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "später",
+            "start": 10,
+            "end": 16,
             "lemma": "spät",
             "partOfSpeech": "adverb",
             "grammarCodes": [
               "comparative"
             ],
-            "start": 10,
-            "end": 16
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1000,7 +1209,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1023,41 +1233,55 @@
         "tokens": [
           {
             "text": "Bis",
+            "start": 0,
+            "end": 3,
             "lemma": "bis",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "morgen",
+            "start": 4,
+            "end": 10,
             "lemma": "morgen",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 4,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "in",
+            "start": 11,
+            "end": 13,
             "lemma": "in",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 11,
-            "end": 13
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "der",
+            "start": 14,
+            "end": 17,
             "lemma": "der",
             "partOfSpeech": "article",
             "grammarCodes": [
               "dative",
               "feminine"
             ],
-            "start": 14,
-            "end": 17
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Schule",
+            "start": 18,
+            "end": 24,
             "lemma": "Schule",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1065,8 +1289,7 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 18,
-            "end": 24
+            "plural": null
           }
         ]
       },
@@ -1075,16 +1298,21 @@
         "tokens": [
           {
             "text": "Gute",
+            "start": 0,
+            "end": 4,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "feminine"
             ],
-            "start": 0,
-            "end": 4
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Nacht",
+            "start": 5,
+            "end": 10,
             "lemma": "Nacht",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1092,24 +1320,29 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 5,
-            "end": 10
+            "plural": null
           },
           {
             "text": "bis",
+            "start": 12,
+            "end": 15,
             "lemma": "bis",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 12,
-            "end": 15
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "morgen",
+            "start": 16,
+            "end": 22,
             "lemma": "morgen",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 16,
-            "end": 22
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1117,7 +1350,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1140,38 +1374,50 @@
         "tokens": [
           {
             "text": "Hallo",
+            "start": 0,
+            "end": 5,
             "lemma": "hallo",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tom",
+            "start": 6,
+            "end": 9,
             "lemma": "Tom",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 6,
-            "end": 9
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "wie",
+            "start": 11,
+            "end": 14,
             "lemma": "wie",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht's",
+            "start": 15,
+            "end": 21,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present",
               "contraction"
             ],
-            "start": 15,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1180,40 +1426,52 @@
         "tokens": [
           {
             "text": "Wie",
+            "start": 0,
+            "end": 3,
             "lemma": "wie",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht's",
+            "start": 4,
+            "end": 10,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present",
               "contraction"
             ],
-            "start": 4,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "dir",
+            "start": 11,
+            "end": 14,
             "lemma": "du",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative"
             ],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "heute",
+            "start": 15,
+            "end": 20,
             "lemma": "heute",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 15,
-            "end": 20
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1221,7 +1479,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1244,16 +1503,21 @@
         "tokens": [
           {
             "text": "Guten",
+            "start": 0,
+            "end": 5,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tag",
+            "start": 6,
+            "end": 9,
             "lemma": "Tag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1261,11 +1525,12 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 6,
-            "end": 9
+            "plural": null
           },
           {
             "text": "Frau",
+            "start": 11,
+            "end": 15,
             "lemma": "Frau",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1273,53 +1538,67 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 11,
-            "end": 15
+            "plural": null
           },
           {
             "text": "Berg",
+            "start": 16,
+            "end": 20,
             "lemma": "Berg",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 16,
-            "end": 20
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Wie",
+            "start": 22,
+            "end": 25,
             "lemma": "wie",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 22,
-            "end": 25
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht",
+            "start": 26,
+            "end": 30,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 26,
-            "end": 30
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "es",
+            "start": 31,
+            "end": 33,
             "lemma": "es",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 31,
-            "end": 33
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Ihnen",
+            "start": 34,
+            "end": 39,
             "lemma": "Sie",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative",
               "formal"
             ],
-            "start": 34,
-            "end": 39
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1328,51 +1607,68 @@
         "tokens": [
           {
             "text": "Wie",
+            "start": 0,
+            "end": 3,
             "lemma": "wie",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht",
+            "start": 4,
+            "end": 8,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 8
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "es",
+            "start": 9,
+            "end": 11,
             "lemma": "es",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 9,
-            "end": 11
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Ihnen",
+            "start": 12,
+            "end": 17,
             "lemma": "Sie",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative",
               "formal"
             ],
-            "start": 12,
-            "end": 17
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "heute",
+            "start": 18,
+            "end": 23,
             "lemma": "heute",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 18,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Herr",
+            "start": 25,
+            "end": 29,
             "lemma": "Herr",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1380,11 +1676,12 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 25,
-            "end": 29
+            "plural": null
           },
           {
             "text": "Doktor",
+            "start": 30,
+            "end": 36,
             "lemma": "Doktor",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1392,8 +1689,7 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 30,
-            "end": 36
+            "plural": null
           }
         ]
       }
@@ -1401,7 +1697,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1424,47 +1721,62 @@
         "tokens": [
           {
             "text": "Danke",
+            "start": 0,
+            "end": 5,
             "lemma": "danke",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "mir",
+            "start": 7,
+            "end": 10,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative"
             ],
-            "start": 7,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht",
+            "start": 11,
+            "end": 15,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 11,
-            "end": 15
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "es",
+            "start": 16,
+            "end": 18,
             "lemma": "es",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 16,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gut",
+            "start": 19,
+            "end": 22,
             "lemma": "gut",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 19,
-            "end": 22
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1473,57 +1785,75 @@
         "tokens": [
           {
             "text": "Mir",
+            "start": 0,
+            "end": 3,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative"
             ],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geht",
+            "start": 4,
+            "end": 8,
             "lemma": "gehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 8
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "es",
+            "start": 9,
+            "end": 11,
             "lemma": "es",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 9,
-            "end": 11
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gut",
+            "start": 12,
+            "end": 15,
             "lemma": "gut",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 12,
-            "end": 15
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "und",
+            "start": 17,
+            "end": 20,
             "lemma": "und",
             "partOfSpeech": "conjunction",
             "grammarCodes": [],
-            "start": 17,
-            "end": 20
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "dir",
+            "start": 21,
+            "end": 24,
             "lemma": "du",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative"
             ],
-            "start": 21,
-            "end": 24
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1531,7 +1861,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1554,41 +1885,53 @@
         "tokens": [
           {
             "text": "Danke",
+            "start": 0,
+            "end": 5,
             "lemma": "danke",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "für",
+            "start": 6,
+            "end": 9,
             "lemma": "für",
             "partOfSpeech": "preposition",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 6,
-            "end": 9
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "die",
+            "start": 10,
+            "end": 13,
             "lemma": "der",
             "partOfSpeech": "article",
             "grammarCodes": [
               "plural"
             ],
-            "start": 10,
-            "end": 13
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Blumen",
+            "start": 14,
+            "end": 20,
             "lemma": "Blume",
             "partOfSpeech": "noun",
             "grammarCodes": [
               "plural"
             ],
-            "start": 14,
-            "end": 20
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1597,45 +1940,60 @@
         "tokens": [
           {
             "text": "Danke",
+            "start": 0,
+            "end": 5,
             "lemma": "danke",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "das",
+            "start": 7,
+            "end": 10,
             "lemma": "das",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 7,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ist",
+            "start": 11,
+            "end": 14,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "sehr",
+            "start": 15,
+            "end": 19,
             "lemma": "sehr",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 15,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "nett",
+            "start": 20,
+            "end": 24,
             "lemma": "nett",
             "partOfSpeech": "adjective",
             "grammarCodes": [],
-            "start": 20,
-            "end": 24
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1643,7 +2001,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1666,17 +2025,22 @@
         "tokens": [
           {
             "text": "Ein",
+            "start": 0,
+            "end": 3,
             "lemma": "ein",
             "partOfSpeech": "article",
             "grammarCodes": [
               "nominative",
               "neuter"
             ],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Wasser",
+            "start": 4,
+            "end": 10,
             "lemma": "Wasser",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1684,16 +2048,18 @@
             ],
             "article": "das",
             "gender": "neuter",
-            "start": 4,
-            "end": 10
+            "plural": null
           },
           {
             "text": "bitte",
+            "start": 12,
+            "end": 17,
             "lemma": "bitte",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 12,
-            "end": 17
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1702,37 +2068,49 @@
         "tokens": [
           {
             "text": "Danke",
+            "start": 0,
+            "end": 5,
             "lemma": "danke",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Bitte",
+            "start": 7,
+            "end": 12,
             "lemma": "bitte",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 7,
-            "end": 12
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "gern",
+            "start": 14,
+            "end": 18,
             "lemma": "gern",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 14,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "geschehen",
+            "start": 19,
+            "end": 28,
             "lemma": "geschehen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "past_participle"
             ],
-            "start": 19,
-            "end": 28
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1740,7 +2118,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1763,6 +2142,8 @@
         "tokens": [
           {
             "text": "Entschuldigung",
+            "start": 0,
+            "end": 14,
             "lemma": "Entschuldigung",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1770,40 +2151,50 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 0,
-            "end": 14
+            "plural": null
           },
           {
             "text": "wo",
+            "start": 16,
+            "end": 18,
             "lemma": "wo",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 16,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ist",
+            "start": 19,
+            "end": 22,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 19,
-            "end": 22
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "der",
+            "start": 23,
+            "end": 26,
             "lemma": "der",
             "partOfSpeech": "article",
             "grammarCodes": [
               "nominative",
               "masculine"
             ],
-            "start": 23,
-            "end": 26
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Bahnhof",
+            "start": 27,
+            "end": 34,
             "lemma": "Bahnhof",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1811,8 +2202,7 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 27,
-            "end": 34
+            "plural": null
           }
         ]
       },
@@ -1821,6 +2211,8 @@
         "tokens": [
           {
             "text": "Entschuldigung",
+            "start": 0,
+            "end": 14,
             "lemma": "Entschuldigung",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1828,37 +2220,47 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 0,
-            "end": 14
+            "plural": null
           },
           {
             "text": "das",
+            "start": 16,
+            "end": 19,
             "lemma": "das",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 16,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "war",
+            "start": 20,
+            "end": 23,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "past"
             ],
-            "start": 20,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "mein",
+            "start": 24,
+            "end": 28,
             "lemma": "mein",
             "partOfSpeech": "determiner",
             "grammarCodes": [],
-            "start": 24,
-            "end": 28
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Fehler",
+            "start": 29,
+            "end": 35,
             "lemma": "Fehler",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -1866,8 +2268,7 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 29,
-            "end": 35
+            "plural": null
           }
         ]
       }
@@ -1875,7 +2276,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1898,27 +2300,36 @@
         "tokens": [
           {
             "text": "Willkommen",
+            "start": 0,
+            "end": 10,
             "lemma": "willkommen",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "in",
+            "start": 11,
+            "end": 13,
             "lemma": "in",
             "partOfSpeech": "preposition",
             "grammarCodes": [],
-            "start": 11,
-            "end": 13
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Berlin",
+            "start": 14,
+            "end": 20,
             "lemma": "Berlin",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 14,
-            "end": 20
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -1927,39 +2338,51 @@
         "tokens": [
           {
             "text": "Herzlich",
+            "start": 0,
+            "end": 8,
             "lemma": "herzlich",
             "partOfSpeech": "adverb",
             "grammarCodes": [],
-            "start": 0,
-            "end": 8
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "willkommen",
+            "start": 9,
+            "end": 19,
             "lemma": "willkommen",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 9,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "bei",
+            "start": 20,
+            "end": 23,
             "lemma": "bei",
             "partOfSpeech": "preposition",
             "grammarCodes": [
               "dative"
             ],
-            "start": 20,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "uns",
+            "start": 24,
+            "end": 27,
             "lemma": "wir",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "dative"
             ],
-            "start": 24,
-            "end": 27
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -1967,7 +2390,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -1990,37 +2414,49 @@
         "tokens": [
           {
             "text": "Hallo",
+            "start": 0,
+            "end": 5,
             "lemma": "hallo",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "ich",
+            "start": 7,
+            "end": 10,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 7,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "heiße",
+            "start": 11,
+            "end": 16,
             "lemma": "heißen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 11,
-            "end": 16
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Lena",
+            "start": 17,
+            "end": 21,
             "lemma": "Lena",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 17,
-            "end": 21
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -2029,45 +2465,60 @@
         "tokens": [
           {
             "text": "Ich",
+            "start": 0,
+            "end": 3,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "heiße",
+            "start": 4,
+            "end": 9,
             "lemma": "heißen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 9
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Paul",
+            "start": 10,
+            "end": 14,
             "lemma": "Paul",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 10,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Und",
+            "start": 16,
+            "end": 19,
             "lemma": "und",
             "partOfSpeech": "conjunction",
             "grammarCodes": [],
-            "start": 16,
-            "end": 19
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "du",
+            "start": 20,
+            "end": 22,
             "lemma": "du",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 20,
-            "end": 22
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -2075,7 +2526,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -2098,43 +2550,55 @@
         "tokens": [
           {
             "text": "Freut",
+            "start": 0,
+            "end": 5,
             "lemma": "freuen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "mich",
+            "start": 6,
+            "end": 10,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 6,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Sie",
+            "start": 12,
+            "end": 15,
             "lemma": "Sie",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "formal"
             ],
-            "start": 12,
-            "end": 15
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "kennenzulernen",
+            "start": 16,
+            "end": 30,
             "lemma": "kennenlernen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "infinitive"
             ],
-            "start": 16,
-            "end": 30
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -2143,49 +2607,64 @@
         "tokens": [
           {
             "text": "Ich",
+            "start": 0,
+            "end": 3,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 3
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "bin",
+            "start": 4,
+            "end": 7,
             "lemma": "sein",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 4,
-            "end": 7
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Max",
+            "start": 8,
+            "end": 11,
             "lemma": "Max",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 8,
-            "end": 11
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Freut",
+            "start": 13,
+            "end": 18,
             "lemma": "freuen",
             "partOfSpeech": "verb",
             "grammarCodes": [
               "present"
             ],
-            "start": 13,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "mich",
+            "start": 19,
+            "end": 23,
             "lemma": "ich",
             "partOfSpeech": "pronoun",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 19,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -2193,7 +2672,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -2216,34 +2696,45 @@
         "tokens": [
           {
             "text": "Alles",
+            "start": 0,
+            "end": 5,
             "lemma": "alles",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Gute",
+            "start": 6,
+            "end": 10,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "nominalised"
             ],
-            "start": 6,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "zum",
+            "start": 11,
+            "end": 14,
             "lemma": "zu dem",
             "partOfSpeech": "preposition",
             "grammarCodes": [
               "dative"
             ],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Geburtstag",
+            "start": 15,
+            "end": 25,
             "lemma": "Geburtstag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -2251,8 +2742,7 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 15,
-            "end": 25
+            "plural": null
           }
         ]
       },
@@ -2261,45 +2751,59 @@
         "tokens": [
           {
             "text": "Alles",
+            "start": 0,
+            "end": 5,
             "lemma": "alles",
             "partOfSpeech": "pronoun",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Gute",
+            "start": 6,
+            "end": 10,
             "lemma": "gut",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "nominalised"
             ],
-            "start": 6,
-            "end": 10
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "für",
+            "start": 11,
+            "end": 14,
             "lemma": "für",
             "partOfSpeech": "preposition",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 11,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "die",
+            "start": 15,
+            "end": 18,
             "lemma": "der",
             "partOfSpeech": "article",
             "grammarCodes": [
               "accusative",
               "feminine"
             ],
-            "start": 15,
-            "end": 18
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Prüfung",
+            "start": 19,
+            "end": 26,
             "lemma": "Prüfung",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -2307,8 +2811,7 @@
             ],
             "article": "die",
             "gender": "feminine",
-            "start": 19,
-            "end": 26
+            "plural": null
           }
         ]
       }
@@ -2316,7 +2819,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   },
   {
@@ -2339,24 +2843,32 @@
         "tokens": [
           {
             "text": "Danke",
+            "start": 0,
+            "end": 5,
             "lemma": "danke",
             "partOfSpeech": "interjection",
             "grammarCodes": [],
-            "start": 0,
-            "end": 5
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "schönen",
+            "start": 7,
+            "end": 14,
             "lemma": "schön",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 7,
-            "end": 14
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tag",
+            "start": 15,
+            "end": 18,
             "lemma": "Tag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -2364,16 +2876,18 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 15,
-            "end": 18
+            "plural": null
           },
           {
             "text": "noch",
+            "start": 19,
+            "end": 23,
             "lemma": "noch",
             "partOfSpeech": "particle",
             "grammarCodes": [],
-            "start": 19,
-            "end": 23
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       },
@@ -2382,16 +2896,21 @@
         "tokens": [
           {
             "text": "Schönen",
+            "start": 0,
+            "end": 7,
             "lemma": "schön",
             "partOfSpeech": "adjective",
             "grammarCodes": [
               "accusative"
             ],
-            "start": 0,
-            "end": 7
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Tag",
+            "start": 8,
+            "end": 11,
             "lemma": "Tag",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -2399,19 +2918,23 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 8,
-            "end": 11
+            "plural": null
           },
           {
             "text": "noch",
+            "start": 12,
+            "end": 16,
             "lemma": "noch",
             "partOfSpeech": "particle",
             "grammarCodes": [],
-            "start": 12,
-            "end": 16
+            "article": null,
+            "gender": null,
+            "plural": null
           },
           {
             "text": "Herr",
+            "start": 18,
+            "end": 22,
             "lemma": "Herr",
             "partOfSpeech": "noun",
             "grammarCodes": [
@@ -2419,16 +2942,18 @@
             ],
             "article": "der",
             "gender": "masculine",
-            "start": 18,
-            "end": 22
+            "plural": null
           },
           {
             "text": "Fischer",
+            "start": 23,
+            "end": 30,
             "lemma": "Fischer",
             "partOfSpeech": "noun",
             "grammarCodes": [],
-            "start": 23,
-            "end": 30
+            "article": null,
+            "gender": null,
+            "plural": null
           }
         ]
       }
@@ -2436,7 +2961,8 @@
     "review": {
       "confidence": "high",
       "safe": true,
-      "flags": []
+      "flags": [],
+      "notes": ""
     }
   }
 ]

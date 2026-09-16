@@ -1,0 +1,145 @@
+{
+  "key": "text:de-greetings:Ich heiße",
+  "request": {},
+  "response": {
+    "text": "Ich heiße",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ɪç ˈhaɪ̯sə/",
+    "romanization": null,
+    "translation": "my name is",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person pointing at themselves to say their name",
+    "examples": [
+      {
+        "source": "Hallo, ich heiße Lena.",
+        "target": "Hello, my name is Lena.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "hello"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "heiße",
+            "lemma": "heißen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "am called"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Lena",
+            "lemma": "Lena",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Lena"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Ich heiße Paul. Und du?",
+        "target": "My name is Paul. And you?",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "heiße",
+            "lemma": "heißen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "am called"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Paul",
+            "lemma": "Paul",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Paul"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "meanings": [
+              "and"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "du",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "key": "text:de-greetings:Alles Gute",
+  "request": {},
+  "response": {
+    "text": "Alles Gute",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˈaləs ˈɡuːtə/",
+    "romanization": null,
+    "translation": "all the best",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Alles Gute zum Geburtstag!",
+        "target": "Happy birthday!",
+        "tokens": [
+          {
+            "text": "Alles",
+            "lemma": "alles",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "everything",
+              "all"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "nominalised"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "zum",
+            "lemma": "zu dem",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "for the",
+              "to the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Geburtstag",
+            "lemma": "Geburtstag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "birthday"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Alles Gute für die Prüfung!",
+        "target": "All the best for the exam!",
+        "tokens": [
+          {
+            "text": "Alles",
+            "lemma": "alles",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "everything",
+              "all"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "nominalised"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "für",
+            "lemma": "für",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "for"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "die",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "accusative",
+              "feminine"
+            ],
+            "meanings": [
+              "the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Prüfung",
+            "lemma": "Prüfung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "exam"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "key": "text:de-greetings:Guten Abend",
+  "request": {},
+  "response": {
+    "text": "Guten Abend",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˌɡuːtn̩ ˈaːbn̩t/",
+    "romanization": null,
+    "translation": "good evening",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Guten Abend! Der Tisch ist fertig.",
+        "target": "Good evening! The table is ready.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Abend",
+            "lemma": "Abend",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "evening"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "masculine"
+            ],
+            "meanings": [
+              "the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tisch",
+            "lemma": "Tisch",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "table"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "is"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "fertig",
+            "lemma": "fertig",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "meanings": [
+              "ready"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Guten Abend, meine Damen und Herren.",
+        "target": "Good evening, ladies and gentlemen.",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Abend",
+            "lemma": "Abend",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "evening"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "meine",
+            "lemma": "mein",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [
+              "plural"
+            ],
+            "meanings": [
+              "my"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Damen",
+            "lemma": "Dame",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "meanings": [
+              "ladies"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "meanings": [
+              "and"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Herren",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "plural"
+            ],
+            "meanings": [
+              "gentlemen"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

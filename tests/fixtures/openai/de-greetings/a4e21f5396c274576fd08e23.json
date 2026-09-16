@@ -1,0 +1,170 @@
+{
+  "key": "text:de-greetings:Entschuldigung",
+  "request": {},
+  "response": {
+    "text": "Entschuldigung",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Entschuldigungen",
+    "partOfSpeech": "noun",
+    "phonetic": "/ɛntˈʃʊldɪɡʊŋ/",
+    "romanization": null,
+    "translation": "excuse me; sorry",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Entschuldigung, wo ist der Bahnhof?",
+        "target": "Excuse me, where is the train station?",
+        "tokens": [
+          {
+            "text": "Entschuldigung",
+            "lemma": "Entschuldigung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "excuse me",
+              "sorry"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "wo",
+            "lemma": "wo",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "where"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ist",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "is"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "nominative",
+              "masculine"
+            ],
+            "meanings": [
+              "the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Bahnhof",
+            "lemma": "Bahnhof",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "train station"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Entschuldigung, das war mein Fehler.",
+        "target": "Sorry, that was my mistake.",
+        "tokens": [
+          {
+            "text": "Entschuldigung",
+            "lemma": "Entschuldigung",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "sorry",
+              "excuse me"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "das",
+            "lemma": "das",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "that"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "war",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "past"
+            ],
+            "meanings": [
+              "was"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "mein",
+            "lemma": "mein",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [],
+            "meanings": [
+              "my"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Fehler",
+            "lemma": "Fehler",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "mistake"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

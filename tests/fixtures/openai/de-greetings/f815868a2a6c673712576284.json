@@ -1,0 +1,153 @@
+{
+  "key": "text:de-greetings:Bis morgen",
+  "request": {},
+  "response": {
+    "text": "Bis morgen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/bɪs ˈmɔʁɡn̩/",
+    "romanization": null,
+    "translation": "see you tomorrow",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Bis morgen in der Schule!",
+        "target": "See you tomorrow at school!",
+        "tokens": [
+          {
+            "text": "Bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "see you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "tomorrow"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "in",
+            "lemma": "in",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "in",
+              "at"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "der",
+            "lemma": "der",
+            "partOfSpeech": "article",
+            "grammarCodes": [
+              "dative",
+              "feminine"
+            ],
+            "meanings": [
+              "the"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Schule",
+            "lemma": "Schule",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "school"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Gute Nacht, bis morgen!",
+        "target": "Good night, see you tomorrow!",
+        "tokens": [
+          {
+            "text": "Gute",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Nacht",
+            "lemma": "Nacht",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "night"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "bis",
+            "lemma": "bis",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "see you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "morgen",
+            "lemma": "morgen",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "tomorrow"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

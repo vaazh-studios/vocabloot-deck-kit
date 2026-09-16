@@ -1,0 +1,124 @@
+{
+  "key": "text:de-greetings:willkommen",
+  "request": {},
+  "response": {
+    "text": "willkommen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/vɪlˈkɔmən/",
+    "romanization": null,
+    "translation": "welcome",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person opening a door to welcome someone in",
+    "examples": [
+      {
+        "source": "Willkommen in Berlin!",
+        "target": "Welcome to Berlin!",
+        "tokens": [
+          {
+            "text": "Willkommen",
+            "lemma": "willkommen",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "welcome"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "in",
+            "lemma": "in",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "in",
+              "to"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Berlin",
+            "lemma": "Berlin",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Berlin"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Herzlich willkommen bei uns!",
+        "target": "A warm welcome to our place!",
+        "tokens": [
+          {
+            "text": "Herzlich",
+            "lemma": "herzlich",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "warmly",
+              "heartily"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "willkommen",
+            "lemma": "willkommen",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "welcome"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "bei",
+            "lemma": "bei",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "at",
+              "with"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "uns",
+            "lemma": "wir",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ],
+            "meanings": [
+              "us"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

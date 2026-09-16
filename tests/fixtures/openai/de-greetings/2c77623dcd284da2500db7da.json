@@ -1,0 +1,235 @@
+{
+  "key": "text:de-greetings:Wie geht es Ihnen?",
+  "request": {},
+  "response": {
+    "text": "Wie geht es Ihnen?",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/viː ɡeːt ɛs ˈiːnən/",
+    "romanization": null,
+    "translation": "how are you? (formal)",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Guten Tag, Frau Berg. Wie geht es Ihnen?",
+        "target": "Hello, Mrs Berg. How are you?",
+        "tokens": [
+          {
+            "text": "Guten",
+            "lemma": "gut",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "good"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "day"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "Mrs",
+              "woman"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "Berg",
+            "lemma": "Berg",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Berg"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "how"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "goes"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "it"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "meanings": [
+              "you (formal)"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Wie geht es Ihnen heute, Herr Doktor?",
+        "target": "How are you today, doctor?",
+        "tokens": [
+          {
+            "text": "Wie",
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "how"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "geht",
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "goes"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "es",
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "it"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Ihnen",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative",
+              "formal"
+            ],
+            "meanings": [
+              "you (formal)"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "heute",
+            "lemma": "heute",
+            "partOfSpeech": "adverb",
+            "grammarCodes": [],
+            "meanings": [
+              "today"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Doktor",
+            "lemma": "Doktor",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "doctor"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

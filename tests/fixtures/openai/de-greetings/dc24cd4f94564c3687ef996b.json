@@ -1,0 +1,155 @@
+{
+  "key": "text:de-greetings:Freut mich",
+  "request": {},
+  "response": {
+    "text": "Freut mich",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/fʁɔʏ̯t mɪç/",
+    "romanization": null,
+    "translation": "nice to meet you",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Freut mich, Sie kennenzulernen.",
+        "target": "Nice to meet you.",
+        "tokens": [
+          {
+            "text": "Freut",
+            "lemma": "freuen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "pleases"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "mich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "me"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Sie",
+            "lemma": "Sie",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "formal"
+            ],
+            "meanings": [
+              "you (formal)"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "kennenzulernen",
+            "lemma": "kennenlernen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "meanings": [
+              "to get to know"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Ich bin Max. Freut mich!",
+        "target": "I am Max. Nice to meet you!",
+        "tokens": [
+          {
+            "text": "Ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "bin",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "am"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Max",
+            "lemma": "Max",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Max"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Freut",
+            "lemma": "freuen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "pleases"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "mich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "me"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

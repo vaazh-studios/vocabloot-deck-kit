@@ -1,0 +1,148 @@
+{
+  "key": "text:de-greetings:Hallo",
+  "request": {},
+  "response": {
+    "text": "Hallo",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈhalo/",
+    "romanization": null,
+    "translation": "hello",
+    "stickerMode": "sticker",
+    "stickerConcept": "a person smiling and waving hello",
+    "examples": [
+      {
+        "source": "Hallo, ich bin Anna.",
+        "target": "Hello, I am Anna.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "hello"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "ich",
+            "lemma": "ich",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [],
+            "meanings": [
+              "I"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "bin",
+            "lemma": "sein",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ],
+            "meanings": [
+              "am"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Anna",
+            "lemma": "Anna",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Anna"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Hallo! Schön, dich zu sehen.",
+        "target": "Hello! Nice to see you.",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "hello"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Schön",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [],
+            "meanings": [
+              "nice",
+              "lovely"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "dich",
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "you"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "zu",
+            "lemma": "zu",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "meanings": [
+              "to"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "sehen",
+            "lemma": "sehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "infinitive"
+            ],
+            "meanings": [
+              "to see"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

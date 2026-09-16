@@ -1,0 +1,154 @@
+{
+  "key": "text:de-greetings:Schönen Tag noch",
+  "request": {},
+  "response": {
+    "text": "Schönen Tag noch",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/ˈʃøːnən taːk nɔx/",
+    "romanization": null,
+    "translation": "have a nice day",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Danke, schönen Tag noch!",
+        "target": "Thanks, have a nice day!",
+        "tokens": [
+          {
+            "text": "Danke",
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": [],
+            "meanings": [
+              "thanks"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "schönen",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "nice"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "day"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "noch",
+            "lemma": "noch",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "meanings": [
+              "still",
+              "yet"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Schönen Tag noch, Herr Fischer!",
+        "target": "Have a nice day, Mr Fischer!",
+        "tokens": [
+          {
+            "text": "Schönen",
+            "lemma": "schön",
+            "partOfSpeech": "adjective",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "nice"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Tag",
+            "lemma": "Tag",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "day"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "noch",
+            "lemma": "noch",
+            "partOfSpeech": "particle",
+            "grammarCodes": [],
+            "meanings": [
+              "still",
+              "yet"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Herr",
+            "lemma": "Herr",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "Mr",
+              "gentleman"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          },
+          {
+            "text": "Fischer",
+            "lemma": "Fischer",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Fischer"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}

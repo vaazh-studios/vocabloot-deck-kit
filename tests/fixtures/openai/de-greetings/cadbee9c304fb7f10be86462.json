@@ -1,0 +1,157 @@
+{
+  "key": "text:de-greetings:Auf Wiedersehen",
+  "request": {},
+  "response": {
+    "text": "Auf Wiedersehen",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "phrase",
+    "phonetic": "/aʊ̯f ˈviːdɐˌzeːən/",
+    "romanization": null,
+    "translation": "goodbye (formal)",
+    "stickerMode": "text-first",
+    "stickerConcept": "",
+    "examples": [
+      {
+        "source": "Auf Wiedersehen und vielen Dank!",
+        "target": "Goodbye and thank you very much!",
+        "tokens": [
+          {
+            "text": "Auf",
+            "lemma": "auf",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "on"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Wiedersehen",
+            "lemma": "Wiedersehen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "meanings": [
+              "seeing again",
+              "goodbye"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "plural": null
+          },
+          {
+            "text": "und",
+            "lemma": "und",
+            "partOfSpeech": "conjunction",
+            "grammarCodes": [],
+            "meanings": [
+              "and"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "vielen",
+            "lemma": "viel",
+            "partOfSpeech": "determiner",
+            "grammarCodes": [
+              "accusative"
+            ],
+            "meanings": [
+              "many",
+              "much"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Dank",
+            "lemma": "Dank",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "masculine"
+            ],
+            "meanings": [
+              "thanks"
+            ],
+            "article": "der",
+            "gender": "masculine",
+            "plural": null
+          }
+        ]
+      },
+      {
+        "source": "Auf Wiedersehen, Frau Müller.",
+        "target": "Goodbye, Mrs Müller.",
+        "tokens": [
+          {
+            "text": "Auf",
+            "lemma": "auf",
+            "partOfSpeech": "preposition",
+            "grammarCodes": [],
+            "meanings": [
+              "until",
+              "on"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          },
+          {
+            "text": "Wiedersehen",
+            "lemma": "Wiedersehen",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "neuter"
+            ],
+            "meanings": [
+              "seeing again",
+              "goodbye"
+            ],
+            "article": "das",
+            "gender": "neuter",
+            "plural": null
+          },
+          {
+            "text": "Frau",
+            "lemma": "Frau",
+            "partOfSpeech": "noun",
+            "grammarCodes": [
+              "feminine"
+            ],
+            "meanings": [
+              "Mrs",
+              "woman"
+            ],
+            "article": "die",
+            "gender": "feminine",
+            "plural": null
+          },
+          {
+            "text": "Müller",
+            "lemma": "Müller",
+            "partOfSpeech": "noun",
+            "grammarCodes": [],
+            "meanings": [
+              "Müller"
+            ],
+            "article": null,
+            "gender": null,
+            "plural": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "childSafe": true,
+    "notes": ""
+  }
+}
