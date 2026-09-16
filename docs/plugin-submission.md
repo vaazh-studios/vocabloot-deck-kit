@@ -4,7 +4,7 @@ Two directories, two routes. Both take the repo as it is: `.claude-plugin/` for 
 
 ## Codex and ChatGPT: the OpenAI plugin directory
 
-**Published 2026-09-16**, version 0.1.0: <https://chatgpt.com/plugins/plugins_6aaafa1735208191ac6afb27325cc385> (the page needs a ChatGPT login; it shows the icon, the subtitle, the three prompts, the description and the six skills with their display names). Publication was immediate after "Confirm and submit". A new version is the same flow with a new ZIP from `npm run plugin-zip` and a bumped version in `.codex-plugin/plugin.json`.
+**Published 2026-09-16**, version 0.1.0; **0.1.1 published 2026-09-17** (show-your-work rules, the lazy-token gate, the email path for listing): <https://chatgpt.com/plugins/plugins_6aaafa1735208191ac6afb27325cc385> (the page needs a ChatGPT login; it shows the icon, the subtitle, the three prompts, the description and the six skills with their display names). Publication was immediate after "Confirm and submit". A new version is the same flow with a new ZIP from `npm run plugin-zip` and a bumped version in `.codex-plugin/plugin.json`.
 
 The route is the submission portal, not a pull request. `github.com/openai/plugins` is OpenAI's own curated mirror; every addition there was made by OpenAI staff, and outside pull requests only update plugins already listed.
 
