@@ -1,8 +1,6 @@
 # German Greetings: review report
 
-Deck `de-greetings`, en-US → de, A1, 20 cards. Hand-authored on 2026-09-16 to the kit's schema (prompt version hand-authored-1) and passed through the generator with its own fixtures, so this report is what `/deck-text` writes.
-
-Sticker decisions: greeting formulas are speech acts, so an image helps only where a gesture carries the meaning (waving, an open hand, an open door, pointing at oneself, handing something over). The German A1 pool's "gut" (a woman with an apple), "morgen" (packing a bag) and "später" (a clock) were rejected as attractive but vague; those cards stay text-first until an accurate sticker is generated and approved.
+Deck `de-greetings`, en-US → de, A1, 20 cards. Generated 2026-09-16 with prompt card-2.
 
 ## Needs a look (0)
 
@@ -25,7 +23,7 @@ Nothing flagged.
 ### Guten Morgen · good morning
 
 - /ˌɡuːtn̩ ˈmɔʁɡn̩/ · phrase
-- sticker: text-first
+- sticker: symbolic (a rising sun over a flat horizon in warm morning light)
 - Guten Morgen! Hast du gut geschlafen?
   Good morning! Did you sleep well?
   tokens: Guten→gut (good) · Morgen→Morgen (morning) · Hast→haben (have, did) · du→du (you) · gut→gut (well) · geschlafen→schlafen (slept)
@@ -36,7 +34,7 @@ Nothing flagged.
 ### Guten Tag · hello (formal); good day
 
 - /ˌɡuːtn̩ ˈtaːk/ · phrase
-- sticker: text-first
+- sticker: symbolic (a bright sun high in a clear blue sky)
 - Guten Tag, wie kann ich Ihnen helfen?
   Hello, how can I help you?
   tokens: Guten→gut (good) · Tag→Tag (day) · wie→wie (how) · kann→können (can) · ich→ich (I) · Ihnen→Sie (you (formal)) · helfen→helfen (to help)
@@ -47,7 +45,7 @@ Nothing flagged.
 ### Guten Abend · good evening
 
 - /ˌɡuːtn̩ ˈaːbn̩t/ · phrase
-- sticker: text-first
+- sticker: symbolic (a setting sun low on the horizon under an orange evening sky)
 - Guten Abend! Der Tisch ist fertig.
   Good evening! The table is ready.
   tokens: Guten→gut (good) · Abend→Abend (evening) · Der→der (the) · Tisch→Tisch (table) · ist→sein (is) · fertig→fertig (ready)
@@ -58,7 +56,7 @@ Nothing flagged.
 ### Gute Nacht · good night
 
 - /ˌɡuːtə ˈnaxt/ · phrase
-- sticker: text-first
+- sticker: symbolic (a crescent moon with three small stars)
 - Gute Nacht und schlaf gut!
   Good night and sleep well!
   tokens: Gute→gut (good) · Nacht→Nacht (night) · und→und (and) · schlaf→schlafen (sleep) · gut→gut (well)
@@ -80,7 +78,7 @@ Nothing flagged.
 ### Auf Wiedersehen · goodbye (formal)
 
 - /aʊ̯f ˈviːdɐˌzeːən/ · phrase
-- sticker: text-first
+- sticker: symbolic (a hand waving goodbye from a train window)
 - Auf Wiedersehen und vielen Dank!
   Goodbye and thank you very much!
   tokens: Auf→auf (until, on) · Wiedersehen→Wiedersehen (seeing again, goodbye) · und→und (and) · vielen→viel (many, much) · Dank→Dank (thanks)
@@ -91,7 +89,7 @@ Nothing flagged.
 ### Bis später · see you later
 
 - /bɪs ˈʃpɛːtɐ/ · phrase
-- sticker: text-first
+- sticker: symbolic (a round wall clock with a small waving hand beside it)
 - Bis später, ich komme um sechs.
   See you later, I am coming at six.
   tokens: Bis→bis (until, see you) · später→spät (later) · ich→ich (I) · komme→kommen (come, am coming) · um→um (at) · sechs→sechs (six)
@@ -102,7 +100,7 @@ Nothing flagged.
 ### Bis morgen · see you tomorrow
 
 - /bɪs ˈmɔʁɡn̩/ · phrase
-- sticker: text-first
+- sticker: symbolic (a desk calendar flipping to the next day)
 - Bis morgen in der Schule!
   See you tomorrow at school!
   tokens: Bis→bis (until, see you) · morgen→morgen (tomorrow) · in→in (in, at) · der→der (the) · Schule→Schule (school)
@@ -113,7 +111,7 @@ Nothing flagged.
 ### Wie geht's? · how are you? (informal)
 
 - /viː ˈɡeːts/ · phrase
-- sticker: text-first
+- sticker: symbolic (a speech bubble with a question mark beside a smiling face)
 - Hallo Tom, wie geht's?
   Hi Tom, how are you?
   tokens: Hallo→hallo (hello, hi) · Tom→Tom (Tom) · wie→wie (how) · geht's→gehen (goes it, is it going)
@@ -124,7 +122,7 @@ Nothing flagged.
 ### Wie geht es Ihnen? · how are you? (formal)
 
 - /viː ɡeːt ɛs ˈiːnən/ · phrase
-- sticker: text-first
+- sticker: symbolic (a speech bubble with a question mark above a polite handshake)
 - Guten Tag, Frau Berg. Wie geht es Ihnen?
   Hello, Mrs Berg. How are you?
   tokens: Guten→gut (good) · Tag→Tag (day) · Frau→Frau (Mrs, woman) · Berg→Berg (Berg) · Wie→wie (how) · geht→gehen (goes) · es→es (it) · Ihnen→Sie (you (formal))
@@ -135,7 +133,7 @@ Nothing flagged.
 ### Mir geht es gut · I am fine
 
 - /miːɐ̯ ɡeːt ɛs ˈɡuːt/ · phrase
-- sticker: text-first
+- sticker: symbolic (a thumbs-up hand)
 - Danke, mir geht es gut.
   Thanks, I am fine.
   tokens: Danke→danke (thanks) · mir→ich (to me) · geht→gehen (goes) · es→es (it) · gut→gut (well, good)
@@ -168,7 +166,7 @@ Nothing flagged.
 ### die Entschuldigung · excuse me; sorry
 
 - /ɛntˈʃʊldɪɡʊŋ/ · noun · feminine · plural Entschuldigungen
-- sticker: text-first
+- sticker: symbolic (a hand raised, palm out, in apology)
 - Entschuldigung, wo ist der Bahnhof?
   Excuse me, where is the train station?
   tokens: Entschuldigung→Entschuldigung (excuse me, sorry) · wo→wo (where) · ist→sein (is) · der→der (the) · Bahnhof→Bahnhof (train station)
@@ -201,7 +199,7 @@ Nothing flagged.
 ### Freut mich · nice to meet you
 
 - /fʁɔʏ̯t mɪç/ · phrase
-- sticker: text-first
+- sticker: symbolic (two hands in a friendly handshake)
 - Freut mich, Sie kennenzulernen.
   Nice to meet you.
   tokens: Freut→freuen (pleases) · mich→ich (me) · Sie→Sie (you (formal)) · kennenzulernen→kennenlernen (to get to know)
@@ -212,7 +210,7 @@ Nothing flagged.
 ### Alles Gute · all the best
 
 - /ˈaləs ˈɡuːtə/ · phrase
-- sticker: text-first
+- sticker: symbolic (a wrapped gift with a bow and a little confetti)
 - Alles Gute zum Geburtstag!
   Happy birthday!
   tokens: Alles→alles (everything, all) · Gute→gut (good) · zum→zu dem (for the, to the) · Geburtstag→Geburtstag (birthday)
@@ -223,7 +221,7 @@ Nothing flagged.
 ### Schönen Tag noch · have a nice day
 
 - /ˈʃøːnən taːk nɔx/ · phrase
-- sticker: text-first
+- sticker: symbolic (a bright sun above a waving hand)
 - Danke, schönen Tag noch!
   Thanks, have a nice day!
   tokens: Danke→danke (thanks) · schönen→schön (nice) · Tag→Tag (day) · noch→noch (still, yet)

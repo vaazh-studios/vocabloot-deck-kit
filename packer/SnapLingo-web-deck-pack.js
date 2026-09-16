@@ -379,21 +379,25 @@
       }
       switch (card.h10_1.z10_1) {
         case 'sticker':
+        case 'symbolic':
         case 'contextual':
           var file = card.h10_1.a11_1;
+          var status = folder.ez_1.s1(k);
           // Inline function 'kotlin.text.isNullOrBlank' call
 
           if (file == null || isBlank(file)) {
-            // Inline function 'kotlin.collections.plusAssign' call
-            var element_20 = k + ': sticker mode ' + card.h10_1.z10_1 + ' without a file';
-            problems.e(element_20);
+            if (!(status === 'deferred')) {
+              // Inline function 'kotlin.collections.plusAssign' call
+              var element_20 = k + ': sticker mode ' + card.h10_1.z10_1 + ' without a file; approve, reject or defer it';
+              problems.e(element_20);
+            }
           } else {
             if (folder.dz_1.s1(k) == null) {
               // Inline function 'kotlin.collections.plusAssign' call
               var element_21 = k + ': sticker file ' + file + ' is missing';
               problems.e(element_21);
             } else {
-              if (!(folder.ez_1.s1(k) === 'approved')) {
+              if (!(status === 'approved')) {
                 // Inline function 'kotlin.collections.plusAssign' call
                 var element_22 = k + ': sticker not approved in review/review.json';
                 problems.e(element_22);
@@ -3928,21 +3932,31 @@
         var tmp$ret$15 = new WordExampleEntry(item_0.k10_1, lt.w10_1, destination_3);
         destination_2.e(tmp$ret$15);
       }
-      var tmp$ret$12 = new WordSnapEntry(tmp_0, new WordEntry(item.a10_1, l.xz_1, item.f10_1, item.e10_1, destination_2, item.b10_1, item.c10_1, item.d10_1, item.g10_1, null, emptyList()), deck.jz_1, subtract(builtAt, multiply(numberToLong(index_0), new Long(1000, 0))), false, false, folder.dz_1.q1(item.zz_1) && !(item.h10_1.z10_1 === 'text-first'), emptyMap(), deck.kz_1, true, mapOf_0(to(deck.jz_1, new TranslationMetaEntry('deck', builtAt, 1))));
+      var tmp_1 = new WordEntry(item.a10_1, l.xz_1, item.f10_1, item.e10_1, destination_2, item.b10_1, item.c10_1, item.d10_1, item.g10_1, null, emptyList());
+      var tmp_2 = subtract(builtAt, multiply(numberToLong(index_0), new Long(1000, 0)));
+      var tmp_3;
+      if (folder.dz_1.q1(item.zz_1) && !(item.h10_1.z10_1 === 'text-first')) {
+        // Inline function 'kotlin.text.isNullOrBlank' call
+        var this_6 = item.h10_1.a11_1;
+        tmp_3 = !(this_6 == null || isBlank(this_6));
+      } else {
+        tmp_3 = false;
+      }
+      var tmp$ret$12 = new WordSnapEntry(tmp_0, tmp_1, deck.jz_1, tmp_2, false, false, tmp_3, emptyMap(), deck.kz_1, true, mapOf_0(to(deck.jz_1, new TranslationMetaEntry('deck', builtAt, 1))));
       destination_1.e(tmp$ret$12);
     }
     var entries = destination_1;
-    var tmp$ret$19;
+    var tmp$ret$20;
     $l$block: {
       // Inline function 'kotlin.collections.count' call
-      var tmp_1;
+      var tmp_4;
       if (isInterface(entries, Collection)) {
-        tmp_1 = entries.l();
+        tmp_4 = entries.l();
       } else {
-        tmp_1 = false;
+        tmp_4 = false;
       }
-      if (tmp_1) {
-        tmp$ret$19 = 0;
+      if (tmp_4) {
+        tmp$ret$20 = 0;
         break $l$block;
       }
       var count = 0;
@@ -3954,89 +3968,89 @@
           checkCountOverflow(count);
         }
       }
-      tmp$ret$19 = count;
+      tmp$ret$20 = count;
     }
-    var stickerCount = tmp$ret$19;
+    var stickerCount = tmp$ret$20;
     var manifest = new WordbookManifest(1, entries);
     var header = new BackupHeader(1, builtAt, 'deck-kit-packer/1', entries.k());
     var tmp0_elvis_lhs = this.h11_1.s1(deck.qz_1);
     var licence = new LicenceRef(deck.qz_1, tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs);
-    var tmp_2 = deck.kz_1 + '-to-' + deck.jz_1;
-    var tmp_3 = new Expected(folder.bz_1.k(), entries.k(), stickerCount, entries.k() - stickerCount | 0);
+    var tmp_5 = deck.kz_1 + '-to-' + deck.jz_1;
+    var tmp_6 = new Expected(folder.bz_1.k(), entries.k(), stickerCount, entries.k() - stickerCount | 0);
     var tmp1_safe_receiver = deck.rz_1;
     var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.t11_1;
-    var tmp_4;
-    if (tmp2_safe_receiver == null) {
-      tmp_4 = null;
-    } else {
-      // Inline function 'kotlin.text.ifBlank' call
-      var tmp_5;
-      if (isBlank(tmp2_safe_receiver)) {
-        tmp_5 = null;
-      } else {
-        tmp_5 = tmp2_safe_receiver;
-      }
-      tmp_4 = tmp_5;
-    }
-    var tmp3_elvis_lhs = tmp_4;
-    var tmp_6 = tmp3_elvis_lhs == null ? deck.hz_1 : tmp3_elvis_lhs;
-    var tmp4_safe_receiver = deck.rz_1;
-    var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.u11_1;
     var tmp_7;
-    if (tmp5_safe_receiver == null) {
+    if (tmp2_safe_receiver == null) {
       tmp_7 = null;
     } else {
       // Inline function 'kotlin.text.ifBlank' call
       var tmp_8;
-      if (isBlank(tmp5_safe_receiver)) {
+      if (isBlank(tmp2_safe_receiver)) {
         tmp_8 = null;
       } else {
-        tmp_8 = tmp5_safe_receiver;
+        tmp_8 = tmp2_safe_receiver;
       }
       tmp_7 = tmp_8;
     }
-    var tmp6_elvis_lhs = tmp_7;
-    var tmp_9 = tmp6_elvis_lhs == null ? deck.pz_1 : tmp6_elvis_lhs;
-    var tmp7_safe_receiver = deck.rz_1;
-    var tmp8_elvis_lhs = tmp7_safe_receiver == null ? null : tmp7_safe_receiver.v11_1;
-    var tmp_10 = tmp8_elvis_lhs == null ? '' : tmp8_elvis_lhs;
-    // Inline function 'kotlin.text.ifBlank' call
-    var this_6 = take(deck.sz_1, 4);
-    var tmp_11;
-    if (isBlank(this_6)) {
-      tmp_11 = '2026';
-    } else {
-      tmp_11 = this_6;
-    }
-    var tmp$ret$25 = tmp_11;
-    var tmp_12 = new Attribution(tmp_6, tmp_9, tmp_10, '\xA9 ' + tmp$ret$25 + ' ' + deck.pz_1);
-    var tmp9_safe_receiver = deck.rz_1;
-    var tmp10_safe_receiver = tmp9_safe_receiver == null ? null : tmp9_safe_receiver.w11_1;
-    var tmp_13;
-    if (tmp10_safe_receiver == null) {
-      tmp_13 = null;
+    var tmp3_elvis_lhs = tmp_7;
+    var tmp_9 = tmp3_elvis_lhs == null ? deck.hz_1 : tmp3_elvis_lhs;
+    var tmp4_safe_receiver = deck.rz_1;
+    var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.u11_1;
+    var tmp_10;
+    if (tmp5_safe_receiver == null) {
+      tmp_10 = null;
     } else {
       // Inline function 'kotlin.text.ifBlank' call
-      var tmp_14;
-      if (isBlank(tmp10_safe_receiver)) {
-        tmp_14 = null;
+      var tmp_11;
+      if (isBlank(tmp5_safe_receiver)) {
+        tmp_11 = null;
       } else {
-        tmp_14 = tmp10_safe_receiver;
+        tmp_11 = tmp5_safe_receiver;
       }
-      tmp_13 = tmp_14;
+      tmp_10 = tmp_11;
     }
-    var tmp11_elvis_lhs = tmp_13;
-    var tmp_15 = new TextLicence(licence, tmp_12, tmp11_elvis_lhs == null ? 'Made with the Vocabloot Deck Kit by ' + deck.pz_1 + '.' : tmp11_elvis_lhs, emptyList());
+    var tmp6_elvis_lhs = tmp_10;
+    var tmp_12 = tmp6_elvis_lhs == null ? deck.pz_1 : tmp6_elvis_lhs;
+    var tmp7_safe_receiver = deck.rz_1;
+    var tmp8_elvis_lhs = tmp7_safe_receiver == null ? null : tmp7_safe_receiver.v11_1;
+    var tmp_13 = tmp8_elvis_lhs == null ? '' : tmp8_elvis_lhs;
     // Inline function 'kotlin.text.ifBlank' call
     var this_7 = take(deck.sz_1, 4);
-    var tmp_16;
+    var tmp_14;
     if (isBlank(this_7)) {
-      tmp_16 = '2026';
+      tmp_14 = '2026';
     } else {
-      tmp_16 = this_7;
+      tmp_14 = this_7;
     }
-    var tmp$ret$29 = tmp_16;
-    var packaged = new PackagedDeck(VOID, deck.gz_1, deck.hz_1, deck.iz_1, deck.jz_1, deck.kz_1, deck.jz_1, deck.kz_1, tmp_2, deck.nz_1, deck.mz_1, VOID, VOID, tmp_3, tmp_15, new ImageLicence(deck.pz_1, '\xA9 ' + tmp$ret$29 + ' ' + deck.pz_1, licence, null), new StickerInfo('vocabloot-deck-kit', 768, 255), entries.k(), stickerCount, entries.k() - stickerCount | 0, builtAt, 'deck-kit-packer/1', 'kit:' + deck.tz_1, 'kit:' + deck.vz_1);
+    var tmp$ret$26 = tmp_14;
+    var tmp_15 = new Attribution(tmp_9, tmp_12, tmp_13, '\xA9 ' + tmp$ret$26 + ' ' + deck.pz_1);
+    var tmp9_safe_receiver = deck.rz_1;
+    var tmp10_safe_receiver = tmp9_safe_receiver == null ? null : tmp9_safe_receiver.w11_1;
+    var tmp_16;
+    if (tmp10_safe_receiver == null) {
+      tmp_16 = null;
+    } else {
+      // Inline function 'kotlin.text.ifBlank' call
+      var tmp_17;
+      if (isBlank(tmp10_safe_receiver)) {
+        tmp_17 = null;
+      } else {
+        tmp_17 = tmp10_safe_receiver;
+      }
+      tmp_16 = tmp_17;
+    }
+    var tmp11_elvis_lhs = tmp_16;
+    var tmp_18 = new TextLicence(licence, tmp_15, tmp11_elvis_lhs == null ? 'Made with the Vocabloot Deck Kit by ' + deck.pz_1 + '.' : tmp11_elvis_lhs, emptyList());
+    // Inline function 'kotlin.text.ifBlank' call
+    var this_8 = take(deck.sz_1, 4);
+    var tmp_19;
+    if (isBlank(this_8)) {
+      tmp_19 = '2026';
+    } else {
+      tmp_19 = this_8;
+    }
+    var tmp$ret$30 = tmp_19;
+    var packaged = new PackagedDeck(VOID, deck.gz_1, deck.hz_1, deck.iz_1, deck.jz_1, deck.kz_1, deck.jz_1, deck.kz_1, tmp_5, deck.nz_1, deck.mz_1, VOID, VOID, tmp_6, tmp_18, new ImageLicence(deck.pz_1, '\xA9 ' + tmp$ret$30 + ' ' + deck.pz_1, licence, null), new StickerInfo('vocabloot-deck-kit', 768, 255), entries.k(), stickerCount, entries.k() - stickerCount | 0, builtAt, 'deck-kit-packer/1', 'kit:' + deck.tz_1, 'kit:' + deck.vz_1);
     // Inline function 'kotlin.collections.filter' call
     // Inline function 'kotlin.collections.filterTo' call
     var destination_4 = ArrayList_init_$Create$();
@@ -4054,39 +4068,39 @@
     while (_iterator__ex2g4s_6.h()) {
       var item_2 = _iterator__ex2g4s_6.i();
       var tmp0 = folder.bz_1;
-      var tmp$ret$37;
+      var tmp$ret$38;
       $l$block_0: {
         // Inline function 'kotlin.collections.first' call
         var _iterator__ex2g4s_7 = tmp0.g();
         while (_iterator__ex2g4s_7.h()) {
           var element_3 = _iterator__ex2g4s_7.i();
           if (ids.s1(element_3.zz_1) === item_2.an_1) {
-            tmp$ret$37 = element_3;
+            tmp$ret$38 = element_3;
             break $l$block_0;
           }
         }
         throw NoSuchElementException_init_$Create$('Collection contains no element matching the predicate.');
       }
-      var key = tmp$ret$37.zz_1;
-      var tmp$ret$36 = new Entry(BackupPackage_getInstance().am(item_2.an_1), getValue(folder.dz_1, key));
-      destination_5.e(tmp$ret$36);
+      var key = tmp$ret$38.zz_1;
+      var tmp$ret$37 = new Entry(BackupPackage_getInstance().am(item_2.an_1), getValue(folder.dz_1, key));
+      destination_5.e(tmp$ret$37);
     }
     // Inline function 'kotlin.collections.sortedBy' call
     // Inline function 'kotlin.comparisons.compareBy' call
-    var tmp_17 = Packer$pack$lambda_0;
-    var tmp$ret$40 = new sam$kotlin_Comparator$0(tmp_17);
-    var stickerEntries = sortedWith(destination_5, tmp$ret$40);
+    var tmp_20 = Packer$pack$lambda_0;
+    var tmp$ret$41 = new sam$kotlin_Comparator$0(tmp_20);
+    var stickerEntries = sortedWith(destination_5, tmp$ret$41);
     var containerEntries = plus(listOf([new Entry('backup.json', encodeToByteArray(this.g11_1.kp(Companion_instance.yk(), header))), new Entry('manifest.json', encodeToByteArray(this.g11_1.kp(Companion_getInstance().yk(), manifest))), new Entry('doodles.json', encodeToByteArray('{}')), new Entry('settings.json', encodeToByteArray(this.g11_1.kp(Companion_instance_0.yk(), new BackupSettings()))), new Entry('deck.json', encodeToByteArray(this.g11_1.kp(Companion_instance_11.yk(), packaged)))]), stickerEntries);
     var chunks = ArrayList_init_$Create$();
-    var tmp_18 = BinaryContainer_getInstance();
-    tmp_18.rm('SLBK1', containerEntries, VOID, Packer$pack$lambda_1(chunks));
+    var tmp_21 = BinaryContainer_getInstance();
+    tmp_21.rm('SLBK1', containerEntries, VOID, Packer$pack$lambda_1(chunks));
     // Inline function 'kotlin.collections.sumOf' call
     var sum = 0;
     var _iterator__ex2g4s_8 = chunks.g();
     while (_iterator__ex2g4s_8.h()) {
       var element_4 = _iterator__ex2g4s_8.i();
-      var tmp_19 = sum;
-      sum = tmp_19 + element_4.length | 0;
+      var tmp_22 = sum;
+      sum = tmp_22 + element_4.length | 0;
     }
     var total = sum;
     var bytes = new Int8Array(total);
@@ -4099,10 +4113,10 @@
       var endIndex = c.length;
       // Inline function 'kotlin.js.unsafeCast' call
       // Inline function 'kotlin.js.asDynamic' call
-      var tmp_20 = c;
+      var tmp_23 = c;
       // Inline function 'kotlin.js.unsafeCast' call
       // Inline function 'kotlin.js.asDynamic' call
-      arrayCopy(tmp_20, bytes, destinationOffset, 0, endIndex);
+      arrayCopy(tmp_23, bytes, destinationOffset, 0, endIndex);
       offset = offset + c.length | 0;
     }
     return new Result(bytes, entries.k(), stickerCount, ids);

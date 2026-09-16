@@ -5,7 +5,7 @@ import { tokenProblems } from "./tokens.mjs";
 
 export const DECK_ID = /^[a-z]{2}(-[a-z]{2})?-[a-z0-9-]{1,40}$/;
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
-export const STICKER_MODES = ["sticker", "text-first", "contextual"];
+export const STICKER_MODES = ["sticker", "symbolic", "contextual", "text-first"];
 export const CONFIDENCE = ["high", "medium", "low"];
 export const PARTS_OF_SPEECH = [
   "noun",
@@ -79,7 +79,7 @@ function validateToken(t, where, p) {
 }
 
 /** cards.json, with the language facts deciding which grammar fields are required. */
-export function validateCards(cards, { facts = {}, learningLanguage = "" } = {}) {
+export function validateCards(cards, { facts = {}, learningLanguage = "", deferred = new Set() } = {}) {
   const p = [];
   if (!Array.isArray(cards) || cards.length === 0) return ["cards.json must be a non-empty array"];
   const f = facts[learningLanguage] ?? {};
@@ -107,8 +107,8 @@ export function validateCards(cards, { facts = {}, learningLanguage = "" } = {})
     if (!s || !STICKER_MODES.includes(s.mode))
       p.push(`${where}: sticker.mode must be one of ${STICKER_MODES.join(", ")}`);
     else if (s.mode === "text-first" && s.file) p.push(`${where}: a text-first card must not reference a sticker file`);
-    else if (s.mode !== "text-first" && !isStr(s.file, 1, 200))
-      p.push(`${where}: sticker not approved yet; run /deck-stickers and approve or reject it`);
+    else if (s.mode !== "text-first" && !isStr(s.file, 1, 200) && !deferred.has(c?.key))
+      p.push(`${where}: sticker not approved yet; run /deck-stickers and approve, reject or defer it`);
     else if (s.mode !== "text-first" && !isStr(s.concept, 3, 200))
       p.push(`${where}: sticker.concept (what the picture shows) is required for mode ${s.mode}`);
     if (!Array.isArray(c?.examples) || c.examples.length !== 2)
@@ -178,13 +178,23 @@ export function validateLocalization(loc, cards) {
   return p;
 }
 
-/** review/review.json: sticker approvals. */
+/** review/review.json: the cards a creator deferred (ship text-only for now, keep the picture idea). */
+export function deferredKeys(review) {
+  return new Set(
+    Object.entries(review?.stickers ?? {})
+      .filter(([, v]) => (v?.status ?? v) === "deferred")
+      .map(([k]) => k),
+  );
+}
+
+/** review/review.json: sticker approvals; a deferred sticker is a decision too. */
 export function validateReview(review, cards) {
   const p = [];
   const stickers = review?.stickers ?? {};
   for (const c of cards ?? []) {
     if (c.sticker?.mode === "text-first") continue;
     const status = stickers[c.key]?.status ?? stickers[c.key];
+    if (status === "deferred") continue;
     if (status !== "approved")
       p.push(`${c.key}: sticker is not approved in review/review.json (status: ${status ?? "none"})`);
   }

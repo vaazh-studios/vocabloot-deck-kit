@@ -4,37 +4,113 @@
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-hallo-hello)"
+      "note": "from the German A1 pool (concept-hallo-hello)",
+      "file": "stickers/hallo.png"
     },
     "Tschüss||interjection": {
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-tschuss-697)"
+      "note": "from the German A1 pool (concept-tschuss-697)",
+      "file": "stickers/tschuess.png"
     },
     "danke||interjection": {
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-danke-thank-you)"
+      "note": "from the German A1 pool (concept-danke-thank-you)",
+      "file": "stickers/danke.png"
     },
     "bitte||interjection": {
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-bitte-please)"
+      "note": "from the German A1 pool (concept-bitte-please)",
+      "file": "stickers/bitte.png"
     },
     "willkommen||interjection": {
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-willkommen-776)"
+      "note": "from the German A1 pool (concept-willkommen-776)",
+      "file": "stickers/willkommen.png"
     },
     "Ich heiße||phrase": {
       "status": "approved",
       "by": "Vaazh Studios",
       "at": "2026-09-16",
-      "note": "from the German A1 pool (concept-heissen-to-be-called)"
+      "note": "from the German A1 pool (concept-heissen-to-be-called)",
+      "file": "stickers/ich-heisse.png"
+    },
+    "Guten Morgen||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Guten Tag||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Guten Abend||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Gute Nacht||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Auf Wiedersehen||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Bis später||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Bis morgen||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Wie geht's?||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Wie geht es Ihnen?||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Mir geht es gut||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Entschuldigung|die|noun": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Freut mich||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Alles Gute||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
+    },
+    "Schönen Tag noch||phrase": {
+      "status": "deferred",
+      "by": "creator",
+      "at": "2026-09-16"
     }
   }
 }

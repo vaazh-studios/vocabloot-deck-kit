@@ -313,3 +313,45 @@ test("a missing image keeps the card's intended mode and concept, and a text rer
   assert.deepEqual(after, { mode: "sticker", file: "stickers/hallo.png", concept: "a person waving hello" });
   assert.deepEqual(checkFolder(loadFolder(dir)), []);
 });
+
+test("a formula gets a symbolic picture idea: no facet, a symbol prompt, and defer ships it text-only with the intent kept", async () => {
+  // "Guten Morgen" is not text-first: the symbol is a rising sun, and a symbol never carries a people facet.
+  const template =
+    'Vocabloot sticker style, for any image model:\n\n"{concept}. Style. {facet}"\n\nNegative: text, logo';
+  const symbolic = stickerPrompt({ mode: "symbolic", concept: "a rising sun over a horizon", facet: null, template });
+  assert.match(symbolic.prompt, /^a rising sun over a horizon, as one simple symbol anyone reads without words/);
+  assert.equal(modeFor({ partOfSpeech: "phrase", sticker: { mode: "symbolic" } }), "symbolic");
+  assert.equal(
+    modeFor({ partOfSpeech: "adverb", sticker: { mode: "symbolic" } }),
+    "text-first",
+    "function words stay text-first",
+  );
+
+  const dir = tmp("deck-");
+  cpSync(MINI, dir, { recursive: true });
+  const cards = JSON.parse(readFileSync(path.join(dir, "cards.json"), "utf8"));
+  cards[1].sticker = { mode: "symbolic", file: null, concept: "a hand handing over flowers" };
+  writeFileSync(path.join(dir, "cards.json"), JSON.stringify(cards));
+  const first = await runStickers(dir, { provider: "none", client: null, vision: false, log: () => {} });
+  assert.equal(first.failed, 1, "no image yet: missing");
+  const prompts = JSON.parse(readFileSync(path.join(dir, "prompts", "stickers.json"), "utf8"));
+  assert.equal(prompts[1].facet, null, "a symbol gets no representation facet even when it names a hand");
+  assert.match(checkFolder(loadFolder(dir)).join(";"), /danke\|\|interjection: sticker not approved yet/);
+
+  const deferred = await decide(dir, "danke||interjection", "deferred");
+  assert.deepEqual(deferred, { mode: "symbolic", file: null, concept: "a hand handing over flowers" });
+  assert.deepEqual(checkFolder(loadFolder(dir)), [], "a deferred sticker is a decision: the deck packs text-only");
+  const second = await runStickers(dir, { provider: "none", client: null, vision: false, log: () => {} });
+  assert.equal(second.deferred, 1);
+  assert.equal(second.failed, 0);
+  assert.equal(
+    JSON.parse(readFileSync(path.join(dir, "prompts", "stickers.json"), "utf8"))[1].prompt.includes("flowers"),
+    true,
+    "the prompt stays for later",
+  );
+  const { packFolder } = await import("../scripts/pack.mjs");
+  const out = path.join(dir, "out.vlbackup");
+  const packed = packFolder(dir, { out });
+  assert.equal(packed.ok, true, packed.problems?.join("\n"));
+  assert.match(packed.message, /packed 2 cards \(1 with stickers\)/);
+});

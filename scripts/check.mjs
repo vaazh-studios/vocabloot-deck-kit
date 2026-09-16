@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 import { loadFolder, stickerExists } from "./lib/folder.mjs";
 import { loadLanguageFacts } from "./lib/registry.mjs";
-import { validateCards, validateDeck, validateLocalization, validateReview } from "./lib/schema.mjs";
+import { deferredKeys, validateCards, validateDeck, validateLocalization, validateReview } from "./lib/schema.mjs";
 import { renderPreview } from "./lib/preview.mjs";
 
 /** All problems for a loaded folder; [] means ready to pack. */
@@ -16,7 +16,8 @@ export function checkFolder(folder, { facts = loadLanguageFacts() } = {}) {
   const p = [];
   p.push(...validateDeck(folder.deck));
   if (!folder.cards) return [...p, "cards.json is missing; run /deck-text"];
-  p.push(...validateCards(folder.cards, { facts, learningLanguage: folder.deck.learningLanguage }));
+  const deferred = deferredKeys(folder.review);
+  p.push(...validateCards(folder.cards, { facts, learningLanguage: folder.deck.learningLanguage, deferred }));
   if (!folder.localization) p.push(`localizations/${folder.deck.knownLanguage}.json is missing; run /deck-text`);
   else p.push(...validateLocalization(folder.localization, folder.cards));
   for (const c of folder.cards) {

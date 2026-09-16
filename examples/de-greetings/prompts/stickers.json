@@ -3,134 +3,180 @@
     "key": "Hallo||interjection",
     "mode": "sticker",
     "concept": "a person smiling and waving hello",
-    "status": "have"
+    "prompt": "a person smiling and waving hello. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. a young adult woman with dark skin and natural hair",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "a young adult woman with dark skin and natural hair",
+    "status": "approved"
   },
   {
     "key": "Guten Morgen||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a rising sun over a flat horizon in warm morning light",
+    "prompt": "a rising sun over a flat horizon in warm morning light, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Guten Tag||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a bright sun high in a clear blue sky",
+    "prompt": "a bright sun high in a clear blue sky, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Guten Abend||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a setting sun low on the horizon under an orange evening sky",
+    "prompt": "a setting sun low on the horizon under an orange evening sky, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Gute Nacht||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a crescent moon with three small stars",
+    "prompt": "a crescent moon with three small stars, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Tschüss||interjection",
     "mode": "sticker",
     "concept": "a person walking away and waving goodbye",
-    "status": "have"
+    "prompt": "a person walking away and waving goodbye. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. an older man with light skin and grey hair",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "an older man with light skin and grey hair",
+    "status": "approved"
   },
   {
     "key": "Auf Wiedersehen||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a hand waving goodbye from a train window",
+    "prompt": "a hand waving goodbye from a train window, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Bis später||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a round wall clock with a small waving hand beside it",
+    "prompt": "a round wall clock with a small waving hand beside it, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Bis morgen||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a desk calendar flipping to the next day",
+    "prompt": "a desk calendar flipping to the next day, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Wie geht's?||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a speech bubble with a question mark beside a smiling face",
+    "prompt": "a speech bubble with a question mark beside a smiling face, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Wie geht es Ihnen?||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a speech bubble with a question mark above a polite handshake",
+    "prompt": "a speech bubble with a question mark above a polite handshake, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Mir geht es gut||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a thumbs-up hand",
+    "prompt": "a thumbs-up hand, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "danke||interjection",
     "mode": "sticker",
     "concept": "a person handing flowers to say thank you",
-    "status": "have"
+    "prompt": "a person handing flowers to say thank you. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. a middle-aged woman of South Asian appearance",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "a middle-aged woman of South Asian appearance",
+    "status": "approved"
   },
   {
     "key": "bitte||interjection",
     "mode": "sticker",
     "concept": "a person holding out an open hand, asking politely",
-    "status": "have"
+    "prompt": "a person holding out an open hand, asking politely. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. a young man of East Asian appearance",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "a young man of East Asian appearance",
+    "status": "approved"
   },
   {
     "key": "Entschuldigung|die|noun",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a hand raised, palm out, in apology",
+    "prompt": "a hand raised, palm out, in apology, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "willkommen||interjection",
     "mode": "sticker",
     "concept": "a person opening a door to welcome someone in",
-    "status": "have"
+    "prompt": "a person opening a door to welcome someone in. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. a non-binary young adult with medium skin tone",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "a non-binary young adult with medium skin tone",
+    "status": "approved"
   },
   {
     "key": "Ich heiße||phrase",
     "mode": "sticker",
     "concept": "a person pointing at themselves to say their name",
-    "status": "have"
+    "prompt": "a person pointing at themselves to say their name. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene. a woman using a wheelchair",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": "a woman using a wheelchair",
+    "status": "approved"
   },
   {
     "key": "Freut mich||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "two hands in a friendly handshake",
+    "prompt": "two hands in a friendly handshake, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Alles Gute||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a wrapped gift with a bow and a little confetti",
+    "prompt": "a wrapped gift with a bow and a little confetti, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   },
   {
     "key": "Schönen Tag noch||phrase",
-    "mode": "text-first",
-    "concept": "",
-    "status": "none",
-    "note": "a greeting formula; no single image clarifies it better than the words"
+    "mode": "symbolic",
+    "concept": "a bright sun above a waving hand",
+    "prompt": "a bright sun above a waving hand, as one simple symbol anyone reads without words, no text, no letters. A single, centred subject, photographed like a premium editorial or product cutout, on a fully transparent background, with a clean soft white sticker rim and a subtle contact shadow. Realistic, warm, friendly. Generous margin on every side. No text, no letters, no logos, no borders, no background scene.",
+    "negative": "text, letters, watermark, logo, frame, collage, multiple subjects, cluttered background, cartoon, anime, 3D render, blur.",
+    "facet": null,
+    "status": "deferred"
   }
 ]

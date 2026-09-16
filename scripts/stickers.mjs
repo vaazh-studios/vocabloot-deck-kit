@@ -3,7 +3,7 @@
 // the chosen provider, mechanical and vision checks, the contact sheet, and the
 // preparation of approved stickers (deck kit spec section 7).
 //
-//   node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--force <key>] [--approve <key>] [--reject <key>] [--no-vision]
+//   node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--force <key>] [--approve <key>] [--reject <key>] [--defer <key>] [--no-vision]
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -15,7 +15,11 @@ import { makeClient } from "./lib/openai.mjs";
 import { fill, loadPrompt } from "./lib/prompts.mjs";
 import { slugify } from "./create.mjs";
 
-/** Function words never get imagery, whatever the model said; the rest keep the model's call. */
+/**
+ * Function words never get imagery, whatever the model said; the rest keep the model's call.
+ * A phrase or an interjection is not on this list on purpose: "Guten Morgen" has a picture
+ * (a rising sun), it is the symbolic mode's job to find it.
+ */
 export const TEXT_FIRST_POS = new Set([
   "article",
   "preposition",
@@ -52,7 +56,9 @@ export function stickerPrompt({ mode, concept, facet, template }) {
   const contextual =
     mode === "contextual"
       ? `${concept}, shown as a clear contrast or a small scene that makes the meaning unmistakable`
-      : concept;
+      : mode === "symbolic"
+        ? `${concept}, as one simple symbol anyone reads without words, no text, no letters`
+        : concept;
   const prompt = fill(style, { concept: contextual, facet: facet ?? "" })
     .replace(/\s+/g, " ")
     .trim();
@@ -86,8 +92,10 @@ export async function runStickers(
     const l = loc.get(card.key);
     const slug = slugify(card.text);
     const sourceFile = `stickers/source/${slug}.png`;
-    const preparedFile = `stickers/${slug}.png`;
     const status = review.stickers[card.key]?.status ?? review.stickers[card.key];
+    // An approved sticker keeps the file name it was approved under, however the word slugs today.
+    const preparedFile =
+      (status === "approved" && (review.stickers[card.key]?.file || card.sticker?.file)) || `stickers/${slug}.png`;
     const entry = {
       key: card.key,
       mode,
@@ -99,18 +107,29 @@ export async function runStickers(
     };
     if (mode === "text-first") {
       card.sticker = { mode: "text-first", file: null, concept: "" };
-      entry.note = "function word or formula: the text is the card";
+      entry.note = "no honest picture: the text is the card";
       prompts.push(entry);
       continue;
     }
-    const facet = PEOPLE.test(entry.concept) ? allFacets[facetIndex++ % allFacets.length] : null;
+    // A symbol stays a symbol: representation facets only rotate over pictures of people.
+    const facet = mode !== "symbolic" && PEOPLE.test(entry.concept) ? allFacets[facetIndex++ % allFacets.length] : null;
     const { prompt, negative } = stickerPrompt({ mode, concept: entry.concept, facet, template });
     Object.assign(entry, { prompt, negative, facet });
 
+    // Deferred by the creator: the picture idea stays in the prompt, the card ships text-only for now.
+    if (status === "deferred" && !force.includes(card.key) && !existsSync(path.join(dir, sourceFile))) {
+      entry.status = "deferred";
+      card.sticker = { mode, file: null, concept: entry.concept };
+      card.review.flags = (card.review.flags ?? []).filter((f) => !f.startsWith("sticker"));
+      items.push({ ...entry, text: card.text, translation: l?.translation ?? "", file: null, problems: [] });
+      prompts.push(entry);
+      continue;
+    }
     const approved = status === "approved" && existsSync(path.join(dir, preparedFile));
     if (approved && !force.includes(card.key)) {
       entry.status = "approved";
       card.sticker = { mode, file: preparedFile, concept: entry.concept };
+      card.review.flags = (card.review.flags ?? []).filter((f) => !f.startsWith("sticker"));
       items.push({ ...entry, text: card.text, translation: l?.translation ?? "", file: preparedFile, problems: [] });
       prompts.push(entry);
       continue;
@@ -147,7 +166,12 @@ export async function runStickers(
     if (vision && client && check.ok) {
       visionResult = await client.vision({
         key: `vision:${deck.id}:${card.key}`,
-        prompt: fill(visionPrompt, { text: card.text, translation: l?.translation ?? "", concept: entry.concept }),
+        prompt: fill(visionPrompt, {
+          text: card.text,
+          translation: l?.translation ?? "",
+          concept: entry.concept,
+          mode,
+        }),
         pngBase64: source.toString("base64"),
       });
     }
@@ -179,10 +203,14 @@ export async function runStickers(
     items,
     pending: items.filter((i) => i.status === "pending").length,
     failed: items.filter((i) => i.status === "failed" || i.status === "missing").length,
+    deferred: items.filter((i) => i.status === "deferred").length,
   };
 }
 
-/** A creator's decision: approve prepares the sticker into stickers/ and clears the flag; reject keeps the card text-first. */
+/**
+ * A creator's decision. approve prepares the sticker into stickers/ and clears the flag; reject makes the
+ * card text-first; defer keeps the picture idea and ships the card text-only until an image is approved.
+ */
 export async function decide(dir, key, decision) {
   const folder = loadFolder(dir);
   const card = folder.cards?.find((c) => c.key === key);
@@ -191,7 +219,10 @@ export async function decide(dir, key, decision) {
   const sourceFile = path.join(dir, "stickers", "source", `${slug}.png`);
   const review = folder.review?.stickers ? folder.review : { stickers: {} };
   const current = review.stickers[key] ?? {};
-  if (decision === "approved") {
+  if (decision === "deferred") {
+    const mode = modeFor(card);
+    card.sticker = { mode: mode === "text-first" ? "sticker" : mode, file: null, concept: card.sticker?.concept ?? "" };
+  } else if (decision === "approved") {
     if (!existsSync(sourceFile))
       throw new Error(`${key}: no source image to approve (${path.relative(dir, sourceFile)})`);
     const prepared = await prepareSticker(readFileSync(sourceFile));
@@ -201,8 +232,9 @@ export async function decide(dir, key, decision) {
       file: `stickers/${slug}.png`,
       concept: card.sticker?.concept ?? "",
     };
+    current.file = card.sticker.file;
   } else {
-    card.sticker = { mode: "text-first", file: null, concept: card.sticker?.concept ?? "" };
+    card.sticker = { mode: "text-first", file: null, concept: "" };
   }
   card.review.flags = (card.review.flags ?? []).filter((f) => !f.startsWith("sticker"));
   review.stickers[key] = { ...current, status: decision, by: "creator", at: today() };
@@ -216,18 +248,22 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToP
   const dir = args.find((a) => !a.startsWith("--"));
   if (!dir) {
     console.error(
-      "usage: node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--force <key>] [--approve <key>] [--reject <key>] [--no-vision]",
+      "usage: node scripts/stickers.mjs <deck-folder> [--provider openai|none] [--force <key>] [--approve <key>] [--reject <key>] [--defer <key>] [--no-vision]",
     );
     process.exit(2);
   }
   const opt = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
   try {
-    if (opt("--approve") || opt("--reject")) {
-      const key = opt("--approve") ?? opt("--reject");
-      const sticker = await decide(dir, key, opt("--approve") ? "approved" : "rejected");
-      console.log(
-        `${key}: ${opt("--approve") ? `approved, prepared as ${sticker.file}` : "rejected, the card stays text-first"}`,
-      );
+    if (opt("--approve") || opt("--reject") || opt("--defer")) {
+      const key = opt("--approve") ?? opt("--reject") ?? opt("--defer");
+      const decision = opt("--approve") ? "approved" : opt("--reject") ? "rejected" : "deferred";
+      const sticker = await decide(dir, key, decision);
+      const said = {
+        approved: `approved, prepared as ${sticker.file}`,
+        rejected: "rejected, the card is text-first",
+        deferred: "deferred, the card ships text-only until a sticker is approved",
+      };
+      console.log(`${key}: ${said[decision]}`);
       process.exit(0);
     }
     const provider = opt("--provider") ?? "none";

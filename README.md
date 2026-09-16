@@ -21,7 +21,7 @@ Then, in Claude Code:
 |---|---|
 | `/deck-create` | it asks: I speak, I'm learning, the topic, how many words, the level, words to include or avoid; checks the pair against the app's registry; proposes the word list |
 | `/deck-text` | every app-ready field, two sentences and tokens per card, a review report |
-| `/deck-stickers` | sticker or text-first per card, prompts for any image model, images through your key or your own tool, checks, a contact sheet you approve |
+| `/deck-stickers` | a picture idea per card (a rising sun for "Guten Morgen"), prompts for any image model, images through your key or your own tool, checks, a contact sheet you approve |
 | `/deck-check` | every gate, and a preview of the deck as the app shows it |
 | `/deck-pack` | the `.vlbackup` |
 | `/deck-publish` | how to open it in the app |
@@ -54,7 +54,7 @@ The packer refuses, with the card named, when a sentence's tokens do not reprodu
 
 ## The example
 
-`examples/de-greetings`: English (US) → German, Greetings, 20 cards. It imports into the app as is (the app's own test suite imports it). Six stickers come from the Vocabloot German A1 pool (CC BY-NC-SA 4.0, © 2026 Vaazh Studios); the other cards are text-first by decision, see `review/report.md`.
+`examples/de-greetings`: English (US) → German, Greetings, 20 cards. It imports into the app as is (the app's own test suite imports it). Six stickers come from the Vocabloot German A1 pool (CC BY-NC-SA 4.0, © 2026 Vaazh Studios); the fourteen greeting formulas carry a symbolic picture idea each (see `prompts/stickers.json`) and are deferred until those images are generated, so they ship text-only for now, see `review/report.md`.
 
 ## What is public and what is not
 

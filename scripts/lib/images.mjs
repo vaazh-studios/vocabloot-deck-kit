@@ -72,13 +72,13 @@ export function renderSheet({ deck, items }) {
       const vision = it.vision
         ? `<p class="${it.vision.depicts ? "ok" : "bad"}">vision: ${it.vision.depicts ? "depicts it" : "does not depict it"}. ${esc(it.vision.reason)}</p>`
         : "";
-      return `<div class="s ${esc(it.status)}">${img}<p><b>${esc(it.text)}</b> · ${esc(it.translation)}<br><span class="c">${esc(it.mode)}: ${esc(it.concept)}</span></p>${checks}${vision}<p class="st">status: ${esc(it.status)}</p><p class="cmd"><code>--approve "${esc(it.key)}"</code> · <code>--reject "${esc(it.key)}"</code></p></div>`;
+      return `<div class="s ${esc(it.status)}">${img}<p><b>${esc(it.text)}</b> · ${esc(it.translation)}<br><span class="c">${esc(it.mode)}: ${esc(it.concept)}</span></p>${checks}${vision}<p class="st">status: ${esc(it.status)}</p><p class="cmd"><code>--approve "${esc(it.key)}"</code> · <code>--reject "${esc(it.key)}"</code> · <code>--defer "${esc(it.key)}"</code></p></div>`;
     })
     .join("\n");
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>${esc(deck.name)}: sticker review</title>
-<style>body{font:16px system-ui;background:#f7eae6;padding:24px;color:#1a1512}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}.s{background:#fff9f5;border:3px solid #1a1512;border-radius:16px;padding:12px;text-align:center}.s img{width:160px;height:160px;object-fit:contain;background:repeating-conic-gradient(#eee 0 25%,#fff 0 50%) 0 0/24px 24px}.small{width:64px!important;height:64px!important}.dark{background:#1a1512!important}.ok{color:#1d7264;font-weight:700}.bad{color:#b00;font-weight:700}.c{color:#4e423b}.st{font-weight:800}.approved{border-color:#2e9e8c}.rejected{opacity:.5}.cmd code{font-size:12px}.none{color:#6b5b51}</style></head>
-<body><h1>Sticker review: ${esc(deck.name)}</h1><p>Approve or reject each sticker with <code>node scripts/stickers.mjs &lt;deck&gt; --approve "&lt;key&gt;"</code> or <code>--reject</code>. Nothing packs until every sticker card is approved.</p>
+<style>body{font:16px system-ui;background:#f7eae6;padding:24px;color:#1a1512}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}.s{background:#fff9f5;border:3px solid #1a1512;border-radius:16px;padding:12px;text-align:center}.s img{width:160px;height:160px;object-fit:contain;background:repeating-conic-gradient(#eee 0 25%,#fff 0 50%) 0 0/24px 24px}.small{width:64px!important;height:64px!important}.dark{background:#1a1512!important}.ok{color:#1d7264;font-weight:700}.bad{color:#b00;font-weight:700}.c{color:#4e423b}.st{font-weight:800}.approved{border-color:#2e9e8c}.rejected{opacity:.5}.deferred{border-style:dashed}.cmd code{font-size:12px}.none{color:#6b5b51}</style></head>
+<body><h1>Sticker review: ${esc(deck.name)}</h1><p>Decide each sticker with <code>node scripts/stickers.mjs &lt;deck&gt; --approve "&lt;key&gt;"</code>, <code>--reject</code> (the card becomes text-first) or <code>--defer</code> (the card ships text-only for now and keeps its picture idea). Nothing packs until every sticker card has a decision.</p>
 <div class="grid">
 ${cards}
 </div></body></html>
