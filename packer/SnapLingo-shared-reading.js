@@ -12,7 +12,7 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var substring = kotlin_kotlin.$_$.d6;
+  var substring = kotlin_kotlin.$_$.e6;
   //endregion
   //region block: pre-declaration
   //endregion
@@ -23,11 +23,11 @@
       var token = _iterator__ex2g4s.i();
       if (token.cc() < previousEnd)
         return false;
-      if (token.cc() >= token.kp() || token.kp() > source.length)
+      if (token.cc() >= token.mp() || token.mp() > source.length)
         return false;
-      if (!(substring(source, token.cc(), token.kp()) === token.lp()))
+      if (!(substring(source, token.cc(), token.mp()) === token.np()))
         return false;
-      previousEnd = token.kp();
+      previousEnd = token.mp();
     }
     return true;
   }

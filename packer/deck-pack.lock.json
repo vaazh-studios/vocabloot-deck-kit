@@ -1,13 +1,13 @@
 {
-  "appCommit": "19270f2d",
-  "sha256": "0d491ca0266bf07575c1f597d5fecdebf0204c342afd31ed26b6bef72826133e",
+  "appCommit": "ace54bed",
+  "sha256": "e452acd6c5b92aae383c083d2e0aa9fcb738ecd6acfcdd3b319662f23b527687",
   "files": [
-    { "file": "SnapLingo-shared-format.js", "bytes": 98898, "sha256": "acbf450a6ba7d331f8b9cb9d6e45848c28f383d00c2571cc46c079c4052bef3f" },
-    { "file": "SnapLingo-shared-reading.js", "bytes": 1571, "sha256": "4ebcf677f05cdc6ad737670db90675c89f52f57fbce87a88a630bcab6b41137a" },
-    { "file": "SnapLingo-web-deck-pack.js", "bytes": 181067, "sha256": "2c3892cb57b541733c9bf2909a9136e49bca43115f8409d6fa687401a4711d49" },
-    { "file": "kotlin-kotlin-stdlib.js", "bytes": 262434, "sha256": "53401529b24bbca86b4ae3311361786cf43e05e5b958c3a5565ca8e21b1a8358" },
+    { "file": "SnapLingo-shared-format.js", "bytes": 101357, "sha256": "1e3d030d20b5a4b1e80e72ba5f4de07d416f2583a7d9f1e372b600280a364c1b" },
+    { "file": "SnapLingo-shared-reading.js", "bytes": 1571, "sha256": "ad45b78f1fcd9bb29c088142c320a6075e6780ca4030a90a0f558aa0ae50f258" },
+    { "file": "SnapLingo-web-deck-pack.js", "bytes": 182168, "sha256": "a5b0cbb5ef98a62cfab07a946fa6fd26a0b4ca11160c46f4bd144de388f9e870" },
+    { "file": "kotlin-kotlin-stdlib.js", "bytes": 262737, "sha256": "76750b251ea64c542ff448ba61eaf07c0b5a74ddc28772ceed8a0bf1039e29e4" },
     { "file": "kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js", "bytes": 566, "sha256": "e53a8fae4defa7920dba65ee415362cae60b0b934cd0ffb88b5bd39a316188f1" },
-    { "file": "kotlinx-serialization-kotlinx-serialization-core.js", "bytes": 84566, "sha256": "be97ce5937e21ca5aeb5941381fcf89c640cfac3a937abf8389a787b567e33db" },
-    { "file": "kotlinx-serialization-kotlinx-serialization-json.js", "bytes": 148851, "sha256": "126bda598561330626162c2d10e8c3b4b1674ff05624d9a3b4b3472356afadc4" }
+    { "file": "kotlinx-serialization-kotlinx-serialization-core.js", "bytes": 84566, "sha256": "9392040dd1d5860aaf14f6b61e57f6e53083941d99c953e2bc4e32333d174111" },
+    { "file": "kotlinx-serialization-kotlinx-serialization-json.js", "bytes": 149128, "sha256": "20b9bb510c4e4180a02dd96e9cf455ac8a5b207e8894edc6fe9308c423e1bd7e" }
   ]
 }
