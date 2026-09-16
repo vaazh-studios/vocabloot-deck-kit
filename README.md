@@ -49,7 +49,7 @@ claude plugin marketplace add vaazh-studios/vocabloot-deck-kit
 claude plugin install vocabloot-deck-kit@vocabloot-deck-kit
 ```
 
-**Codex.** Open the kit folder in Codex and the skills are found in `.agents/skills/` (Codex reads that folder at repo scope). The repo carries a Codex plugin manifest (`.codex-plugin/plugin.json`); the directory listing is a submission through OpenAI's portal, see `docs/plugin-submission.md`.
+**ChatGPT and Codex.** The kit is in the OpenAI plugin directory: [Vocabloot Deck Kit](https://chatgpt.com/plugins/plugins_6aaafa1735208191ac6afb27325cc385), "Install plugin". Or open the kit folder in Codex and the skills are found in `.agents/skills/` (Codex reads that folder at repo scope).
 
 **Any folder, either assistant.** Copy the skills into your user skill folders with the kit's path written into every command:
 
