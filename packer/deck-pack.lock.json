@@ -1,0 +1,13 @@
+{
+  "appCommit": "155240ac",
+  "sha256": "de14c83baaf3a944b2a8f9d9dd1cbf9181cb8947cbaa959fa67aecef1a51145a",
+  "files": [
+    { "file": "SnapLingo-shared-format.js", "bytes": 98898, "sha256": "22af1d588a050da3d686b725018584046464752da94ae57788200c91eed857a5" },
+    { "file": "SnapLingo-shared-reading.js", "bytes": 1571, "sha256": "7b5bd441a6f23e21e2aa4d5fa6e87218592f2939a765733f84324c271cad42b8" },
+    { "file": "SnapLingo-web-deck-pack.js", "bytes": 174363, "sha256": "6c05455cb7d7ae7cd9e86927edc45f333a901a3d28d4e4f2c798304fef59f72f" },
+    { "file": "kotlin-kotlin-stdlib.js", "bytes": 256852, "sha256": "b53c98c09dee078350d10d4310a95bc8b8282cf100e389a0c39eb23aeff1e7ee" },
+    { "file": "kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js", "bytes": 566, "sha256": "e53a8fae4defa7920dba65ee415362cae60b0b934cd0ffb88b5bd39a316188f1" },
+    { "file": "kotlinx-serialization-kotlinx-serialization-core.js", "bytes": 84566, "sha256": "c1b99ba656bcf69e93ab6dc9a0d579d1a7d8ac31be44b6fd0bbe609a5531ae7f" },
+    { "file": "kotlinx-serialization-kotlinx-serialization-json.js", "bytes": 148851, "sha256": "8dd4c3436f351a883578b539ac590f92ae1924b15e65aa1dde0d0ccbd22256ad" }
+  ]
+}

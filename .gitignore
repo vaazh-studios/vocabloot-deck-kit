@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.vlbackup
+!examples/**/*.vlbackup
+examples/**/stickers/source/
+.DS_Store

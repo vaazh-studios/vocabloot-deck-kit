@@ -1,0 +1,166 @@
+[
+  {
+    "key": "Hallo||interjection",
+    "text": "Hallo",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈhalo/",
+    "romanization": null,
+    "sticker": {
+      "mode": "sticker",
+      "file": "stickers/hallo.png",
+      "concept": "a person waving hello"
+    },
+    "examples": [
+      {
+        "source": "Hallo, wie geht es dir?",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "start": 0,
+            "end": 5,
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": []
+          },
+          {
+            "text": "wie",
+            "start": 7,
+            "end": 10,
+            "lemma": "wie",
+            "partOfSpeech": "adverb",
+            "grammarCodes": []
+          },
+          {
+            "text": "geht",
+            "start": 11,
+            "end": 15,
+            "lemma": "gehen",
+            "partOfSpeech": "verb",
+            "grammarCodes": [
+              "present"
+            ]
+          },
+          {
+            "text": "es",
+            "start": 16,
+            "end": 18,
+            "lemma": "es",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": []
+          },
+          {
+            "text": "dir",
+            "start": 19,
+            "end": 22,
+            "lemma": "du",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": [
+              "dative"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Hallo Anna!",
+        "tokens": [
+          {
+            "text": "Hallo",
+            "start": 0,
+            "end": 5,
+            "lemma": "hallo",
+            "partOfSpeech": "interjection",
+            "grammarCodes": []
+          },
+          {
+            "text": "Anna",
+            "start": 6,
+            "end": 10,
+            "lemma": "Anna",
+            "partOfSpeech": "noun",
+            "grammarCodes": []
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  },
+  {
+    "key": "danke||interjection",
+    "text": "danke",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "partOfSpeech": "interjection",
+    "phonetic": "/ˈdaŋkə/",
+    "romanization": null,
+    "sticker": {
+      "mode": "text-first",
+      "file": null,
+      "concept": ""
+    },
+    "examples": [
+      {
+        "source": "Danke schön!",
+        "tokens": [
+          {
+            "text": "Danke",
+            "start": 0,
+            "end": 5,
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": []
+          },
+          {
+            "text": "schön",
+            "start": 6,
+            "end": 11,
+            "lemma": "schön",
+            "partOfSpeech": "adverb",
+            "grammarCodes": []
+          }
+        ]
+      },
+      {
+        "source": "Danke für alles.",
+        "tokens": [
+          {
+            "text": "Danke",
+            "start": 0,
+            "end": 5,
+            "lemma": "danke",
+            "partOfSpeech": "interjection",
+            "grammarCodes": []
+          },
+          {
+            "text": "für",
+            "start": 6,
+            "end": 9,
+            "lemma": "für",
+            "partOfSpeech": "preposition",
+            "grammarCodes": []
+          },
+          {
+            "text": "alles",
+            "start": 10,
+            "end": 15,
+            "lemma": "alles",
+            "partOfSpeech": "pronoun",
+            "grammarCodes": []
+          }
+        ]
+      }
+    ],
+    "review": {
+      "confidence": "high",
+      "safe": true,
+      "flags": []
+    }
+  }
+]

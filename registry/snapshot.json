@@ -1,0 +1,6 @@
+{
+  "source": "https://vocabloot.com/api/capabilities",
+  "checkedAt": "2026-09-16",
+  "learning": ["en-US", "en-GB", "es", "fr", "de", "ja", "it", "ko", "zh", "pt", "nl"],
+  "known": ["en-US", "en-GB", "es", "fr", "de", "ja", "it", "ko", "zh", "pt", "nl"]
+}

@@ -1,0 +1,205 @@
+{
+  "note": "Script facts per language code the Vocabloot app can enable. Which codes are enabled right now comes from the live registry (scripts/lib/registry.mjs), never from this file.",
+  "languages": {
+    "en-US": {
+      "name": "English (US)",
+      "nativeName": "English (US)",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": false,
+      "ipa": "General American"
+    },
+    "en-GB": {
+      "name": "English (UK)",
+      "nativeName": "English (UK)",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": false,
+      "ipa": "Received Pronunciation"
+    },
+    "es": {
+      "name": "Spanish",
+      "nativeName": "Español",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Castilian"
+    },
+    "fr": {
+      "name": "French",
+      "nativeName": "Français",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard French"
+    },
+    "de": {
+      "name": "German",
+      "nativeName": "Deutsch",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard German"
+    },
+    "ja": {
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": true,
+      "ipa": "Tokyo Japanese"
+    },
+    "it": {
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard Italian"
+    },
+    "ko": {
+      "name": "Korean",
+      "nativeName": "한국어",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": true,
+      "ipa": "Seoul Korean"
+    },
+    "zh": {
+      "name": "Mandarin",
+      "nativeName": "中文",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": true,
+      "ipa": "Standard Mandarin, pinyin in romanization"
+    },
+    "pt": {
+      "name": "Portuguese",
+      "nativeName": "Português",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "European Portuguese"
+    },
+    "nl": {
+      "name": "Dutch",
+      "nativeName": "Nederlands",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard Dutch"
+    },
+    "ru": {
+      "name": "Russian",
+      "nativeName": "Русский",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Russian"
+    },
+    "hi": {
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Hindi"
+    },
+    "ar": {
+      "name": "Arabic",
+      "nativeName": "العربية",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Modern Standard Arabic"
+    },
+    "tr": {
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": false,
+      "ipa": "Standard Turkish"
+    },
+    "ro": {
+      "name": "Romanian",
+      "nativeName": "Română",
+      "hasArticles": true,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard Romanian"
+    },
+    "uk": {
+      "name": "Ukrainian",
+      "nativeName": "Українська",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Ukrainian"
+    },
+    "id": {
+      "name": "Indonesian",
+      "nativeName": "Bahasa Indonesia",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": false,
+      "ipa": "Standard Indonesian"
+    },
+    "fil": {
+      "name": "Filipino",
+      "nativeName": "Filipino",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": false,
+      "ipa": "Standard Filipino"
+    },
+    "sr": {
+      "name": "Serbian",
+      "nativeName": "Srpski",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": false,
+      "ipa": "Standard Serbian"
+    },
+    "ta": {
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Tamil"
+    },
+    "te": {
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Telugu"
+    },
+    "kn": {
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Kannada"
+    },
+    "ml": {
+      "name": "Malayalam",
+      "nativeName": "മലയാളം",
+      "hasArticles": false,
+      "hasGender": false,
+      "needsRomanization": true,
+      "ipa": "Standard Malayalam"
+    },
+    "pa": {
+      "name": "Punjabi",
+      "nativeName": "ਪੰਜਾਬੀ",
+      "hasArticles": false,
+      "hasGender": true,
+      "needsRomanization": true,
+      "ipa": "Standard Punjabi"
+    }
+  }
+}

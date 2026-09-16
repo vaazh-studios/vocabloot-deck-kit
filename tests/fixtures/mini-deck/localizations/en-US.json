@@ -1,0 +1,96 @@
+[
+  {
+    "key": "Hallo||interjection",
+    "translation": "hello",
+    "examples": [
+      {
+        "target": "Hello, how are you?",
+        "tokens": [
+          {
+            "meanings": [
+              "hello"
+            ]
+          },
+          {
+            "meanings": [
+              "how"
+            ]
+          },
+          {
+            "meanings": [
+              "goes",
+              "is going"
+            ]
+          },
+          {
+            "meanings": [
+              "it"
+            ]
+          },
+          {
+            "meanings": [
+              "to you"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Hello Anna!",
+        "tokens": [
+          {
+            "meanings": [
+              "hello"
+            ]
+          },
+          {
+            "meanings": [
+              "Anna"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "danke||interjection",
+    "translation": "thank you",
+    "examples": [
+      {
+        "target": "Thank you very much!",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "nicely",
+              "very much"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "Thanks for everything.",
+        "tokens": [
+          {
+            "meanings": [
+              "thanks"
+            ]
+          },
+          {
+            "meanings": [
+              "for"
+            ]
+          },
+          {
+            "meanings": [
+              "everything"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

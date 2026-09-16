@@ -1,0 +1,27 @@
+{
+  "name": "vocabloot-deck-kit",
+  "version": "0.1.0",
+  "description": "Make Vocabloot decks from a conversation: skills that write app-ready cards, stickers and a .vlbackup",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "lint": "eslint scripts/**/*.mjs tests/*.test.mjs",
+    "format": "prettier --write \"scripts/**/*.mjs\" \"tests/*.test.mjs\" \"schema/*.json\" \"registry/*.json\" package.json",
+    "format:check": "prettier --check \"scripts/**/*.mjs\" \"tests/*.test.mjs\" \"schema/*.json\" \"registry/*.json\" package.json",
+    "check": "npm run format:check && npm run lint && npm test",
+    "registry:refresh": "node scripts/lib/registry.mjs --refresh"
+  },
+  "dependencies": {
+    "openai": "^6.46.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "eslint": "10.7.0",
+    "globals": "17.7.0",
+    "prettier": "3.9.6"
+  }
+}

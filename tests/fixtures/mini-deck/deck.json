@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "de-mini",
+  "name": "German Mini",
+  "description": "Two cards for the tests.",
+  "learningLanguage": "de",
+  "knownLanguage": "en-US",
+  "direction": "en-US-to-de",
+  "topic": "greetings",
+  "level": "A1",
+  "wordCount": 2,
+  "author": "Kit Tests",
+  "licence": "CC-BY-SA-4.0",
+  "createdAt": "2026-09-16",
+  "updatedAt": "2026-09-16",
+  "kitVersion": "0.1.0",
+  "promptVersion": "test"
+}
