@@ -129,7 +129,11 @@ export async function generateText(
     // A sticker already reviewed for this key survives a text rerun; its mode was the reviewer's decision.
     const previous = folder.cards?.find((c) => c.key === card.key);
     if (previous?.sticker?.file && previous.sticker.mode !== "text-first") {
-      card.sticker = { ...previous.sticker };
+      card.sticker = {
+        mode: previous.sticker.mode,
+        file: previous.sticker.file,
+        concept: previous.sticker.concept || card.sticker.concept,
+      };
       card.review.flags.push(...(previous.review?.flags ?? []).filter((f) => f.startsWith("sticker")));
     }
     if (cards.some((c) => c.key === card.key)) {

@@ -278,3 +278,38 @@ test("stickers: modes, prompts, checks, the sheet, and a decision that prepares 
   assert.equal(again.failed, 1);
   assert.match(checkFolder(loadFolder(dir)).join(";"), /sticker-check: no alpha channel/);
 });
+
+test("a missing image keeps the card's intended mode and concept, and a text rerun keeps a reviewed sticker without losing the concept", async () => {
+  const dir = tmp("deck-");
+  cpSync(MINI, dir, { recursive: true });
+  writeFileSync(path.join(dir, "review", "review.json"), JSON.stringify({ stickers: {} }));
+  const cards = JSON.parse(readFileSync(path.join(dir, "cards.json"), "utf8"));
+  cards[0].sticker = { mode: "sticker", file: null, concept: "a person waving hello" };
+  writeFileSync(path.join(dir, "cards.json"), JSON.stringify(cards));
+  // No image anywhere: the first run reports it missing but changes nothing about the intent.
+  const first = await runStickers(dir, { provider: "none", client: null, vision: false, log: () => {} });
+  assert.equal(first.failed, 1);
+  const afterMissing = loadFolder(dir).cards[0].sticker;
+  assert.deepEqual(afterMissing, { mode: "sticker", file: null, concept: "a person waving hello" });
+  // The creator drops the image in and approves it.
+  cpSync(path.join(MINI, "stickers", "hallo.png"), path.join(dir, "stickers", "source", "hallo.png"));
+  await runStickers(dir, { provider: "none", client: null, vision: false, log: () => {} });
+  await decide(dir, "Hallo||interjection", "approved");
+  // A text rerun (same words, replayed answers) keeps the approved file and the concept.
+  const fixtures = tmp("fx-");
+  const f = loadFolder(dir);
+  const loc = new Map(f.localization.map((l) => [l.key, l]));
+  for (const c of f.cards)
+    record(fixtures, `text:${f.deck.id}:${c.text}`, {
+      ...cardAnswerFrom(c, loc.get(c.key)),
+      stickerConcept: "a person waving hello",
+    });
+  writeFileSync(
+    path.join(dir, "words.json"),
+    JSON.stringify(f.cards.map((c) => ({ word: c.text, article: c.article, include: true }))),
+  );
+  await generateText(dir, { client: new FixtureClient(fixtures), log: () => {} });
+  const after = loadFolder(dir).cards[0].sticker;
+  assert.deepEqual(after, { mode: "sticker", file: "stickers/hallo.png", concept: "a person waving hello" });
+  assert.deepEqual(checkFolder(loadFolder(dir)), []);
+});

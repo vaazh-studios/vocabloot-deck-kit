@@ -108,7 +108,7 @@ export function validateCards(cards, { facts = {}, learningLanguage = "" } = {})
       p.push(`${where}: sticker.mode must be one of ${STICKER_MODES.join(", ")}`);
     else if (s.mode === "text-first" && s.file) p.push(`${where}: a text-first card must not reference a sticker file`);
     else if (s.mode !== "text-first" && !isStr(s.file, 1, 200))
-      p.push(`${where}: sticker.file is required for mode ${s.mode}`);
+      p.push(`${where}: sticker not approved yet; run /deck-stickers and approve or reject it`);
     else if (s.mode !== "text-first" && !isStr(s.concept, 3, 200))
       p.push(`${where}: sticker.concept (what the picture shows) is required for mode ${s.mode}`);
     if (!Array.isArray(c?.examples) || c.examples.length !== 2)

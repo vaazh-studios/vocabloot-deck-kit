@@ -1,0 +1,63 @@
+# Vocabloot Deck Kit
+
+Make a [Vocabloot](https://vocabloot.com) deck from a conversation: say which language you speak, which you are learning, and what the deck is about, and get a `.vlbackup` the app opens as its own, with everything a word's detail page shows: pronunciation, grammar, two example sentences with translations, and tap-a-word meanings.
+
+Six Claude Code skills drive small Node scripts. Your own OpenAI key writes the text; stickers come from OpenAI's image model with your key, or from any tool you like; the app's own codec, compiled to JavaScript, packs the file.
+
+## The five-minute path
+
+Needs Node 22, [Claude Code](https://claude.com/claude-code), and an OpenAI key.
+
+```bash
+git clone https://github.com/vaazh-studios/vocabloot-deck-kit
+cd vocabloot-deck-kit && npm install
+echo 'OPENAI_API_KEY=sk-...' > .env
+claude plugin add .   # or open the folder in Claude Code; the skills are in .claude-plugin
+```
+
+Then, in Claude Code:
+
+| skill | what happens |
+|---|---|
+| `/deck-create` | it asks: I speak, I'm learning, the topic, how many words, the level, words to include or avoid; checks the pair against the app's registry; proposes the word list |
+| `/deck-text` | every app-ready field, two sentences and tokens per card, a review report |
+| `/deck-stickers` | sticker or text-first per card, prompts for any image model, images through your key or your own tool, checks, a contact sheet you approve |
+| `/deck-check` | every gate, and a preview of the deck as the app shows it |
+| `/deck-pack` | the `.vlbackup` |
+| `/deck-publish` | how to open it in the app |
+
+Or without Claude Code, the scripts directly: `node scripts/create.mjs --known English --learning German --topic "at the bakery" --count 20 --level A1`, then `text.mjs`, `stickers.mjs`, `check.mjs`, `pack.mjs` on the folder it made.
+
+## Languages
+
+Only the languages the Vocabloot app offers, read live from `https://vocabloot.com/api/capabilities` when you run `/deck-create` (a dated snapshot in `registry/` is the offline fallback). The language you speak and the language you learn must differ. The kit does not claim any language the app does not have.
+
+## The deck folder
+
+```
+de-bakery/
+  deck.json                learningLanguage, knownLanguage, direction (derived), topic, level, author, licence
+  words.json               the confirmed word list
+  cards.json               learning-language content: headword, article, gender, plural, IPA, romanization, sticker mode, two sentences with tokens
+  localizations/en-US.json translations and token meanings, aligned by card and token
+  prompts/stickers.json    sticker prompts for any image model
+  stickers/<slug>.png      prepared 768 px stickers; stickers/source/ holds the originals
+  review/                  report.md, stickers.html, review.json (approvals), preview.html
+  de-bakery.vlbackup       the result
+```
+
+Reusable content and localization are separate on purpose: a German headword, its IPA, sticker and German sentences serve English → German and Spanish → German alike; only the localization file differs.
+
+## The gates
+
+The packer refuses, with the card named, when a sentence's tokens do not reproduce it or leave a word uncovered, when a referenced sticker is missing, when an image failed a check, or when a card carries an unresolved flag. Fixes go through the word list, `--refresh`, or the sticker review, never through editing generated JSON.
+
+## The example
+
+`examples/de-greetings`: English (US) → German, Greetings, 20 cards. It imports into the app as is (the app's own test suite imports it). Six stickers come from the Vocabloot German A1 pool (CC BY-NC-SA 4.0, © 2026 Vaazh Studios); the other cards are text-first by decision, see `review/report.md`.
+
+## What is public and what is not
+
+Public here: the schema, the folder, the registry identifiers, the content and sticker quality rules, the prompts in `prompts/`, validation, the packer, the skills, the example deck. Not here: Vocabloot's production prompts and per-language rules, the backend's logic, internal content, the official decks' card registry. Official decks use this same pipeline with a private `--prompt-file`.
+
+Code is MIT; the prompts and guides in `prompts/` are CC BY 4.0.

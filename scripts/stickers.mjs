@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 
 import { apiKey } from "./lib/env.mjs";
 import { loadFolder, today, writeJson } from "./lib/folder.mjs";
-import { CHECKS, checkSticker, prepareSticker, renderSheet } from "./lib/images.mjs";
+import { checkSticker, prepareSticker, renderSheet } from "./lib/images.mjs";
 import { makeClient } from "./lib/openai.mjs";
 import { fill, loadPrompt } from "./lib/prompts.mjs";
 import { slugify } from "./create.mjs";
@@ -129,7 +129,8 @@ export async function runStickers(
     }
     if (!source) {
       entry.status = "missing";
-      card.sticker = { mode: "text-first", file: null, concept: entry.concept };
+      // The intended mode stays: the creator decides on the sheet, the packer waits.
+      card.sticker = { mode, file: null, concept: entry.concept };
       card.review.flags = [...new Set([...(card.review.flags ?? []), "sticker-missing"])];
       items.push({
         ...entry,
